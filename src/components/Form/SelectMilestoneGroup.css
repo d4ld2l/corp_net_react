@@ -1,0 +1,46 @@
+@import '../../style/variables.css';
+
+.select-milestone-group{
+  &__value{
+    &-wrap{
+      display: flex;
+      align-items: center;
+      height: 40px;
+    }
+
+    &-color{
+      width: 18px;
+      height: 18px;
+      display: block;
+      margin-right: 10px;
+    }
+
+    &-text{
+      display: block;
+      color: var(--charcoal_grey);
+    }
+  }
+
+  &__option{
+    &-wrap{
+      display: flex;
+      align-items: center;
+      height: 30px;
+
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    &-color{
+      width: 18px;
+      height: 18px;
+      display: block;
+      margin-right: 10px;
+    }
+
+    &-text{
+      display: block;
+      color: var(--charcoal_grey);
+    }
+  }
+}

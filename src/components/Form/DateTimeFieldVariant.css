@@ -1,0 +1,15 @@
+@import '../../style/variables.css';
+
+.data-time-field-variant {
+  position: relative;
+  & .form-group {
+    width: 160px;
+  }
+}
+.data-time-field-variant__calendar-icon {
+  width: 22px;
+  color: var(--cool_grey);
+  position: absolute;
+  top: 33px;
+  left: 124px;
+}

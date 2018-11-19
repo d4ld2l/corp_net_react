@@ -1,0 +1,50 @@
+@import '../../../../style/variables.css';
+
+.milestone-notification{
+  margin-bottom: 30px;
+
+  &__title{
+    display: flex;
+    align-items: center;
+
+    &-text{
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--charcoal_grey);
+      flex-grow: 1;
+    }
+  }
+
+  &__users{
+    padding-top: 20px;
+
+    &-item{
+      display: flex;
+      align-items: center;
+
+      & + & {
+        margin-top: 17px;
+      }
+    }
+
+    &-avatar{
+      border-radius: 100%;
+      margin-right: 14px;
+    }
+
+    &-info{
+      flex-grow: 1;
+    }
+
+    &-name{
+      color: var(--charcoal_grey);
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    &-position{
+      font-size: 11px;
+      color: var(--cool_grey);
+    }
+  }
+}

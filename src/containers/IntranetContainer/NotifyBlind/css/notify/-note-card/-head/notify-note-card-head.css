@@ -1,0 +1,131 @@
+.notify-note-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  max-height: 50px;
+  border-bottom: 1px solid $cool_grey;
+  padding-right: 71px;
+
+  &__return {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+
+  &__arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 19px;
+    max-width: 19px;
+    min-height: 49px;
+    max-height: 49px;
+    background-color: $perrywinkle;
+    margin-right: 14px;
+    transition: background-color .2s ease;
+
+    &-icon {
+      min-width: 12px;
+      max-width: 12px;
+      min-height: 7px;
+      max-height: 7px;
+      color: $white;
+      transform: rotate(90deg);
+    }
+  }
+
+  &__return:hover &__arrow {
+    background-color: $carnation2;
+  }
+
+  &__return:active &__arrow {
+    background-color: $lipstick;
+  }
+
+  &__text_return {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $white;
+    margin: 0;
+    padding: 0;
+    transition: color .2s ease;
+  }
+
+  &__return:hover &__text_return {
+    color: $carnation2;
+  }
+
+  &__return:active &__text_return {
+    color: $lipstick;
+  }
+
+  &__setting {
+    display: inline-block;
+    min-width: 41.6px;
+    max-width: 41.6px;
+    min-height: 41.6px;
+    max-height: 41.6px;
+    cursor: pointer;
+    color: $white;
+    margin-right: 19px;
+
+    &_open {
+      color: $maize;
+    }
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__func-elem {
+    position: relative;
+
+    & .append__list {
+      left: -85px;
+      top: 33px;
+    }
+  }
+
+  &__edit {
+    cursor: pointer;
+    padding: 0 13px;
+    display: inline-block;
+
+    &-icon {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &__alarm {
+    cursor: auto;
+    padding: 0 13px;
+    display: inline-block;
+
+    &-icon {
+      width: 25px;
+      height: 25px;
+      color: $cool_grey;
+    }
+  }
+
+  &__remove {
+    cursor: pointer;
+    margin-right: 13px;
+    padding: 0 13px;
+    display: inline-block;
+
+    &-icon {
+      width: 14px;
+      height: 16px;
+    }
+  }
+}

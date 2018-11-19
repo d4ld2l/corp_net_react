@@ -1,0 +1,41 @@
+@import '../../../style/variables.css';
+
+.candidate-letters-tabs{
+
+  &__table{
+    width: 100%;
+    margin: 20px 0;
+
+    tr{
+      &:nth-child(1){
+        background: var(--grey);
+      }
+
+      td{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-right: 1px solid var(--white);
+
+        &:last-child{
+          border-right: unset;
+        }
+      }
+    }
+  }
+
+  &__text{
+    font-size: 13px;
+  }
+
+  &__link{
+    font-size: 13px;
+    text-decoration: underline;
+  }
+
+  &__sublink{
+    font-size: 9px;
+    text-decoration: underline;
+    color: var(--cool_grey);
+  }
+}

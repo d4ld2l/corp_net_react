@@ -1,0 +1,12 @@
+.candidates-container__head {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.candidates-container__head-title {
+  margin-bottom: 4px;
+}
+.candidates-container__head-icon {
+  width: 40px;
+  color: var(--reddish_pink);
+}

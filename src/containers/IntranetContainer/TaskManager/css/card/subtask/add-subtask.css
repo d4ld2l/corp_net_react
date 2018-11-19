@@ -1,0 +1,120 @@
+.add-subtask {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 2px solid var(--silver2);
+  border-bottom: 2px solid var(--silver2);
+  padding: 4px 10px 4px 0;
+  position: relative;
+  z-index: 2;
+
+  &__add-btn {
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    cursor: pointer;
+    color: var(--cool_grey);
+
+    &_active {
+      color: var(--reddish_pink);
+    }
+
+    &:hover {
+      color: var(--carnation2);
+    }
+  }
+
+  &__input {
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: var(--charcoal_grey);
+    font-weight: 400;
+  }
+
+  &__calendar-icon {
+    width: 22px;
+    max-width: 22px;
+    min-width: 22px;
+    height: 21px;
+    max-height: 21px;
+    min-height: 21px;
+    color: var(--cool_grey);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 8px;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &_active {
+      color: var(--reddish_pink);
+    }
+  }
+
+  &__user-icon {
+    width: 23px;
+    max-width: 23px;
+    min-width: 23px;
+    height: 23px;
+    max-height: 23px;
+    min-height: 23px;
+    color: var(--cool_grey);
+    cursor: pointer;
+    margin-right: 7px;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &_active {
+      color: var(--reddish_pink);
+    }
+  }
+
+  &__flag-icon {
+    width: 15px;
+    max-width: 15px;
+    min-width: 15px;
+    height: 16px;
+    max-height: 16px;
+    min-height: 16px;
+    color: var(--cool_grey);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &_active {
+      color: var(--reddish_pink);
+    }
+  }
+
+  &__priority, &__performer, &__calendar {
+    max-width: 340px;
+    min-width: 340px;
+    max-height: 100px;
+    min-height: 100px;
+    border: 1px solid var(--silver);
+    background-color: var(--white);
+    padding: 18px 21px 18px;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    margin-bottom: 33px;
+  }
+
+  &__calendar {
+    max-width: none;
+    min-width: unset;
+    max-height: none;
+    min-height: unset;
+  }
+}

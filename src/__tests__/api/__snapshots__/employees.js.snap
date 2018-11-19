@@ -1,0 +1,2070 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Employees should fetch all employees 1`] = `
+Array [
+  Object {
+    "city": "",
+    "department": null,
+    "email": "fsdaf.fasd@bk.ru",
+    "full_name": "f f f",
+    "id": 56,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "female",
+    "user": Object {
+      "email": "fsdaf.fasd@bk.ru",
+      "id": 62,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Аксенов Сергей Юрьевич",
+    "id": 16,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий специалист по тестированию",
+    "sex": "male",
+    "user": Object {
+      "email": "saksenov@phoenixit.ru",
+      "id": 21,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Андрюнин Михаил Сергеевич",
+    "id": 17,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Старший специалист по тестированию",
+    "sex": null,
+    "user": Object {
+      "email": "mandryunin@phoenixit.ru",
+      "id": 22,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "vbelous@fil-it.ru",
+    "full_name": "Белоус Владислав Владимирович",
+    "id": 18,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/18/for_community__cartman.gif",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/18/for_profile__cartman.gif",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/18/thumb__cartman.gif",
+      },
+      "url": "/uploads/profile/photo/18/_cartman.gif",
+    },
+    "position": "Старший специалист по тестированию",
+    "sex": "male",
+    "user": Object {
+      "email": "vbelous@phoenixit.ru",
+      "id": 23,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+        Object {
+          "id": 4,
+          "name": "recruitment_manager",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "VRN",
+    "department": null,
+    "email": "vbelous@shr.ru",
+    "full_name": "Белоус Владислав Владимирович",
+    "id": 10,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/10/for_community_9qWdslsWvDk.jpg",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/10/for_profile_9qWdslsWvDk.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/10/thumb_9qWdslsWvDk.jpg",
+      },
+      "url": "/uploads/profile/photo/10/9qWdslsWvDk.jpg",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "vbelous@shr.ru",
+      "id": 16,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+        Object {
+          "id": 8,
+          "name": "project_manager",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Управление брендом",
+    "email": "dbodaykina@phoenixit.ru",
+    "full_name": "Бодайкина Дарья Юрьевна",
+    "id": 60,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "dbodaykina@phoenixit.ru",
+      "id": 66,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Гавриленкова Анастасия Игоревна",
+    "id": 19,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий системный аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "agavrilenkova@phoenixit.ru",
+      "id": 24,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Галдина Ирина Николаевна",
+    "id": 20,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Разработчик",
+    "sex": null,
+    "user": Object {
+      "email": "igaldina@phoenixit.ru",
+      "id": 25,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Донской Дмитрий Викторович",
+    "id": 21,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий консультант",
+    "sex": null,
+    "user": Object {
+      "email": "ddonskoy@phoenixit.ru",
+      "id": 26,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Красноярск",
+    "department": null,
+    "email": "g.emtsov@krsk2019.ru",
+    "full_name": "Емцов Григорий Павлович",
+    "id": 59,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "g.emtsov@krsk2019.ru",
+      "id": 65,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Зарубин Алексей Ильич",
+    "id": 22,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий консультант",
+    "sex": null,
+    "user": Object {
+      "email": "azarubin@phoenixit.ru",
+      "id": 27,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Захарова Елена Алексеевна",
+    "id": 23,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "sex": null,
+    "user": Object {
+      "email": "ezaharova@phoenixit.ru",
+      "id": 28,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": null,
+    "email": "izotov@at-consulting.ru",
+    "full_name": "Зотов Иван Сергеевич",
+    "id": 57,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "izotov@at-consulting.ru",
+      "id": 63,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Кадры",
+    "email": "",
+    "full_name": "Иванников Юрий Юрьевич",
+    "id": 24,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/24/for_community_Pickles.jpg",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/24/for_profile_Pickles.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/24/thumb_Pickles.jpg",
+      },
+      "url": "/uploads/profile/photo/24/Pickles.jpg",
+    },
+    "position": "Специалист",
+    "sex": "male",
+    "user": Object {
+      "email": "yuivannikov@phoenixit.ru",
+      "id": 29,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": null,
+    "email": "dmishukov@at-consulting.ru",
+    "full_name": "Иванов Святослав Петрович",
+    "id": 8,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "dmishukov@at-consulting.ru",
+      "id": 13,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": null,
+    "email": "p1@shr.ru",
+    "full_name": "Ильин Илья Павлович",
+    "id": 2,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "p1@shr.ru",
+      "id": 5,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Ирбицкий Тимур Андреевич",
+    "id": 25,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "tirbitskiy@phoenixit.ru",
+      "id": 30,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Киселев Александр Александрович",
+    "id": 26,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "akiselev@phoenixit.ru",
+      "id": 31,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Ковун Владислав Анатольевич",
+    "id": 27,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "sex": null,
+    "user": Object {
+      "email": "vkovun@phoenixit.ru",
+      "id": 32,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "ekosharnovskaya@at-consulting.ru",
+    "full_name": "Кошарновская Екатерина ",
+    "id": 6,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "ekosharnovskaya@at-consulting.ru",
+      "id": 10,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Допинг-контроль",
+    "email": "",
+    "full_name": "Кошарновская Екатерина Александровна",
+    "id": 5,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Старший фронтенд разработчик",
+    "sex": "female",
+    "user": Object {
+      "email": "ekosharnovskaya@fil-it.ru",
+      "id": 9,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Кузнецова Капитолина Борисовна",
+    "id": 28,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "kkuznetsova@phoenixit.ru",
+      "id": 33,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Литвиновская Виктория Андреевна",
+    "id": 29,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий консультант",
+    "sex": null,
+    "user": Object {
+      "email": "vlitvinovskaya@phoenixit.ru",
+      "id": 34,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Лощаков Илья Евгеньевич",
+    "id": 30,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "iloschakov@phoenixit.ru",
+      "id": 35,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": null,
+    "email": "mlyuzina@phoenixit.ru",
+    "full_name": "Люзина Марина Анатольевна",
+    "id": 14,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/14/for_community_Chrysanthemum.jpg",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/14/for_profile_Chrysanthemum.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/14/thumb_Chrysanthemum.jpg",
+      },
+      "url": "/uploads/profile/photo/14/Chrysanthemum.jpg",
+    },
+    "position": null,
+    "sex": "female",
+    "user": Object {
+      "email": "mlyuzina@phoenixit.ru",
+      "id": 20,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Макейкина Анастасия Александровна",
+    "id": 31,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "amakeykina@phoenixit.ru",
+      "id": 36,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Мендуева Олеся Олеговна",
+    "id": 32,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий консультант",
+    "sex": null,
+    "user": Object {
+      "email": "omendueva@phoenixit.ru",
+      "id": 37,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "dmishukov@phoenixit.ru",
+    "full_name": "Мишуков Дмитрий Михайлович",
+    "id": 3,
+    "phone": "+79652779137",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+      },
+      "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+    },
+    "position": "Старший менеджер",
+    "sex": "male",
+    "user": Object {
+      "email": "dmishukov@fil-it.ru",
+      "id": 6,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Мыцких Виталий Андреевч",
+    "id": 34,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "vmytskih@phoenixit.ru",
+      "id": 39,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Насонов Виктор Владимирович",
+    "id": 35,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "sex": null,
+    "user": Object {
+      "email": "vnasonov@phoenixit.ru",
+      "id": 40,
+      "roles": Array [
+        Object {
+          "id": 2,
+          "name": "recruitment_recruiter",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Нечаев Павел Владимирович",
+    "id": 36,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий консультант",
+    "sex": null,
+    "user": Object {
+      "email": "pnechaev@phoenixit.ru",
+      "id": 41,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "",
+    "department": null,
+    "email": "lol@lol.ro",
+    "full_name": "ну  как же  так",
+    "id": 62,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "lol@lol.ro",
+      "id": 68,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Овсянникова Софья Вадимовна",
+    "id": 37,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": "male",
+    "user": Object {
+      "email": "sovsyannikova@phoenixit.ru",
+      "id": 42,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Отмахова Ульяна Андреевна",
+    "id": 38,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "uotmahova@phoenixit.ru",
+      "id": 43,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": null,
+    "email": "melpan@ya.ru",
+    "full_name": "Панин Алексей Андреевич",
+    "id": 61,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/61/for_community_1.jpg",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/61/for_profile_1.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/61/thumb_1.jpg",
+      },
+      "url": "/uploads/profile/photo/61/1.jpg",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "melpan@ya.ru",
+      "id": 67,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Панин Алексей Андреевич",
+    "id": 39,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/uploads/profile/photo/39/for_community_1.jpg",
+      },
+      "for_profile": Object {
+        "url": "/uploads/profile/photo/39/for_profile_1.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/profile/photo/39/thumb_1.jpg",
+      },
+      "url": "/uploads/profile/photo/39/1.jpg",
+    },
+    "position": "Ведущий консультант",
+    "sex": "male",
+    "user": Object {
+      "email": "apanin@phoenixit.ru",
+      "id": 44,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Пастухов Григорий Викторович",
+    "id": 40,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Директор направления",
+    "sex": null,
+    "user": Object {
+      "email": "gpastuhov@phoenixit.ru",
+      "id": 45,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Сабурова Виктория Игоревна",
+    "id": 41,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "vsaburova@phoenixit.ru",
+      "id": 46,
+      "roles": Array [
+        Object {
+          "id": 2,
+          "name": "recruitment_recruiter",
+        },
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "",
+    "department": "Кадры",
+    "email": "",
+    "full_name": "Сабурова1313 Виктория1313 Игоревна1313",
+    "id": 53,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Старший фронтенд разработчик",
+    "sex": "female",
+    "user": Object {
+      "email": "vikushka.1313@gmail.com",
+      "id": 7,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "С.-Петербург",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Сазонов Дмитрий Батькович",
+    "id": 42,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Программист",
+    "sex": null,
+    "user": Object {
+      "email": "dsazonov@phoenixit.ru",
+      "id": 47,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Семенова Марина Михайловна",
+    "id": 43,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "sex": null,
+    "user": Object {
+      "email": "msemenova@phoenixit.ru",
+      "id": 48,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+        Object {
+          "id": 4,
+          "name": "recruitment_manager",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Семиряжко Артём Александрович",
+    "id": 44,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "asemiryazhko@phoenixit.ru",
+      "id": 49,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Ставрополь",
+    "department": null,
+    "email": "test2@example.com",
+    "full_name": "Синицина Ирина Васильевна",
+    "id": 7,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "female",
+    "user": Object {
+      "email": "test2@example.com",
+      "id": 12,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": null,
+    "email": "admin@example.com",
+    "full_name": "Старший Системный Администратор",
+    "id": 1,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "admin@example.com",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+        Object {
+          "id": 2,
+          "name": "recruitment_recruiter",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Столяров Сергей Николаевич",
+    "id": 45,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Старший специалист по тестированию",
+    "sex": null,
+    "user": Object {
+      "email": "sstolyarov@phoenixit.ru",
+      "id": 50,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Сундукова Ольга Александровна",
+    "id": 46,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "osundukova@phoenixit.ru",
+      "id": 51,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Сысоев Никита Александрович",
+    "id": 47,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "nsysoev@phoenixit.ru",
+      "id": 52,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Сьянов Александр Вячеславович",
+    "id": 48,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "sex": null,
+    "user": Object {
+      "email": "asyanov@phoenixit.ru",
+      "id": 53,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Красноярск",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Тарасов Константин Андреевич",
+    "id": 49,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "sex": null,
+    "user": Object {
+      "email": "ktarasov@phoenixit.ru",
+      "id": 54,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Чатополис",
+    "department": null,
+    "email": "test_chat@intranet.com",
+    "full_name": "Тестовый Пользователь Чата",
+    "id": 58,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "male",
+    "user": Object {
+      "email": "test_chat@intranet.com",
+      "id": 64,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Федькина Ирина Валерьевна",
+    "id": 50,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Старший менеджер",
+    "sex": null,
+    "user": Object {
+      "email": "ifedkina@phoenixit.ru",
+      "id": 55,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "",
+    "full_name": "Шилин Семён Вячеславович",
+    "id": 51,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "sex": "male",
+    "user": Object {
+      "email": "sshilin@phoenixit.ru",
+      "id": 56,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": null,
+    "email": "zhshilyaeva@phoenixit.ru",
+    "full_name": "Шиляева Жанна Анатольевна",
+    "id": 52,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": "female",
+    "user": Object {
+      "email": "zhshilyaeva@phoenixit.ru",
+      "id": 57,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+        Object {
+          "id": 3,
+          "name": "recruitment_general_recruiter",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "mlyuzina@phonixit.ru",
+    "full_name": "Это Проверка Имени",
+    "id": 12,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "mlyuzina@phonixit.ru",
+      "id": 18,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "eazakharova@phoenixit.ru",
+    "full_name": "  ",
+    "id": 13,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "eazakharova@phoenixit.ru",
+      "id": 19,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "user@example.com",
+    "full_name": "  ",
+    "id": 15,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "user@example.com",
+      "id": 14,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "aanpleenko@at-consulting.ru",
+    "full_name": "  ",
+    "id": 54,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "aanpleenko@at-consulting.ru",
+      "id": 60,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "azaitsev@phoenixit.ru",
+    "full_name": "  ",
+    "id": 55,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "azaitsev@phoenixit.ru",
+      "id": 61,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "ddonskoi@fil-it.ru",
+    "full_name": "  ",
+    "id": 11,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "ddonskoi@fil-it.ru",
+      "id": 17,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+  Object {
+    "city": null,
+    "department": null,
+    "email": "ikhomich@mail.ru",
+    "full_name": "  ",
+    "id": 9,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "sex": null,
+    "user": Object {
+      "email": "ikhomich@mail.ru",
+      "id": 15,
+      "roles": Array [
+        Object {
+          "id": 6,
+          "name": "user",
+        },
+      ],
+    },
+  },
+]
+`;
+
+exports[`API Employees should find employee by id 1`] = `
+Object {
+  "birthday": null,
+  "city": "",
+  "created_at": "2017-09-19T08:59:23.227Z",
+  "departments_chain": Array [],
+  "email_private": "",
+  "fb_url": "",
+  "id": 56,
+  "legal_unit_employees": Array [],
+  "linkedin_url": "",
+  "managers_chain": Array [],
+  "middlename": "f",
+  "name": "f",
+  "password": null,
+  "phone_number_private": "<script>",
+  "photo": Object {
+    "for_community": Object {
+      "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+    },
+    "for_profile": Object {
+      "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+    },
+    "thumb": Object {
+      "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+    },
+    "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+  },
+  "sex": "female",
+  "skype": "",
+  "subordinates_count": 0,
+  "subordinates_list": Array [],
+  "surname": "f",
+  "telegram": "",
+  "updated_at": "2017-09-19T09:01:18.581Z",
+  "user": Object {
+    "communities": Array [],
+    "company_id": null,
+    "created_at": "2017-09-19T08:58:54.226Z",
+    "email": "fsdaf.fasd@bk.ru",
+    "id": 62,
+    "provider": "email",
+    "resumes": Array [],
+    "roles": Array [
+      Object {
+        "created_at": "2017-07-25T19:11:25.045Z",
+        "id": 6,
+        "name": "user",
+        "updated_at": "2017-07-25T19:11:25.045Z",
+      },
+    ],
+    "status": null,
+    "uid": "fsdaf.fasd@bk.ru",
+    "updated_at": "2017-09-19T08:58:54.238Z",
+    "user_projects": Array [],
+  },
+  "user_id": 62,
+  "vk_url": "",
+}
+`;
+
+exports[`API Employees should search employees by params 1`] = `
+Array [
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "saksenov@phoenixit.ru",
+    "full_name": "Аксенов Сергей Юрьевич",
+    "id": 21,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Ведущий специалист по тестированию",
+    "profile_id": 16,
+    "sex": "male",
+    "user": Object {
+      "email": "saksenov@phoenixit.ru",
+      "id": 21,
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "sstolyarov@phoenixit.ru",
+    "full_name": "Столяров Сергей Николаевич",
+    "id": 50,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Старший специалист по тестированию",
+    "profile_id": 45,
+    "sex": null,
+    "user": Object {
+      "email": "sstolyarov@phoenixit.ru",
+      "id": 50,
+    },
+  },
+]
+`;

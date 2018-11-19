@@ -1,0 +1,24 @@
+.filtering {
+
+  &__btn {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: var(--water_blue);
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0 7px 0 8px;
+    margin-right: 20px;
+    outline: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.is-current {
+      border-color: var(--reddish_pink);
+      color: var(--reddish_pink);
+    }
+  }
+}

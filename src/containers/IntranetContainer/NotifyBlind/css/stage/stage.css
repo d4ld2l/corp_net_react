@@ -1,0 +1,54 @@
+.stage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+
+  &__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    background-color: transparent;
+    color: $white;
+    border: 1px solid $white;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 400;
+    transition: color .2s ease, border-color .2s ease;
+  }
+
+  &.is-current &__number {
+    background-color: $perrywinkle;
+    border-color: $perrywinkle;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 9px;
+    font-weight: 400;
+    display: inline-block;
+  }
+
+  &__translating {
+    border-top: 1px dashed $cool_grey2;
+    height: 1px;
+    width: 64px;
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  &:hover &__number {
+    color: $dodger_blue;
+    border-color: $dodger_blue;
+  }
+
+  &.is-current:hover &__number {
+    color: $white;
+    border-color: $perrywinkle;
+  }
+}

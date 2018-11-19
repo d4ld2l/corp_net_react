@@ -1,0 +1,273 @@
+.notify-comment-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11px 63px 11px 21px;
+  margin-left: 1px;
+  border: 1px solid transparent;
+  &:hover {
+    .notify-comment-item__func-elem {
+      opacity: 1;
+    }
+  }
+
+  &.discussion-comments__item {
+    margin: 0 0 0 1px;
+    padding: 11px 63px 11px 21px;
+  }
+
+  &.discussion-comments__item_unread {
+    background-color: $maize_015;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .notify-comment-item__func-elem {
+      opacity: 0;
+      transition: .15s opacity ease-in;
+    }
+  }
+
+  &__name {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: $white;
+    transition: color .2s ease;
+    margin-right: 10px;
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__date-time {
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 0;
+    color: $cool_grey2;
+    text-transform: uppercase;
+  }
+
+  &__avatar {
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  &__content {
+    margin: 9px 0 15px 0;
+  }
+
+  &__text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $white;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__edit {
+    display: inline-block;
+    margin-right: 12px;
+
+    &-icon {
+      min-width: 15px;
+      max-width: 15px;
+      min-height: 15px;
+      max-height: 15px;
+      color: $white;
+      cursor: pointer;
+
+      &:hover {
+        color: $carnation2;
+      }
+
+      &:active {
+        color: $lipstick;
+      }
+    }
+  }
+
+  &__remove {
+    display: inline-block;
+    &-icon {
+      min-width: 10px;
+      max-width: 10px;
+      min-height: 10px;
+      max-height: 10px;
+      color: $white;
+      cursor: pointer;
+
+      &:hover {
+        color: $carnation2;
+      }
+
+      &:active {
+        color: $lipstick;
+      }
+    }
+  }
+
+  &__like {
+    min-width: 16px;
+    max-width: 16px;
+    min-height: 12px;
+    max-height: 12px;
+    color: $white;
+
+    &_active {
+      color: $reddish_pink;
+    }
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+
+    &-count {
+      font-size: 9px;
+      font-weight: 400;
+      line-height: 10px;
+      letter-spacing: 0;
+      color: $white;
+      margin-left: 5px;
+    }
+  }
+
+  &__i-like-it {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+
+  &__reply {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    color: $dodger_blue;
+    cursor: pointer;
+    margin-left: 13px;
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &_inner {
+    padding-left: 61px;
+  }
+
+  &_new {
+    background-color: $maize_015;
+  }
+
+  &_edited {
+    border-color: $dodger_blue;
+  }
+
+  &_un-edited {
+    opacity: .5;
+    user-select: none;
+  }
+
+  &__media {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  &__image {
+    max-width: 196px;
+    min-width: 196px;
+    max-height: 111px;
+    min-height: 111px;
+    margin-top: 10px;
+    position: relative;
+
+    /* &:after {
+       content: '';
+       position: absolute;
+       background-color: transparent;
+       color: transparent;
+       opacity: 0;
+       transition: background-color .2s ease, color .2s ease, opacity .2s ease;
+     } */
+
+    /* &:hover:after {
+      content: 'Нажмите, чтобы открыть';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $white;
+      color: $water_blue;
+      font-weight: 500;
+      font-size: 13px;
+      opacity: 1;
+    } */
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+  }
+
+  &__item {}
+
+  &__link {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $dodger_blue;
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__format {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $cool_grey2;
+  }
+  
+  &__body {
+    width: 100%;
+  }
+}

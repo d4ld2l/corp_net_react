@@ -1,0 +1,318 @@
+@import '../../../style/variables.css';
+
+.candidate-resume-tabs {
+
+  &__pdf-scroll {
+    margin: 0 -20px;
+    padding: 0 20px;
+    &.global-scroll {
+      height: 841px;
+    }
+  }
+
+  &__wrapper-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  &__color_waterBlue {
+    border: 1px solid transparent;
+    font-size: 11px;
+    line-height: 20px;
+    background: transparent;
+    color: var(--water_blue);
+    padding: 0 10px;
+    margin-right: 9px;
+
+    &:hover {
+      border: 1px solid var(--reddish_pink);
+      color: var(--reddish_pink);
+    }
+    &.is-active {
+      border: 1px solid var(--reddish_pink);
+      color: var(--reddish_pink);
+    }
+  }
+
+  &__color_waterBlue_active {
+    border: 1px solid var(--reddish_pink);
+    color: var(--reddish_pink);
+  }
+
+  &__arrow-icon {
+
+    &_open {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 10px;
+      height: 6px;
+      color: var(--cool_grey);
+    }
+
+    &_close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 10px;
+      height: 6px;
+      color: var(--cool_grey);
+      transform: rotate(180deg);
+    }
+  }
+
+  &__count-recommendations {
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: 400;
+    color: var(--reddish_pink);
+    position: relative;
+    top: -11px;
+    margin-left: 5px;
+  }
+
+  &__body {
+    padding: 25px 0px 24px;
+    border-bottom: dashed 1px var(--silver);
+
+    &_flex_container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    cursor: pointer;
+    position: relative;
+    border-bottom: dashed 1px var(--silver);
+  }
+
+  &__chronological-title {
+    font-weight: 500;
+  }
+
+  &__chronological-list {
+    padding: 0;
+  }
+
+  &__chronological-list-head {
+    text-align: left;
+  }
+
+  &__chronological-article {
+    flex: 1;
+  }
+
+  &__chronological-company {
+    text-align: left;
+    display: inline-block;
+
+    &-link {
+      display: inline-block;
+    }
+  }
+
+  &__chronological-city {
+    text-align: left;
+  }
+
+  &__chronological-hgroup {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  &__chronological-text {
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  &__achievement-article {
+    margin-bottom: 22px;
+    display: flex;
+  }
+
+  &__achievement-date {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--cool_grey);
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  &__date-interval {
+    max-width: 51px;
+    min-width: 51px;
+  }
+
+  &__achievement-data {
+    flex: 1;
+  }
+
+  &__file-name {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--water_blue);
+  }
+
+  &__achievement-text {
+    font-size: 11px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--cool_grey);
+    margin-bottom: 0px;
+
+    &-name {
+      font-size: 13px;
+      line-height: 20px;
+      text-align: left;
+      color: var(--cool_grey);
+      margin-bottom: 0px;
+      font-weight: 400;
+    }
+  }
+
+  &__margin-head-4 {
+    margin: 0 0 20px;
+  }
+
+  &__recommendations-info {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+
+  &__recommendations-icon {
+    width: 14px;
+    height: 14px;
+    color: var(--cool_grey);
+    margin-right: 10px;
+  }
+
+  &__recommendations-text {
+    font-size: 13px;
+    text-align: left;
+    color: var(--charcoal_grey);
+    margin-bottom: 0;
+
+    &_email_link {
+      text-decoration: underline;
+      text-decoration-skip: ink;
+    }
+  }
+
+  &__label {
+    font-size: 9px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--cool_grey);
+    line-height: 10px;
+    margin-bottom: 2px;
+  }
+
+  &__info-text {
+    font-size: 13px;
+    line-height: 1.43;
+    color: var(--charcoal_grey);
+    margin: 0;
+  }
+
+  &__info-block {
+    margin-bottom: 18px;
+    display: block;
+  }
+
+  &__skills-head {
+    padding-bottom: 20px;
+  }
+
+  &__language-text {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--charcoal_grey);
+    margin-bottom: 0;
+  }
+
+  &__mark-block {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 20px
+  }
+
+  &__mark {
+    display: inline-block;
+    margin-bottom: 1px;
+    font-size: 11px;
+    line-height: 1.83;
+    text-align: left;
+    color: var(--charcoal_grey);
+    padding: 4px 9px;
+    margin-right: 1px;
+    background-color: var(--grey);
+  }
+
+  &__recommendations-name {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--charcoal_grey);
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  &__recommendations-post {
+    font-size: 11px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: var(--cool_grey);
+    margin-bottom: 0;
+  }
+
+  &__recommendations-address {
+    margin-top: 11px;
+  }
+
+  &__wrapper-experience {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  &__time-interval {
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+  &__seniority {
+  }
+
+  &__info-section {
+    margin-right: 30px;
+    margin-top: 13px;
+  }
+
+  &__sidebar-contact {
+    background-color: var(--grey);
+    min-width: 250px;
+    max-width: 250px;
+    padding: 11px 20px;
+
+    & > h3 {
+      margin-bottom: 20px;
+    }
+  }
+}

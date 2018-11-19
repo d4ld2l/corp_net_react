@@ -1,0 +1,175 @@
+.task-list {
+  padding: 22px 0 13.5px 0;
+
+  &__tasks {
+    height: 79.7vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 17.5px 0 20.5px;
+
+    &_active {
+      overflow: hidden;
+      overflow-y: scroll;
+      &.global-scroll {
+        height: 79.4vh;
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 17.5px 0 20.5px;
+    padding: 0 0 6px 0;
+    border-bottom: 2px solid var(--silver2);
+
+    &-label {
+      display: inline-block;
+      user-select: none;
+
+      &:nth-child(1) {
+        min-width: 39.5px;
+        max-width: 39.5px;
+      }
+      &:nth-child(2) {
+        min-width: 350px;
+        max-width: 350px;
+      }
+      &:nth-child(3) {
+        min-width: 150px;
+        max-width: 150px;
+      }
+      &:nth-child(4) {
+        min-width: 287px;
+        max-width: 287px;
+      }
+      &:nth-child(5) {
+        min-width: 120px;
+        max-width: 120px;
+        margin-left: -25px;
+      }
+    }
+
+    &_active &-label {
+      &:nth-child(1) {
+        min-width: 39.5px;
+        max-width: 39.5px;
+      }
+      &:nth-child(2) {
+        min-width: 320px;
+        max-width: 320px;
+      }
+      &:nth-child(3) {
+        display: none;
+      }
+      &:nth-child(4) {
+        display: none;
+      }
+      &:nth-child(5) {
+        display: none;
+        /*min-width: 96.5px;*/
+        /*max-width: 96.5px;*/
+      }
+    }
+  }
+}
+
+.aside .task-list {
+  margin-top: 11px;
+  margin-left: -19px;
+  padding: 0;
+
+  &__tasks {
+    padding: 0;
+    overflow-y: initial;
+    overflow-x: initial;
+  }
+
+  &__header {
+    @mixin flex flex, center, flex-start;
+    margin: 0 0 8px;
+    padding: 0;
+    border: none;
+
+    &-label {
+      /*display: inline-block;
+      user-select: none;*/
+
+      &:nth-child(1) {
+        @mixin range 220px, 220px, inherit, inherit;
+        margin-left: 20px;
+      }
+
+      &:nth-child(2) {
+        @mixin range 131px, 131px, inherit, inherit;
+      }
+
+      &:nth-child(3) {
+        min-width: initial;
+        max-width: initial;
+      }
+    }
+  }
+}
+
+.roster {
+  background-color: var(--white);
+  padding: 0 1px;
+
+  /*&__tasks {
+    height: 79.7vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 17.5px 0 20.5px;
+
+    &_active {
+      overflow: hidden;
+      overflow-y: scroll;
+      &.global-scroll {
+        height: 79.4vh;
+      }
+    }
+  }*/
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 21px 9px 19px;
+    border-bottom: 2px solid var(--silver2);
+  }
+
+  &__filter {
+  }
+
+  /*&__body {
+    padding: 22px 0 13.5px 0;
+  }*/
+
+  &_roll-up {
+
+    .task-list-task:hover {
+      margin: 0 -17px 0 -11px;
+      padding: 10px 10px 9px 11px;
+    }
+
+    .task-list-task__name {
+      min-width: 320px;
+      max-width: 320px;
+    }
+
+    .roster__tasks {
+      padding-left: 10.5px;
+    }
+
+    .task_subtask > .task__name {
+      max-width: 290px;
+      min-width: 290px;
+    }
+
+    .task_subtask:hover {
+      padding-left: 41px;
+    }
+  }
+}

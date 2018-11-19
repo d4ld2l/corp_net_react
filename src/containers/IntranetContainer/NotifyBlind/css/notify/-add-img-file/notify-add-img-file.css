@@ -1,0 +1,184 @@
+.notify-add-img-file {
+
+  &__file-popup {
+    position: absolute;
+    bottom: 0;
+    background: $charcoal_grey;
+    left: -280px;
+    max-width: 280px;
+    min-width: 280px;
+    padding: 20px 19px 7px 23px;
+    box-sizing: border-box;
+    animation: popup .3s ease 0s 1;
+
+    & > .notify-add-img-file__list {
+      padding-left: 10px;
+      padding-right: 0;
+      animation: opacity .3s ease 0s 1;
+    }
+
+    &:after {
+      content: '';
+      background-color: $charcoal_grey;
+      position: absolute;
+      right: -5px;
+      bottom: 15px;
+      width: 11px;
+      height: 11px;
+      transform: rotate(45deg);
+    }
+  }
+
+  &__added-file {
+    font-weight: 400;
+    font-size: 13px;
+    color: $dodger_blue;
+    margin: 0 0 13px 0;
+    padding-left: 60px;
+    cursor: pointer;
+    animation: added .3s ease 0s 1;
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+
+  &__title {
+    font-weight: 300;
+    font-size: 16px;
+    color: $white;
+    line-height: 10px;
+    margin: 0 0 15px;
+    padding: 0;
+    white-space: nowrap;
+    animation: opacity .3s ease 0s 1;
+  }
+
+  &__list {
+    padding-left: 74px;
+    padding-right: 76px;
+  }
+
+  &__wrap-file {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  &__file-container {
+    list-style-type: decimal;
+    padding: 0 0 5px;
+    color: $white;
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  &__preview {
+    max-width: 30px;
+    min-width: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    margin-right: 10px;
+  }
+
+  &__fake-link {
+    font-size: 11px;
+    font-weight: 400;
+    color: $dodger_blue;
+    text-decoration: underline;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__item-expansion {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: left;
+    color: $cool_grey2;
+    margin-left: 2px;
+  }
+
+  &__group-element {
+    padding-left: 56px;
+  }
+
+  &__icon-add {
+    &-document {
+      width: 30px;
+      height: 30.8px;
+      color: $white;
+      margin-right: 15px;
+      cursor: pointer;
+
+      &:hover {
+        color: $carnation2;
+      }
+
+      &:active {
+        color: $lipstick;
+      }
+    }
+    &-image {
+      width: 29.6px;
+      height: 29.2px;
+      color: $white;
+      cursor: pointer;
+
+      &:hover {
+        color: $carnation2;
+      }
+
+      &:active {
+        color: $lipstick;
+      }
+    }
+  }
+
+  &__icon-remove {
+    width: 10px;
+    height: 10px;
+    color: $white;
+    cursor: pointer;
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__wrap-remove {
+    flex: 1;
+    text-align: right;
+  }
+}
+
+@keyframes popup {
+  from {
+    max-width: 0;
+    min-width: 0;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+  }
+  to {
+    max-width: 280px;
+    min-width: 280px;
+    opacity: 1;
+    left: -280px;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

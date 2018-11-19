@@ -1,0 +1,218 @@
+.discussion {
+  &__heading {
+    display: flex;
+    padding: 22px 0 8px;
+    margin: 0 17px 0 20px;
+    border-bottom: solid 2px var(--silver2);
+    &-item {
+      &:first-child {
+        width: 21px;
+        min-width: 21px;
+        max-width: 21px;
+      }
+      &:nth-child(2) {
+        width: 540px;
+        min-width: 540px;
+        max-width: 540px;
+        @media (max-width: 1199px) {
+          width: 342px;
+          max-width: 342px;
+          min-width: 342px;
+        }
+      }
+
+    }
+    &_active {
+      margin-bottom: 8px;
+      .discussion__heading-item {
+        &:nth-child(2) {
+          width: unset;
+          min-width: unset;
+          max-width: unset;
+          @media (max-width: 1199px) {
+            width: 100%;
+            min-width: 100%;
+            max-width: 100%;
+          }
+        }
+        &:nth-child(3) {
+          display: none;
+        }
+      }
+    }
+  }
+  &__item {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 13px 21px;
+    border-bottom: 1px solid var(--silver2);
+    cursor: pointer;
+    margin-right: 11px;
+
+    &:hover, &_active {
+      background-color: var(--grey);
+      margin-left: -17px;
+      padding-left: 35px;
+      padding-right: 11px;
+      margin-right: 0;
+      border-left: 3px solid var(--twilight);
+      border-bottom: 1px solid transparent;
+      .discussion__item-arrow-icon {
+        color: var(--carnation2);
+      }
+    }
+
+    &_opened {
+      .discussion__info {
+        width: calc(100% - 60px);
+        min-width: calc(100% - 60px);
+      }
+    }
+    &-arrow-icon {
+      width: 11px;
+      height: 9px;
+      color: var(--cool_grey);
+      transform: rotate(-90deg);
+      cursor: pointer;
+
+      &:hover {
+        color: var(--carnation2);
+      }
+
+      &:active {
+        color: var(--lipstick);
+      }
+
+      &_active {
+        color: var(--reddish_pink);
+      }
+    }
+
+    &-setting-icon {
+      width: 54px;
+      height: 40px;
+      color: var(--reddish_pink);
+      cursor: pointer;
+
+      &:hover {
+        color: var(--carnation2);
+      }
+
+      &:active {
+        color: var(--lipstick);
+      }
+
+      &.is-open {
+        transform: scale(1, -1);
+      }
+    }
+    &-open-sidebar {
+      padding: 12px 5px;
+      cursor: pointer;
+      &:hover {
+        .discussion__item-arrow-icon {
+          color: var(--carnation2);
+        }
+      }
+    }
+  }
+  &__info {
+    width: 540px;
+    min-width: 540px;
+    max-width: 540px;
+    @media (max-width: 1199px) {
+      width: 342px;
+      max-width: 342px;
+      min-width: 342px;
+    }
+    &-name {
+
+    }
+    &-number {
+
+    }
+  }
+  &__hidden-items {
+    display: flex;
+    align-items: center;
+  }
+  &__author {
+    width: 276px;
+    &-name {
+    }
+    &-date-time {
+    }
+  }
+  &__functional-elements {
+    display: flex;
+    align-items: center;
+    width: 116px;
+  }
+  &__functions {
+    width: 16px;
+    margin-right: 20px;
+    &-icon {
+      width: 15px;
+      height: 15px;
+      color: var(--cool_grey);
+    }
+  }
+  &__comment {
+    color: var(--cool_grey);
+    width: 35px;
+    margin-right: 13px;
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: none;
+    }
+    &-icon {
+      color: var(--cool_grey);
+      width: 14px;
+      margin: 2px 4px 0 0;
+      &:hover {
+        color: var(--carnation2);
+      }
+    }
+    &-quantity {
+      top: 0;
+    }
+  }
+  &__favorites {
+    width: 15px;
+    height: 15px;
+    margin-right: 18px;
+    position: relative;
+    &-icon {
+      position: absolute;
+      top: 0;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+      color: var(--twilight);
+      &:hover {
+        color: var(--carnation2);
+      }
+    }
+  }
+  &__messages {
+    min-width: 20px;
+    height: 20px;
+    font-size: 11px;
+    background: var(--twilight);
+    color: var(--white);
+    border-radius: 50%;
+    padding: 2px 1px 0 0;
+    text-align: center;
+    margin-right: 13px;
+    &_active {
+      background: var(--reddish_pink);
+    }
+    &_empty {
+      background: transparent;
+      pointer-events: none;
+    }
+  }
+}

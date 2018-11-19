@@ -1,0 +1,18 @@
+.employee-card-tab-resume{
+  background: var(--white);
+
+  &__edit-button{
+     float: right;
+     position: relative;
+  }
+  &__pencil-icon{
+    color: var(--reddish_pink);
+    width: 40px;
+    height: 40px;
+    margin: 10px 8px 0px 8px;
+  }
+  &__wrapper {
+    background: var(--white);
+    padding: 10px 21px 20px;
+  }
+}

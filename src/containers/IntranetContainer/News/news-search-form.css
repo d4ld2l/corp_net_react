@@ -1,0 +1,133 @@
+$f_w_input: 500;
+
+.news-search-form{
+  margin: 13px 0 0;
+
+  &__c-search{
+    position: relative;
+  }
+
+  &__input-search{
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--white);
+    border: solid 1px var(--silver);
+    border-radius: 0;
+    width: 100%;
+    font-size: 13px;
+    font-weight: $f_w_input;
+    color: var(--charcoal_grey);
+    padding: 0 20px 0 50px;
+    outline: none;
+
+    &:focus {
+      border: solid 1px var(--silver);
+      box-shadow: unset;
+      outline: 1px solid var(--water_blue);
+      outline-offset: 1px;
+    }
+  }
+
+  &__icon-magnify{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 11px;
+    margin: auto 0;
+    color: var(--cool_grey);
+    width: 17px;
+  }
+
+  hr{
+    border-top: 1px dashed var(--white);
+    margin: 30px 0 15px;
+  }
+
+  &__select-news{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--charcoal_grey);
+    margin-bottom: 4px;
+
+    &-pseudo-link {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.43;
+      color: var(--water_blue);
+      text-decoration: none;
+      margin: 0 0 0 6px;
+    }
+  }
+
+  &__select-mark{
+    label{
+      display: inline-block;
+      background-color: var(--white);
+      font-size: 11px;
+      line-height: 1.83;
+      color: var(--charcoal_grey);
+      margin-right: 10px;
+      margin-bottom: 9px;
+      padding: 5px 6px;
+      outline: none;
+      cursor: pointer;
+
+      &:hover{
+        color: var(--white);
+        background-color: var(--reddish_pink);
+        text-decoration: none;
+      }
+    }
+    input{
+      display: none;
+
+      &:checked + label {
+        color: var(--white);
+        background-color: var(--reddish_pink);
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__b-info {
+    background: var(--twilight);
+    padding: 29px 33px 30px 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+      color: var(--white);
+      display: inline-block;
+      max-width: 210px;
+      margin: 0;
+    }
+
+    &-image {
+      display: inline-block;
+      color: var(--white);
+      width: 56px;
+    }
+  }
+
+  &__calendar-icon {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    width: 20px;
+    color: var(--cool_grey);
+  }
+
+  .form-group {
+    margin-bottom: 0 !important;
+  }
+
+  &__dash {
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    color: var(--charcoal_grey);
+    font-size: 13px;
+  }
+}

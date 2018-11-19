@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Profiles should fetch my profile 1`] = `
+Object {
+  "birthday": null,
+  "city": "Москва",
+  "created_at": "2017-07-19T12:13:31.436Z",
+  "departments_chain": Array [],
+  "email_private": "",
+  "fb_url": "",
+  "id": 1,
+  "legal_unit_employees": Array [],
+  "linkedin_url": "",
+  "managers_chain": Array [],
+  "middlename": "Администратор",
+  "name": "Системный",
+  "password": null,
+  "phone_number_private": "",
+  "photo": Object {
+    "for_community": Object {
+      "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+    },
+    "for_profile": Object {
+      "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+    },
+    "thumb": Object {
+      "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+    },
+    "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+  },
+  "sex": "male",
+  "skype": "",
+  "subordinates_count": 0,
+  "subordinates_list": Array [],
+  "surname": "Старший",
+  "telegram": "",
+  "updated_at": "2017-07-25T20:30:26.851Z",
+  "user": Object {
+    "communities": Array [
+      Object {
+        "c_type": "opened",
+        "created_at": "2017-07-26T17:20:05.991Z",
+        "description": "Кто каким-то боком относится к SHR",
+        "documents": Array [],
+        "id": 2,
+        "name": "Новый интранет",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/uploads/community/photo/2/for_community_abe_simpson.png",
+          },
+          "for_profile": Object {
+            "url": "/uploads/community/photo/2/for_profile_abe_simpson.png",
+          },
+          "thumb": Object {
+            "url": "/uploads/community/photo/2/thumb_abe_simpson.png",
+          },
+          "url": "/uploads/community/photo/2/abe_simpson.png",
+        },
+        "updated_at": "2017-07-26T21:01:31.252Z",
+        "user_id": 6,
+      },
+      Object {
+        "c_type": "closed",
+        "created_at": "2017-07-26T17:28:33.487Z",
+        "description": "Секта любителей SHR",
+        "documents": Array [],
+        "id": 3,
+        "name": "НИИ ЧАВО",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/uploads/community/photo/3/for_community_burns.png",
+          },
+          "for_profile": Object {
+            "url": "/uploads/community/photo/3/for_profile_burns.png",
+          },
+          "thumb": Object {
+            "url": "/uploads/community/photo/3/thumb_burns.png",
+          },
+          "url": "/uploads/community/photo/3/burns.png",
+        },
+        "updated_at": "2017-07-26T21:01:13.885Z",
+        "user_id": 6,
+      },
+      Object {
+        "c_type": "opened",
+        "created_at": "2017-08-04T14:58:03.087Z",
+        "description": "але",
+        "documents": Array [],
+        "id": 6,
+        "name": "првиет",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/uploads/community/photo/6/for_community_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B4.png",
+          },
+          "for_profile": Object {
+            "url": "/uploads/community/photo/6/for_profile_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B4.png",
+          },
+          "thumb": Object {
+            "url": "/uploads/community/photo/6/thumb_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B4.png",
+          },
+          "url": "/uploads/community/photo/6/%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B4.png",
+        },
+        "updated_at": "2017-08-04T14:58:03.087Z",
+        "user_id": 1,
+      },
+    ],
+    "company_id": null,
+    "created_at": "2017-07-19T12:13:11.270Z",
+    "email": "admin@example.com",
+    "id": 1,
+    "provider": "email",
+    "resumes": Array [],
+    "roles": Array [
+      Object {
+        "created_at": "2017-07-19T12:13:10.681Z",
+        "id": 1,
+        "name": "admin",
+        "updated_at": "2017-07-19T12:13:10.681Z",
+      },
+      Object {
+        "created_at": "2017-07-25T19:11:25.045Z",
+        "id": 6,
+        "name": "user",
+        "updated_at": "2017-07-25T19:11:25.045Z",
+      },
+      Object {
+        "created_at": "2017-07-19T12:13:10.685Z",
+        "id": 2,
+        "name": "recruitment_recruiter",
+        "updated_at": "2017-10-10T12:32:56.949Z",
+      },
+    ],
+    "status": "Meleys",
+    "uid": "admin@example.com",
+    "updated_at": "2017-10-17T15:35:23.122Z",
+    "user_projects": Array [],
+  },
+  "user_id": 1,
+  "vk_url": "",
+}
+`;

@@ -1,0 +1,9 @@
+@import '../../style/variables.css';
+
+.date-time__date-field-icon {
+  width: 22px;
+  color: var(--cool_grey);
+  position: absolute;
+  top: 10px;
+  left: 124px;
+}

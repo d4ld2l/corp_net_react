@@ -1,0 +1,110 @@
+@import '../../../../../style/variables.css';
+
+.scale {
+  max-height: 9px;
+  min-height: 9px;
+  background-color: var(--grey);
+  max-width: 100%;
+  min-width: 100%;
+  position: relative;
+
+  &__limiter {
+    background-color: var(--white);
+    max-height: 9px;
+    min-height: 9px;
+    max-width: 10px;
+    min-width: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+
+    &:first-child {
+      left: 24%;
+    }
+
+    &:nth-child(2) {
+      left: 49.4%;
+    }
+
+    &:last-child  {
+      left: 74.6%;
+    }
+  }
+
+  &_active_25, &_active_50, &_active_75, &_active_100 {
+    &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background-color: var(--faded_blue);
+      width: 25%;
+      animation: increasing_25 1s;
+    }
+  }
+  &_active_50 {
+    &:after {
+      width: 50%;
+      animation: increasing_50 1s;
+    }
+  }
+  &_active_75 {
+    &:after {
+      width: 75%;
+      animation: increasing_75 1s;
+    }
+  }
+  &_active_100 {
+    &:after {
+      width: 100%;
+      animation: increasing_100 1s;
+    }
+  }
+}
+
+@keyframes increasing_25 {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 25%;
+    opacity: 1;
+  }
+}
+
+@keyframes increasing_50 {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes increasing_75 {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 75%;
+    opacity: 1;
+  }
+}
+
+@keyframes increasing_100 {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}

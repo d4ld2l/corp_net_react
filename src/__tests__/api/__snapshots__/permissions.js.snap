@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Permissions should fetch my permissions 1`] = `
+Array [
+  Object {
+    "code": "u_vac",
+    "created_at": "2017-10-04T08:54:43.357Z",
+    "description": "Редактирование вакансии",
+    "id": 18,
+    "name": "update_vacancy",
+    "updated_at": "2017-10-05T14:30:43.484Z",
+  },
+  Object {
+    "code": "c_vac",
+    "created_at": "2017-10-04T08:54:08.423Z",
+    "description": "Создание вакансии",
+    "id": 17,
+    "name": "create_vacancy",
+    "updated_at": "2017-10-05T14:29:55.471Z",
+  },
+  Object {
+    "code": "c_email",
+    "created_at": "2017-10-04T08:56:19.786Z",
+    "description": "Создание письма",
+    "id": 21,
+    "name": "create_email",
+    "updated_at": "2017-10-05T14:31:16.603Z",
+  },
+  Object {
+    "code": "common",
+    "created_at": "2017-10-04T08:53:28.269Z",
+    "description": "Общее",
+    "id": 15,
+    "name": "common",
+    "updated_at": "2017-10-05T14:29:43.446Z",
+  },
+  Object {
+    "code": "e_vac",
+    "created_at": "2017-10-04T08:55:18.623Z",
+    "description": "Работа с вакансией",
+    "id": 19,
+    "name": "edit_vacancy",
+    "updated_at": "2017-10-05T14:30:53.462Z",
+  },
+  Object {
+    "code": "c_req",
+    "created_at": "2017-10-04T08:52:52.916Z",
+    "description": "Создание заявки",
+    "id": 13,
+    "name": "create_request",
+    "updated_at": "2017-10-05T14:29:30.610Z",
+  },
+  Object {
+    "code": "c_task",
+    "created_at": "2017-10-04T08:53:09.357Z",
+    "description": "Создание задачи",
+    "id": 14,
+    "name": "create_task",
+    "updated_at": "2017-10-05T14:30:16.494Z",
+  },
+  Object {
+    "code": "scoring",
+    "created_at": "2017-10-04T08:56:02.801Z",
+    "description": "Оценка",
+    "id": 20,
+    "name": "scoring",
+    "updated_at": "2017-10-05T14:31:05.354Z",
+  },
+  Object {
+    "code": "fin",
+    "created_at": "2017-10-04T08:56:56.964Z",
+    "description": "Финансы",
+    "id": 22,
+    "name": "finance",
+    "updated_at": "2017-10-05T14:31:26.957Z",
+  },
+  Object {
+    "code": "c_cand",
+    "created_at": "2017-10-04T08:53:50.780Z",
+    "description": "Создание кандидата",
+    "id": 16,
+    "name": "create_candidate",
+    "updated_at": "2017-10-05T14:30:31.566Z",
+  },
+]
+`;

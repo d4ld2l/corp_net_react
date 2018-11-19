@@ -1,0 +1,250 @@
+.notify-note-card-body {
+  padding: 18px 47px 16px 52px;
+  border-bottom: 1px solid $cool_grey;
+
+  &__head {
+    cursor: pointer;
+  }
+
+  &__level-one,
+  &__level-two {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__level-two {
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+
+  &__text {
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: $cool_grey2;
+    text-transform: uppercase;
+  }
+
+  &__label {
+    color: $white;
+    max-width: 320px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+
+  &__arrow {
+    min-width: 12px;
+    max-width: 12px;
+    min-height: 12px;
+    max-height: 12px;
+    color: $silver;
+    margin-right: 17px;
+    margin-top: 10px;
+
+    &_open {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__user-icon {
+    min-width: 16px;
+    max-width: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    margin-right: 7px;
+    color: $silver;
+  }
+
+  &__calendar-icon {
+    min-width: 14px;
+    max-width: 14px;
+    min-height: 14px;
+    max-height: 14px;
+    margin-right: 7px;
+    color: $silver;
+  }
+
+  &__name,
+  &__participants {
+    padding-right: 10px;
+    margin-right: 8px;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto 0;
+      height: 11px;
+      width: 1px;
+      background-color: $cool_grey2;
+    }
+  }
+
+  &__participants:hover &__user-icon,
+  &__participants:hover > &__text {
+    cursor: pointer;
+    color: $carnation2;
+  }
+
+  &__participants:active &__user-icon,
+  &__participants:active > &__text {
+    cursor: pointer;
+    color: $lipstick;
+  }
+
+  &__add-to-favorites {
+    position: absolute;
+    left: -28px;
+    top: 4px;
+    cursor: pointer;
+  }
+
+  &__star {
+    min-width: 15px;
+    max-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    color: $white;
+  }
+
+  &__content {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 0 0 0;
+    padding: 0 44px 0 0;
+    color: $white;
+  }
+
+  &__like {
+    min-width: 16px;
+    max-width: 16px;
+    min-height: 12px;
+    max-height: 12px;
+    color: $white;
+
+    &_active {
+      color: $reddish_pink;
+    }
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+
+    &-count {
+      font-size: 9px;
+      font-weight: 400;
+      line-height: 10px;
+      letter-spacing: 0;
+      color: $white;
+      margin-left: 5px;
+    }
+  }
+
+  &__i-like-it {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    margin-top: 13px;
+  }
+
+  &__media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    padding-right: 16px;
+  }
+
+  &__first-image {
+    margin-top: 10px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 205px;
+    max-height: 205px;
+  }
+
+  &__other-image {
+    margin-top: 10px;
+    min-width: 203px;
+    max-width: 203px;
+    min-height: 101px;
+    max-height: 101px;
+  }
+
+  &__first-image,
+  &__other-image {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      background-color: transparent;
+      color: transparent;
+      opacity: 0;
+      transition: background-color .2s ease, color .2s ease, opacity .2s ease;
+    }
+
+    &:hover:after {
+      content: 'Нажмите, чтобы открыть';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $white;
+      color: $water_blue;
+      font-weight: 500;
+      font-size: 13px;
+      opacity: 1;
+    }
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+  }
+
+  &__item {}
+
+  &__link {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $dodger_blue;
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__format {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $cool_grey2;
+  }
+}

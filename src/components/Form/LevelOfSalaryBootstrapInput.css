@@ -1,0 +1,19 @@
+@import '../../style/variables.css';
+
+.form-group{
+
+  .form-horizontal{
+
+    .control-label{
+      font-size: 13px;
+      line-height: 1.14;
+      text-align: left;
+      color: var(--cool_grey);
+      display: flex;
+      align-items: center;
+      height: 50px;
+    }
+
+  }
+
+}

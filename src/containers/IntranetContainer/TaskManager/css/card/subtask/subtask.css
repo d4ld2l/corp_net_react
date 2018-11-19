@@ -1,0 +1,231 @@
+.subtask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 4px;
+  border-bottom: 1px solid var(--silver2);
+  position: relative;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+
+  &:last-child {
+    border-bottom-width: 2px;
+  }
+
+  &__mark {
+    min-width: 30.5px;
+    max-width: 30.5px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+  }
+
+  &__icon-checkbox {
+    width: 16px;
+    height: 16px;
+    transition: fill 2s;
+    margin-right: 7px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__icon-arrow {
+    width: 10px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(-90deg);
+  }
+
+  &__icon-attention {
+    height: 20px;
+    position: absolute;
+    right: -6px;
+
+    &_reddish {
+      color: var(--reddish_pink);
+    }
+    &_twilight {
+      color: var(--twilight)
+    }
+    &_green {
+      color: var(--light_moss_green);
+    }
+    &_grey {
+      color: var(--cool_grey);
+    }
+  }
+
+  &__name {
+    min-width: 255px;
+    max-width: 255px;
+    z-index: 1;
+    padding-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+  }
+
+  &__date-time {
+    min-width: 125px;
+    max-width: 125px;
+    z-index: 1;
+  }
+
+  &__performer {
+    min-width: 32px;
+    max-width: 32px;
+    z-index: 1;
+
+    .performer__photo {
+      margin: 0;
+    }
+  }
+
+  &__priority {
+    min-width: 70px;
+    max-width: 70px;
+    z-index: 1;
+  }
+
+  &__text {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__arrow {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover .subtask__icon-arrow {
+      color: var(--reddish_pink);
+    }
+  }
+
+  &.is-done {
+
+    &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: -3px;
+      width: calc(100% + 3px);
+      height: 100%;
+      background-color: var(--light_moss_green);
+      opacity: .2;
+      animation: done .5s;
+    }
+
+    .subtask__name .subtask__text {
+      &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        height: 1px;
+        background-color: var(--charcoal_grey);
+        animation: done .5s;
+      }
+    }
+
+    .subtask__mark {
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 7px;
+        margin: auto;
+        width: 16px;
+        height: 16px;
+        background-color: var(--twilight);
+        border-radius: 50%;
+        opacity: 0;
+        animation: done_checkbox .3s;
+      }
+    }
+  }
+
+  &:hover .subtask__icon-arrow {
+    color: var(--reddish_pink);
+  }
+
+  &:hover {
+    background-color: var(--grey);
+    border-left-color: var(--twilight);
+    border-bottom-color: transparent;
+    margin: 0 -18px 0 -50px;
+    padding: 5px 18px 4px 50px;
+
+    .subtask__arrow {
+      right: 18px;
+    }
+  }
+
+  &__attention {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    min-height: 20px;
+    font-size: 11px;
+    color: var(--white);
+    position: relative;
+    margin-left: 13px;
+
+    &_reddish {
+      background-color: var(--reddish_pink);
+    }
+    &_twilight {
+      background-color: var(--twilight)
+    }
+    &_green {
+      background-color: var(--light_moss_green);
+    }
+    &_grey {
+      background-color: var(--cool_grey);
+    }
+  }
+
+  &__wrapper {
+    margin: 0 19px 22px 51px;
+  }
+}
+
+@keyframes done {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*@keyframes done_checkbox {*/
+  /*from {*/
+    /*transform: scale(1);*/
+    /*opacity: .8;*/
+  /*}*/
+  /*to {*/
+    /*transform: scale(1.6);*/
+    /*opacity: 0;*/
+  /*}*/
+/*}*/

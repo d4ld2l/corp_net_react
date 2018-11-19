@@ -1,0 +1,112 @@
+.discussion-comments {
+  &__wrapper {
+    padding: 0 21px;
+    /* margin-top: 94px; */
+    /* flex-grow: 1; */
+    flex: 1;
+    /* position: relative; */
+    &.global-scroll{
+      /* height:  54vh; */
+    }
+  }
+
+  &__item {
+    display: flex;
+    padding-bottom: 5px;
+    transition: background-color .5s ease-in;
+    z-index: 10;
+    &_unread{
+      background-color: var(--golden_rod_01);
+      padding: 0 20px 5px;
+      margin: 0 -20px;
+    }
+
+    &:hover .discussion-comments__func-elem,
+    &:focus .discussion-comments__func-elem,
+    &:active .discussion-comments__func-elem {
+      opacity: 1;
+    }
+  }
+  &__avatar {
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 17px;
+  }
+  &__body {
+    width: 100%;
+    &:hover, &:focus, &:active .discussion-comments__func-elem {
+      opacity: 1;
+    }
+  }
+  &__header-wrap {
+    position: absolute;
+    top: 50px;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0 10px;
+    width: 100%;
+  }
+  &__name {
+  }
+  &__date-time {
+    font-weight: normal;
+    margin-left: 10px;
+  }
+  &__func-elem {
+    display: flex;
+    opacity: 0;
+    transition: opacity .14s ease-in;
+    &-wrap {
+    }
+    &-icon {
+      width: 16px;
+      min-width: 16px;
+      max-width: 16px;
+      height: 16px;
+      min-height: 16px;
+      max-height: 16px;
+      color: var(--reddish_pink);
+      cursor: pointer;
+      transition: .2s;
+      margin-left: 10px;
+    }
+  }
+  &__photo {
+    max-width: 100%;
+   }
+  &__like {
+    &-icon {
+      cursor: pointer;
+      width: 16px;
+      min-width: 16px;
+      max-width: 16px;
+      height: 16px;
+      min-height: 16px;
+      max-height: 16px;
+      color: var(--reddish_pink);
+      cursor: pointer;
+      transition: .2s;
+      margin-right: 5px;
+    }
+    &-count {
+      font-size: 9px;
+      color: var(--cool_grey);
+    }
+  }
+  &__link {
+    margin-left: 15px;
+    font-size: 11px;
+  }
+  &__not-mine {
+    display: none;
+  }
+}

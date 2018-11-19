@@ -1,0 +1,110 @@
+.new-recruiter-request {
+  & .form-group {
+    margin-bottom: 5px;
+  }
+}
+
+.new-recruiter-request__sidebar {
+  background-color: var(--white);
+}
+
+.new-recruiter-request__content {
+
+}
+
+.new-recruiter-request__tab-wrap {
+  background: var(--white);
+  min-height: 500px;
+  padding: 20px 20px 40px 20px;
+  position: relative;
+}
+
+.new-recruiter-request__step {
+
+}
+
+.new-recruiter-request__step-round {
+  border-radius: 100%;
+  border: 1px solid var(--water_blue);
+  color: var(--water_blue);
+  line-height: 20px;
+  font-size: 11px;
+  padding: 5px 12px;
+  &.active {
+    color: var(--white);
+    background-color: var(--twilight);
+    border-color: var(--twilight);
+  }
+}
+
+.new-recruiter-request__step-title {
+  max-width: 65px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.new-recruiter-request__step-line {
+  display: inline-block;
+  width: 65px;
+  height: 3px;
+  border-bottom: 1px dashed var(--silver);
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.new-recruiter-request__step-label {
+  display: block;
+  line-height: 1.43;
+  color: var(--cool_grey);
+}
+
+.new-recruiter-request__tab-list {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--silver2);
+  display: flex;
+}
+
+.new-recruiter-request__tab-list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: var(--charcoal_grey);
+  font-size: 9px;
+}
+
+.new-recruiter-request__required {
+  color: var(--reddish_pink);
+}
+
+.new-recruiter-request__tab-list-link {
+  display: flex;
+  align-items: center;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    color: var(--dodger_blue);
+    .new-recruiter-request__step-round {
+      color: var(--dodger_blue);
+      border: 1px solid var(--dodger_blue);
+      &.active {
+        color: var(--white);
+        border-color: var(--twilight);
+      }
+    }
+  }
+
+  &.active {
+    background: var(--white);
+
+    .new-recruiter-request__step-title {
+      color: var(--charcoal_grey);
+      text-decoration: none;
+    }
+  }
+
+}

@@ -1,0 +1,109 @@
+.new-recruiter-request-edit-full-form {
+
+  &__btn-delete-photo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: var(--reddish_pink);
+
+    & > svg {
+      margin-top: 0;
+      margin-right: 7px;
+    }
+
+    &:hover {
+      color: var(--carnation2);
+
+      & > svg {
+        color: var(--carnation2);
+      }
+    }
+  }
+
+  &__dropzone{
+    color: var(--dodger_blue);
+
+    &-candidate {
+      display: flex;
+      align-items: flex-start;
+
+      & > .btn {
+        margin-top: 9px;
+      }
+    }
+
+    &-icon{
+      width: 170px;
+      height: 170px;
+      background: var(--grey);
+      color: var(--silver);
+      padding-top: 10px;
+
+      &_indent_right {
+        margin-right: 30px;
+      }
+    }
+
+
+    &-text{
+      color: var(--dodger_blue);
+      /* border-bottom: 1px var(--water_blue) dotted; */
+
+      &:hover{
+        color: var(--reddish_pink);
+        text-decoration: underline;
+      }
+    }
+
+    &-select{
+      margin: 10px 0 0 25px;
+
+      &_width_min {
+        min-width: 520px;
+
+        @media (max-width: 1199px) {
+          min-width: 440px;
+        }
+
+        @media (max-width: 991px) {
+          min-width: 300px;
+        }
+      }
+    }
+
+    &-filename{
+      color: var(--dodger_blue);
+      display: block;
+    }
+
+    &-file-info{
+
+    }
+
+    &-file-ext{
+      color: var(--cool_grey);
+      margin-right: 5px;
+    }
+
+    &-file-size{
+      color: var(--cool_grey);
+    }
+  }
+
+  &__clip-icon {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    color: var(--cool_grey);
+    margin-right: 9px;
+    margin-top: -3px;
+  }
+
+  &__icon-trash {
+    width: 14px;
+    height: 16px;
+    color: var(--reddish_pink);
+    margin-top: 10px;
+  }
+}

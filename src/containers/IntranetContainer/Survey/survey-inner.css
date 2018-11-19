@@ -1,0 +1,144 @@
+.survey-inner{
+  margin-top: 26px;
+
+  &__wrapper {
+    background: var(--white);
+    margin-top: 22px;
+    padding: 20px !important;
+  }
+
+  &__block{
+    background: var(--white);
+    border-top: none;
+  }
+
+  &__article{
+
+  }
+
+  &__figure{
+    height: 280px;
+    margin-right: 21px;
+    display: block;
+    overflow: hidden;
+
+    img{
+      width: 100%;
+      padding: 9px;
+    }
+  }
+
+  &__desription{}
+
+  &__btn-start-b{
+    margin-bottom: 25px;
+
+    button {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__checkbox-block{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+  }
+  &__survey-is-anonymous {
+    font-size: 13px;
+    color: var(--cool_grey);
+    line-height: 20px;
+    margin-bottom: 0;
+    display: block;
+  }
+
+  &__format-weight {
+    color: var(--cool_grey);
+  }
+
+  &__file-rules{
+
+    &_link{
+      text-decoration: underline;
+      text-decoration-skip: ink;
+    }
+
+    &_text{
+      font-size: 11px;
+      line-height: 20px;
+      text-align: left;
+      color: var(--cool_grey);
+    }
+  }
+
+   &__block-icon{
+    display: flex;
+  }
+
+  &__wrapper-icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+  }
+
+  &__checkbox-icon{
+    width: 16px;
+    position: relative;
+    top: 0;
+    left: 1px;
+  }
+
+  &__clock-icon {
+    width: 14px;
+  }
+
+  &__calendar-icon{
+    width: 12px;
+  }
+
+  &__text-icon{
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--charcoal_grey);
+    margin-bottom: 0;
+
+    &_color {
+      color: var(--white);
+    }
+  }
+
+  &__wrapper-info {
+    align-self: stretch;
+  }
+
+  &__label {
+    font-size: 9px;
+    line-height: 10px;
+    color: var(--cool_grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+    &_color {
+      opacity: .7;
+      color: var(--white);
+    }
+  }
+
+  &__block-icon-text{
+    display: flex;
+  }
+
+  .minus-padding-right {
+    padding-right: 0;
+  }
+  .minus-padding-left {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`birthdays reducer should match GET_BIRTHDAYS_CURRENT_RES snapshot 1`] = `
+Object {
+  "current": Object {
+    "2018-01-05": Array [
+      Object {
+        "birthday": "1993-01-05",
+        "email": "yuivannikov@phoenixit.ru",
+        "full_name": "Иванников Юрий Юрьевич",
+        "id": 24,
+        "photo": Object {
+          "for_community": Object {
+            "url": "/uploads/profile/photo/24/for_community_Pickles.jpg",
+          },
+          "for_profile": Object {
+            "url": "/uploads/profile/photo/24/for_profile_Pickles.jpg",
+          },
+          "thumb": Object {
+            "url": "/uploads/profile/photo/24/thumb_Pickles.jpg",
+          },
+          "url": "/uploads/profile/photo/24/Pickles.jpg",
+        },
+      },
+    ],
+  },
+}
+`;

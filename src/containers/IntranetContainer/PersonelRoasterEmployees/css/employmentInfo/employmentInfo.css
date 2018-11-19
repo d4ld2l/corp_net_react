@@ -1,0 +1,33 @@
+.employment-info{
+margin-bottom: 3px;
+  &__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: dashed 1px var(--silver);
+    padding: 23px 2px 23px 0;
+    cursor: pointer;
+  }
+
+  &__title{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+
+  &__open-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(180deg);
+  }
+
+  &__close-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+  }
+}

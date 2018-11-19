@@ -1,0 +1,1029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Events should fetch all events 1`] = `
+Array [
+  Object {
+    "created_at": "2017-09-22T19:38:25.459Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Какое-то событие</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-09-20T00:00:00.000Z",
+    "event_type": Object {
+      "color": "#1400ff",
+      "created_at": "2017-09-21T13:11:12.286Z",
+      "id": 3,
+      "name": "Встреча",
+      "updated_at": "2017-09-21T13:25:19.094Z",
+    },
+    "event_type_id": 3,
+    "id": 2,
+    "name": "Одно событие",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Москва",
+    "starts_at": "2017-09-20T00:00:00.000Z",
+    "updated_at": "2017-09-22T19:50:30.301Z",
+  },
+  Object {
+    "created_at": "2017-09-22T19:45:36.174Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Описание ещё одного события</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-09-22T03:00:00.000Z",
+    "event_type": Object {
+      "color": "#a34170",
+      "created_at": "2017-09-21T13:11:12.268Z",
+      "id": 1,
+      "name": "Спортивное",
+      "updated_at": "2017-09-21T13:50:22.542Z",
+    },
+    "event_type_id": 1,
+    "id": 3,
+    "name": "Ещё одно событие",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Не Москва",
+    "starts_at": "2017-09-22T00:00:00.000Z",
+    "updated_at": "2017-09-25T09:46:49.828Z",
+  },
+  Object {
+    "created_at": "2017-09-22T19:47:20.431Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Описание не события</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-09-25T08:00:00.000Z",
+    "event_type": Object {
+      "color": "#1400ff",
+      "created_at": "2017-09-21T13:11:12.286Z",
+      "id": 3,
+      "name": "Встреча",
+      "updated_at": "2017-09-21T13:25:19.094Z",
+    },
+    "event_type_id": 3,
+    "id": 5,
+    "name": "Не событие",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Питер",
+    "starts_at": "2017-09-25T06:00:00.000Z",
+    "updated_at": "2017-09-25T10:40:04.706Z",
+  },
+  Object {
+    "created_at": "2017-09-22T19:46:27.341Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Описание и&nbsp;ещё одного&nbsp;события</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-09-24T06:00:00.000Z",
+    "event_type": Object {
+      "color": "#108267",
+      "created_at": "2017-09-21T13:11:12.288Z",
+      "id": 4,
+      "name": "Собеседование",
+      "updated_at": "2017-10-02T07:03:34.423Z",
+    },
+    "event_type_id": 4,
+    "id": 4,
+    "name": "И ещё одно событие",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Воронеж",
+    "starts_at": "2017-09-22T03:00:00.000Z",
+    "updated_at": "2017-09-26T17:10:02.356Z",
+  },
+  Object {
+    "created_at": "2017-10-01T22:28:41.543Z",
+    "created_by": Object {
+      "departments_chain": Array [],
+      "email": "admin@example.com",
+      "fullname": "Старший Системный Администратор",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+        },
+        "for_profile": Object {
+          "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+        },
+        "thumb": Object {
+          "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+        },
+        "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+      },
+      "position_name": null,
+    },
+    "created_by_id": 1,
+    "description": "Ha-ha to face!",
+    "documents": Array [],
+    "ends_at": "2017-10-12T02:00:00.000Z",
+    "event_type": Object {
+      "color": "#a34170",
+      "created_at": "2017-09-21T13:11:12.268Z",
+      "id": 1,
+      "name": "Спортивное",
+      "updated_at": "2017-09-21T13:50:22.542Z",
+    },
+    "event_type_id": 1,
+    "id": 9,
+    "name": "Mastif",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Kerch",
+    "starts_at": "2017-10-10T23:05:00.000Z",
+    "updated_at": "2017-10-01T22:28:41.543Z",
+  },
+  Object {
+    "created_at": "2017-10-02T06:56:57.683Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Показ разработанного ФК Интранет&nbsp;</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-10-02T10:00:00.000Z",
+    "event_type": Object {
+      "color": "#1400ff",
+      "created_at": "2017-09-21T13:11:12.286Z",
+      "id": 3,
+      "name": "Встреча",
+      "updated_at": "2017-09-21T13:25:19.094Z",
+    },
+    "event_type_id": 3,
+    "id": 11,
+    "name": "Показ Интранета для Универсиады 2019",
+    "participants": Array [
+      Object {
+        "departments_chain": Array [],
+        "email": "g.emtsov@krsk2019.ru",
+        "fullname": "Емцов Григорий Павлович",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+          },
+          "for_profile": Object {
+            "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+          },
+          "thumb": Object {
+            "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+          },
+          "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+        },
+        "position_name": null,
+      },
+    ],
+    "participants_count": 1,
+    "place": "Красноярск, деревня Универсиады",
+    "starts_at": "2017-10-02T09:00:00.000Z",
+    "updated_at": "2017-10-02T06:56:57.683Z",
+  },
+  Object {
+    "created_at": "2017-10-01T22:20:30.619Z",
+    "created_by": Object {
+      "departments_chain": Array [],
+      "email": "admin@example.com",
+      "fullname": "Старший Системный Администратор",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+        },
+        "for_profile": Object {
+          "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+        },
+        "thumb": Object {
+          "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+        },
+        "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+      },
+      "position_name": null,
+    },
+    "created_by_id": 1,
+    "description": "<p>La-la-fa</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-10-11T05:00:00.000Z",
+    "event_type": Object {
+      "color": "#918d1d",
+      "created_at": "2017-09-21T13:11:12.290Z",
+      "id": 5,
+      "name": "Другое",
+      "updated_at": "2017-10-02T07:04:05.898Z",
+    },
+    "event_type_id": 5,
+    "id": 7,
+    "name": "Test2",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Helsinki",
+    "starts_at": "2017-10-09T00:00:00.000Z",
+    "updated_at": "2017-10-02T07:46:25.150Z",
+  },
+  Object {
+    "created_at": "2017-09-21T13:15:24.065Z",
+    "created_by": Object {
+      "departments_chain": Array [],
+      "email": "admin@example.com",
+      "fullname": "Старший Системный Администратор",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+        },
+        "for_profile": Object {
+          "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+        },
+        "thumb": Object {
+          "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+        },
+        "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+      },
+      "position_name": null,
+    },
+    "created_by_id": 1,
+    "description": "<p>Супер-Мега-Крутое мероприятие!</p>
+",
+    "documents": Array [
+      Object {
+        "created_at": "2017-09-22T17:31:11.389Z",
+        "document_attachable_id": 1,
+        "document_attachable_type": "Event",
+        "file": Object {
+          "url": "/uploads/document/file/1/sun.rays.small.png",
+        },
+        "id": 1,
+        "name": "Тестовый документ",
+        "updated_at": "2017-09-22T17:31:11.389Z",
+      },
+    ],
+    "ends_at": "2017-09-26T07:48:00.000Z",
+    "event_type": Object {
+      "color": "#918d1d",
+      "created_at": "2017-09-21T13:11:12.290Z",
+      "id": 5,
+      "name": "Другое",
+      "updated_at": "2017-10-02T07:04:05.898Z",
+    },
+    "event_type_id": 5,
+    "id": 1,
+    "name": "Rails Club 2017",
+    "participants": Array [
+      Object {
+        "departments_chain": Array [
+          Object {
+            "code": "INV",
+            "company_id": null,
+            "created_at": "2017-08-30T21:51:58.730Z",
+            "id": 6,
+            "legal_unit_id": 2,
+            "logo": Object {
+              "url": null,
+            },
+            "manager_id": null,
+            "name_ru": "Управление брендом",
+            "parent_id": null,
+            "region": null,
+            "updated_at": "2017-10-05T14:53:01.947Z",
+          },
+          Object {
+            "code": "SPORT",
+            "company_id": null,
+            "created_at": "2017-08-21T15:24:39.450Z",
+            "id": 5,
+            "legal_unit_id": 2,
+            "logo": Object {
+              "url": null,
+            },
+            "manager_id": null,
+            "name_ru": "Церемонии",
+            "parent_id": 6,
+            "region": null,
+            "updated_at": "2017-10-05T14:52:22.701Z",
+          },
+        ],
+        "email": "",
+        "fullname": "Панин Алексей Андреевич",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/uploads/profile/photo/39/for_community_1.jpg",
+          },
+          "for_profile": Object {
+            "url": "/uploads/profile/photo/39/for_profile_1.jpg",
+          },
+          "thumb": Object {
+            "url": "/uploads/profile/photo/39/thumb_1.jpg",
+          },
+          "url": "/uploads/profile/photo/39/1.jpg",
+        },
+        "position_name": "Ведущий консультант",
+      },
+      Object {
+        "departments_chain": Array [
+          Object {
+            "code": "INV",
+            "company_id": null,
+            "created_at": "2017-08-30T21:51:58.730Z",
+            "id": 6,
+            "legal_unit_id": 2,
+            "logo": Object {
+              "url": null,
+            },
+            "manager_id": null,
+            "name_ru": "Управление брендом",
+            "parent_id": null,
+            "region": null,
+            "updated_at": "2017-10-05T14:53:01.947Z",
+          },
+          Object {
+            "code": "SPORT",
+            "company_id": null,
+            "created_at": "2017-08-21T15:24:39.450Z",
+            "id": 5,
+            "legal_unit_id": 2,
+            "logo": Object {
+              "url": null,
+            },
+            "manager_id": null,
+            "name_ru": "Церемонии",
+            "parent_id": 6,
+            "region": null,
+            "updated_at": "2017-10-05T14:52:22.701Z",
+          },
+        ],
+        "email": "",
+        "fullname": "Кузнецова Капитолина Борисовна",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+          },
+          "for_profile": Object {
+            "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+          },
+          "thumb": Object {
+            "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+          },
+          "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+        },
+        "position_name": "Аналитик",
+      },
+      Object {
+        "departments_chain": Array [
+          Object {
+            "code": "HEAD",
+            "company_id": 4,
+            "created_at": "2017-08-04T14:21:05.702Z",
+            "id": 3,
+            "legal_unit_id": 1,
+            "logo": Object {
+              "url": null,
+            },
+            "manager_id": null,
+            "name_ru": "Руководство",
+            "parent_id": null,
+            "region": null,
+            "updated_at": "2017-10-05T14:53:15.389Z",
+          },
+          Object {
+            "code": "КАДРЫ",
+            "company_id": 4,
+            "created_at": "2017-08-04T14:20:03.247Z",
+            "id": 1,
+            "legal_unit_id": null,
+            "logo": Object {
+              "url": null,
+            },
+            "manager_id": null,
+            "name_ru": "Кадры",
+            "parent_id": 3,
+            "region": null,
+            "updated_at": "2017-08-04T14:21:18.547Z",
+          },
+        ],
+        "email": "",
+        "fullname": "Иванников Юрий Юрьевич",
+        "photo": Object {
+          "for_community": Object {
+            "url": "/uploads/profile/photo/24/for_community_Pickles.jpg",
+          },
+          "for_profile": Object {
+            "url": "/uploads/profile/photo/24/for_profile_Pickles.jpg",
+          },
+          "thumb": Object {
+            "url": "/uploads/profile/photo/24/thumb_Pickles.jpg",
+          },
+          "url": "/uploads/profile/photo/24/Pickles.jpg",
+        },
+        "position_name": "Специалист",
+      },
+    ],
+    "participants_count": 3,
+    "place": "Технополис, Москва",
+    "starts_at": "2017-09-25T07:48:00.000Z",
+    "updated_at": "2017-10-02T07:48:39.518Z",
+  },
+  Object {
+    "created_at": "2017-10-04T09:02:02.416Z",
+    "created_by": Object {
+      "departments_chain": Array [],
+      "email": "admin@example.com",
+      "fullname": "Старший Системный Администратор",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+        },
+        "for_profile": Object {
+          "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+        },
+        "thumb": Object {
+          "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+        },
+        "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+      },
+      "position_name": null,
+    },
+    "created_by_id": 1,
+    "description": "<p>Hello</p>
+",
+    "documents": Array [
+      Object {
+        "created_at": "2017-10-04T09:02:02.418Z",
+        "document_attachable_id": 12,
+        "document_attachable_type": "Event",
+        "file": Object {
+          "url": "/uploads/document/file/2/file.jpeg",
+        },
+        "id": 2,
+        "name": "invalid-name.jpg",
+        "updated_at": "2017-10-04T09:02:02.418Z",
+      },
+    ],
+    "ends_at": "2017-10-12T21:00:00.000Z",
+    "event_type": Object {
+      "color": "#fa00ff",
+      "created_at": "2017-09-21T13:11:12.284Z",
+      "id": 2,
+      "name": "Культурное",
+      "updated_at": "2017-09-21T13:25:09.105Z",
+    },
+    "event_type_id": 2,
+    "id": 12,
+    "name": "Белый городок",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Тула",
+    "starts_at": "2017-10-04T21:00:00.000Z",
+    "updated_at": "2017-10-04T09:02:02.416Z",
+  },
+  Object {
+    "created_at": "2017-10-04T16:04:01.460Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Hello</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-10-24T21:00:00.000Z",
+    "event_type": Object {
+      "color": "#918d1d",
+      "created_at": "2017-09-21T13:11:12.290Z",
+      "id": 5,
+      "name": "Другое",
+      "updated_at": "2017-10-02T07:04:05.898Z",
+    },
+    "event_type_id": 5,
+    "id": 13,
+    "name": "KOKO",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Munich",
+    "starts_at": "2017-10-08T21:00:00.000Z",
+    "updated_at": "2017-10-04T16:04:01.460Z",
+  },
+  Object {
+    "created_at": "2017-10-04T16:05:03.928Z",
+    "created_by": Object {
+      "departments_chain": Array [
+        Object {
+          "code": "INV",
+          "company_id": null,
+          "created_at": "2017-08-30T21:51:58.730Z",
+          "id": 6,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Управление брендом",
+          "parent_id": null,
+          "region": null,
+          "updated_at": "2017-10-05T14:53:01.947Z",
+        },
+        Object {
+          "code": "SPORT",
+          "company_id": null,
+          "created_at": "2017-08-21T15:24:39.450Z",
+          "id": 5,
+          "legal_unit_id": 2,
+          "logo": Object {
+            "url": null,
+          },
+          "manager_id": null,
+          "name_ru": "Церемонии",
+          "parent_id": 6,
+          "region": null,
+          "updated_at": "2017-10-05T14:52:22.701Z",
+        },
+      ],
+      "email": "dmishukov@fil-it.ru",
+      "fullname": "Мишуков Дмитрий Михайлович",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/uploads/profile/photo/3/for_community_2017-07-19_04.36.35.jpg",
+        },
+        "for_profile": Object {
+          "url": "/uploads/profile/photo/3/for_profile_2017-07-19_04.36.35.jpg",
+        },
+        "thumb": Object {
+          "url": "/uploads/profile/photo/3/thumb_2017-07-19_04.36.35.jpg",
+        },
+        "url": "/uploads/profile/photo/3/2017-07-19_04.36.35.jpg",
+      },
+      "position_name": "Старший менеджер",
+    },
+    "created_by_id": 6,
+    "description": "<p>Brain</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-10-10T21:00:00.000Z",
+    "event_type": Object {
+      "color": "#fa00ff",
+      "created_at": "2017-09-21T13:11:12.284Z",
+      "id": 2,
+      "name": "Культурное",
+      "updated_at": "2017-09-21T13:25:09.105Z",
+    },
+    "event_type_id": 2,
+    "id": 14,
+    "name": "Белый городок",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": "Tula",
+    "starts_at": "2017-10-08T21:00:00.000Z",
+    "updated_at": "2017-10-04T16:05:03.928Z",
+  },
+  Object {
+    "created_at": "2017-10-11T15:09:03.879Z",
+    "created_by": Object {
+      "departments_chain": Array [],
+      "email": "admin@example.com",
+      "fullname": "Старший Системный Администратор",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+        },
+        "for_profile": Object {
+          "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+        },
+        "thumb": Object {
+          "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+        },
+        "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+      },
+      "position_name": null,
+    },
+    "created_by_id": 1,
+    "description": null,
+    "documents": Array [],
+    "ends_at": "2017-10-03T21:00:00.000Z",
+    "event_type": Object {
+      "color": "#1400ff",
+      "created_at": "2017-09-21T13:11:12.286Z",
+      "id": 3,
+      "name": "Встреча",
+      "updated_at": "2017-09-21T13:25:19.094Z",
+    },
+    "event_type_id": 3,
+    "id": 15,
+    "name": "Проверка",
+    "participants": Array [],
+    "participants_count": 0,
+    "place": null,
+    "starts_at": "2017-10-02T21:00:00.000Z",
+    "updated_at": "2017-10-11T15:09:03.879Z",
+  },
+  Object {
+    "created_at": "2017-10-12T16:19:23.952Z",
+    "created_by": Object {
+      "departments_chain": Array [],
+      "email": "admin@example.com",
+      "fullname": "Старший Системный Администратор",
+      "photo": Object {
+        "for_community": Object {
+          "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+        },
+        "for_profile": Object {
+          "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+        },
+        "thumb": Object {
+          "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+        },
+        "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+      },
+      "position_name": null,
+    },
+    "created_by_id": 1,
+    "description": "<p>Mail Test</p>
+",
+    "documents": Array [],
+    "ends_at": "2017-10-27T16:18:00.000Z",
+    "event_type": Object {
+      "color": "#fa00ff",
+      "created_at": "2017-09-21T13:11:12.284Z",
+      "id": 2,
+      "name": "Культурное",
+      "updated_at": "2017-09-21T13:25:09.105Z",
+    },
+    "event_type_id": 2,
+    "id": 16,
+    "name": "Mail Test",
+    "participants": Array [
+      Object {
+        "departments_chain": null,
+        "email": "yuivannikov@fil-it.ru",
+        "fullname": null,
+        "photo": null,
+        "position_name": null,
+      },
+    ],
+    "participants_count": 1,
+    "place": "Тут",
+    "starts_at": "2017-10-11T16:18:00.000Z",
+    "updated_at": "2017-10-12T16:19:23.952Z",
+  },
+]
+`;
+
+exports[`API Events should find event by id 1`] = `
+Object {
+  "created_at": "2017-09-22T19:38:25.459Z",
+  "created_by": Object {
+    "company_id": null,
+    "created_at": "2017-07-20T09:30:55.980Z",
+    "email": "dmishukov@fil-it.ru",
+    "id": 6,
+    "provider": "email",
+    "status": null,
+    "uid": "dmishukov@fil-it.ru",
+    "updated_at": "2017-10-17T18:18:18.141Z",
+  },
+  "created_by_id": 6,
+  "description": "<p>Какое-то событие</p>
+",
+  "documents": Array [],
+  "ends_at": "2017-09-20T00:00:00.000Z",
+  "event_type": Object {
+    "color": "#1400ff",
+    "created_at": "2017-09-21T13:11:12.286Z",
+    "id": 3,
+    "name": "Встреча",
+    "updated_at": "2017-09-21T13:25:19.094Z",
+  },
+  "event_type_id": 3,
+  "id": 2,
+  "name": "Одно событие",
+  "participants": Array [],
+  "participants_count": 0,
+  "place": "Москва",
+  "starts_at": "2017-09-20T00:00:00.000Z",
+  "updated_at": "2017-09-22T19:50:30.301Z",
+}
+`;
+
+exports[`API Events should return event types 1`] = `
+Array [
+  Object {
+    "color": "#fa00ff",
+    "created_at": "2017-09-21T13:11:12.284Z",
+    "id": 2,
+    "name": "Культурное",
+    "updated_at": "2017-09-21T13:25:09.105Z",
+  },
+  Object {
+    "color": "#1400ff",
+    "created_at": "2017-09-21T13:11:12.286Z",
+    "id": 3,
+    "name": "Встреча",
+    "updated_at": "2017-09-21T13:25:19.094Z",
+  },
+  Object {
+    "color": "#a34170",
+    "created_at": "2017-09-21T13:11:12.268Z",
+    "id": 1,
+    "name": "Спортивное",
+    "updated_at": "2017-09-21T13:50:22.542Z",
+  },
+  Object {
+    "color": "#108267",
+    "created_at": "2017-09-21T13:11:12.288Z",
+    "id": 4,
+    "name": "Собеседование",
+    "updated_at": "2017-10-02T07:03:34.423Z",
+  },
+  Object {
+    "color": "#918d1d",
+    "created_at": "2017-09-21T13:11:12.290Z",
+    "id": 5,
+    "name": "Другое",
+    "updated_at": "2017-10-02T07:04:05.898Z",
+  },
+]
+`;

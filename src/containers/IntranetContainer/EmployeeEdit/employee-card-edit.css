@@ -1,0 +1,183 @@
+.employee-card-edit {
+  &__link {
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    color: var(--water_blue);
+    &:hover {
+      background-color: transparent;
+      color: var(--reddish_pink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    &:active, &:focus, &:active:focus {
+      background-color: transparent;
+      color: var(--perrywinkle2);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+  }
+  &__city-text {
+    margin-bottom: 0;
+  }
+
+  &__head {
+    margin-bottom: 11px;
+    margin-left: 15px;
+  }
+  .breadcrumb {
+    display: flex;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 0;
+    padding-left: 0;
+    text-decoration: underline;
+    text-decoration-skip: ink;
+    color: var(--cool_grey);
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  &__post {
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+  &__mark {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 19px;
+    mark {
+      font-size: 11px;
+      color: var(--white);
+      text-transform: uppercase;
+      line-height: 18px;
+      background-color: var(--twilight);
+      padding: 2px 13px 2px 8px;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        border: 10px solid transparent;
+        border-right: 7px solid var(--grey);
+        color: var(--grey);
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+      }
+    }
+  }
+  &__date-number {
+    font-size: 11px;
+    color: var(--twilight);
+    text-transform: uppercase;
+    line-height: 18px;
+    margin-left: 4px;
+  }
+  &__cake-icon, &__map-icon, &__phone-icon, &__email-icon {
+    width: 29px;
+    height: 29px;
+    background: var(--reddish_pink);
+    color: var(--white);
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 9px;
+  }
+  &__pencil-icon, &__arrow-icon {
+    border: 2px solid var(--dark);
+    color: var(--dark);
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    padding: 6px;
+    &:first-child {
+      margin-right: 8px;
+    }
+  }
+  &__info-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    div {
+      display: flex;
+      flex-direction: column;
+      time, p, a {
+        font-size: 13px;
+        line-height: 1.43;
+        color: var(--charcoal_grey);
+      }
+      a {
+        width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &:hover {
+          background-color: transparent;
+          color: var(--reddish_pink);
+        }
+        &:active, &:focus, &:active:focus {
+          background-color: transparent;
+          color: var(--perrywinkle2);
+        }
+      }
+    }
+  }
+  &__label {
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: var(--cool_grey);
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  &__select-mark {
+    label {
+      padding-left: 40px;
+      position: relative;
+      top: -5px;
+      margin-bottom: 2px;
+    }
+    &_tag {
+      padding-left: 40px;
+    }
+  }
+  &__tag {
+    display: inline-block;
+    background-color: var(--silver2);
+    font-size: 11px;
+    line-height: 1.83;
+    color: var(--charcoal_grey);
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 3px 10px 4px 10px;
+    outline: none;
+    color: var(--charcoal_grey);
+    &:hover, &:focus {
+      color: var(--white);
+      background-color: var(--reddish_pink);
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+  &__read-more {
+    background-color: var(--silver2);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+  }
+  &__circle {
+    display: block;
+    width: 3px;
+    height: 3px;
+    background-color: var(--water_blue);
+    border-radius: 50%;
+    margin: 13px 3px 12px;
+  }
+  &__chat-icon {
+    width: 39px;
+    height: 39px;
+  }
+}

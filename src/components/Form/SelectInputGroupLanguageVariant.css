@@ -1,0 +1,80 @@
+@import '../../style/variables.css';
+
+.select-language-group-variant {
+}
+
+.select-language-group-variant__input-wrap {
+  > * + * {
+    margin-top: 23px;
+  }
+}
+
+.select-language-group-variant__select-container {
+  display: flex;
+}
+
+.select-language-group-variant__select-container-item {
+  width: 350px;
+  & .Select.is-focused:not(.is-open)>.Select-control {
+    border-color: var(--silver);
+    box-shadow: none;
+  }
+}
+
+.select-language-group-variant__add-button {
+  display: block;
+  border: none;
+  background: transparent;
+  position: relative;
+  padding: 0 5px;
+  outline: none;
+  margin-left: 7px;
+  &:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 18px;
+    border-right: 1px solid var(--silver);
+    border-top: 1px solid var(--silver);
+    position: absolute;
+    top: 40px;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 18px;
+    border-right: 1px solid var(--silver);
+    border-bottom: 1px solid var(--silver);
+    position: absolute;
+    bottom: 40px;
+  }
+}
+.select-language-group-variant__plus-icon {
+  width: 30px;
+  color: var(--reddish_pink);
+  cursor: pointer;
+  margin-left: 8px;
+
+  &:hover {
+    color: var(--carnation2);
+  }
+  &:active {
+    color: var(--lipstick)2;
+  }
+}
+
+.select-language-group-variant__icon-trash {
+  width: 22px;
+  color: var(--reddish_pink);
+  cursor: pointer;
+  margin-left: 11px;
+  background-color: var(--white);
+
+  &:hover {
+    color: var(--carnation2);
+  }
+  &:active {
+    color: var(--lipstick)2;
+  }
+}

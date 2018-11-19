@@ -1,0 +1,21 @@
+.intranet-content {
+  &__container {
+    display: table;
+    .sticky-outer-wrapper {
+      left: 0;
+      right: 0;
+    }
+  }
+  &__aside {
+    display: table-cell;
+    width: 70px;
+    position: relative;
+    background-color: var(--twilight);
+  }
+  &__content {
+    display: table-cell;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+}

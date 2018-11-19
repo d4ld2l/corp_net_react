@@ -1,0 +1,32 @@
+.notify-create-discussion {
+
+  &__head {
+    border-bottom: 1px solid $cool_grey;
+    padding: 15px 53px 13px 20px;
+  }
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__func-elem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+
+  &__button {
+    position: absolute;
+    left: 20px;
+    bottom: 27px;
+    display: inline-block;
+  }
+
+  & .new-recruiter-request-edit-full-form__dropzone-icon {
+    background-color: transparent;
+    border: 1px solid $silver;
+  }
+}

@@ -1,0 +1,212 @@
+.discussion-select {
+  &__dropdown-icon {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-width: 0 1px 1px 0 !important;
+    margin-top: -5px;
+    border: solid var(--cool_grey);
+    transform: rotate(45deg);
+    transition: .2s;
+  }
+  &__box {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 19px 0;
+    margin: unset;
+    /*
+
+      React Responsive Select - Default styles
+
+    */
+    .rrs {
+      position: relative;
+      box-sizing: border-box;
+      margin: 0 15px 10px 0;
+    }
+
+    .rrs *,
+    .rrs *:before,
+    .rrs *:after {
+      box-sizing: border-box;
+    }
+
+    .rrs__button {
+      color: var(--cool_grey);
+      position: relative;
+      cursor: pointer;
+      height: 20px;
+      line-height: 20px;
+      &:hover {
+        background: var(--white);
+      }
+    }
+
+    .rrs__button--disabled {
+      color: #999999;
+      background: #f5f5f5;
+      cursor: not-allowed;
+    }
+
+    .rrs__button:focus {
+      outline: 0;
+    }
+
+    .rrs__button + .rrs__options {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background: #fff;
+      position: absolute;
+      z-index: 2;
+      border: 1px solid var(--silver);
+      top: 30px;
+      width: 100%;
+      height: 0;
+      visibility: hidden;
+      overflow: hidden;
+    }
+
+    .rrs--options-visible {
+      background: var(--white);
+      .discussion-select__dropdown-icon {
+        transform: rotate(-135deg);
+        margin-top: 5px;
+      }
+    }
+    .rrs--options-visible .rrs__options {
+      height: auto;
+      visibility: visible;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      max-height: 230px;
+      min-width: 170px;
+    }
+
+    .rrs__option {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px 17px;
+      font-size: 11px;
+      margin: 0;
+      border-bottom: var(--white) 1px solid;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      &:before {
+        content: '';
+        display: block;
+        width: 7px;
+        height: 11px;
+        margin: -5px 10px 0 0;
+        border: solid var(--cool_grey);
+        border-width: 0 1px 1px 0;
+        transform: rotate(45deg);
+      }
+    }
+
+    .rrs__option * {
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .rrs__option:first-of-type {
+      border-top: 0;
+    }
+
+    .rrs__option:focus {
+      outline: 0;
+    }
+
+    .rrs__option:hover {
+      color: var(--reddish_pink);
+      &:before {
+        border: solid var(--reddish_pink);
+        border-width: 0 1px 1px 0;
+      }
+    }
+
+    .rrs__option:active {
+      &:before {
+        border: solid var(--reddish_pink);
+        border-width: 0 1px 1px 0;
+      }
+    }
+
+    .rrs__option.rrs__option--next-selection {
+
+    }
+
+    .rrs__option.rrs__option--selected {
+      color: var(--charcoal_grey);
+      background: var(--grey);
+      font-weight: 500;
+      &:before {
+        border: solid var(--reddish_pink);
+        border-width: 0 1px 1px 0;
+      }
+    }
+
+    .rrs__option.rrs__option--disabled {
+      color: #999999;
+      background: #f5f5f5;
+      cursor: default;
+    }
+
+    .rrs__label {
+      padding: 0 8px;
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+      max-width: 100%;
+      font-size: 11px;
+      background: transparent;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      &__text {
+        margin-right: 5px;
+      }
+    }
+
+    .rrs--options-visible .rrs__label,
+    .rrs__button:focus .rrs__label {
+
+      outline: 0;
+    }
+
+    .rrs--has-changed .rrs__label {
+    }
+    /*
+      Multiselect overrides
+    */
+    .rrs__multiselect-label {
+      display: inline-flex;
+      max-width: 100%;
+      line-height: 1;
+      margin-right: 7px;
+    }
+
+    .rrs__multiselect-label__text {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 150px;
+      margin-right: 5px;
+      word-spacing: 2px;
+    }
+
+    .rrs__multiselect-label__badge {
+      margin: -2px 4px 0 0;
+      color: var(--reddish_pink);
+      font-size: 9px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+}
+
+
+

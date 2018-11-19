@@ -1,0 +1,158 @@
+@import '../../../style/variables.css';
+.intranet-calendar-event-view {
+  padding: 0 0 38px 29px;
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__b-event {
+    background: var(--white);
+    flex: 2;
+    padding: 10px 0;
+  }
+
+  &__event-round {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: 1px;
+  }
+
+  &__name {}
+
+  &__autor {}
+
+  &__hr {
+    width: 2px;
+    height: 14px;
+    background: var(--silver);
+    margin: 0 8px;
+    display: block;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &__text {}
+
+  &__link-file {}
+
+  &__calendar-icon,
+  &__map-icon {
+    color: var(--white);
+  }
+
+  &__calendar-icon{
+    width: 15px;
+    height: 14px;
+  }
+
+  &__map-icon {
+    width: 13px;
+    height: 15px;
+  }
+
+  &__wrapper-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--reddish_pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+  }
+
+  &__info-block {
+    display: flex;
+    align-items: center;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &:hover {
+          background-color: transparent;
+          color: var(--reddish_pink);
+        }
+
+        &:active,
+        &:active:focus,
+        &:focus {
+          background-color: transparent;
+          color: var(--perrywinkle2);
+        }
+      }
+    }
+  }
+
+  &__label {}
+
+  &__address {
+    margin-bottom: 27px;
+  }
+
+  &__delete-icon {
+    color: var(--reddish_pink);
+    width: 26px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  &__delete-icon-head,
+  &__edit-icon-head,
+  &__add-icon {
+    width: 40px;
+    height: 40px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+    margin-right: 10px;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+    /* TODO: temp solution until refactor these icons */
+    /* & > path {
+      transform: scale(0.7);
+      transform-origin: center;
+    } */
+  }
+
+  &__wrapper-event-search {
+    display: flex;
+    background: var(--white);
+    padding: 20px 22px 20px 19px;
+  }
+
+  &__wrapper-functional-btn {
+    display: flex;
+    margin-top: -28px;
+  }
+
+  &__margin-right {
+    margin-right: 16px;
+  }
+}

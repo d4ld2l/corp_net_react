@@ -1,0 +1,46 @@
+.notify-participants-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 13px;
+
+  &__photo {
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 4px;
+  }
+
+  &__name {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: $white;
+    transition: color .2s ease;
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__post,
+  &__blog-practice {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    color: $cool_grey2;
+    margin: 0;
+  }
+
+  &__post {
+    margin-bottom: 5px;
+    margin-top: 2px;
+  }
+}

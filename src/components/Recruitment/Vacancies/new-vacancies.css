@@ -1,0 +1,124 @@
+@import '../../../style/variables.css';
+
+.new-vacancies{
+
+  &__seting-icon {
+    width: 54px;
+    height: 40px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+  }
+
+  &__wrapper-setting {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .settings-menu {
+      right: 0;
+      margin-top: 63px;
+    }
+  }
+
+  &__inner {
+    display: block;
+    background: var(--white);
+    padding: 20px 21px 56px;
+  }
+  &__block {
+    padding: 15px 0 20px;
+    border-bottom: 1px dashed var(--silver);
+  }
+
+  &__arrow {
+    width: 14px;
+  }
+
+  &__h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px 15px 0;
+    margin: 0;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px dashed var(--silver);
+  }
+
+  &__wrap{
+    background: var(--white);
+    padding: 0 20px;
+  }
+
+  &__item{
+    padding: 13px 0 19px 0;
+    background: var(--white);
+    position: relative;
+    border-bottom: 1px solid var(--silver2);
+    position: relative;
+
+    &:first-child{
+      padding: 23px 0 19px 0;
+      border-top: 2px solid var(--silver2);
+
+      .new-vacancies__wrapper-setting {
+        top: 10px;
+      }
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__item-link{
+    display: inline-block;
+  }
+
+  &__head {
+    &-data {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+
+  &__avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+  }
+
+  &__name,
+  &__location {
+    padding-right: 8px;
+    border-right: 1px solid var(--silver);
+  }
+
+  &__location,
+  &__date {
+    padding-left: 10px;
+  }
+
+  &__settings{
+    position: absolute;
+    right: 0px;
+    top: 11px;
+    padding: 10px 0;
+    z-index: 1;
+
+    &.active {
+      transform: scale(1,-1);
+    }
+  }
+}

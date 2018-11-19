@@ -1,0 +1,28 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-height: 17px;
+  min-height: 17px;
+  max-width: 17px;
+  min-width: 17px;
+  border-radius: 50%;
+  background-color: $white;
+  transition: background-color .2s ease-in-out;
+
+  &_big {
+    max-height: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    min-width: 20px;
+  }
+
+  &__text {
+    font-size: 9px;
+    font-weight: 400;
+    color: $reddish_pink;
+    line-height: 1;
+    transition: color .2s ease-in-out;
+  }
+}

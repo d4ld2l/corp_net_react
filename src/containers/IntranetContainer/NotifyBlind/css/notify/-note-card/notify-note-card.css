@@ -1,0 +1,22 @@
+.notify-note-card {
+  position: relative;
+  height: 100%;
+
+  &__wrap {
+    height: 100%;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 3px $charcoal_grey_05;
+      background: $charcoal_grey;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $faded_blue;
+    }
+  }
+}

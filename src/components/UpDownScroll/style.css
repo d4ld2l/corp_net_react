@@ -1,0 +1,87 @@
+@import '../../style/variables.css';
+
+#updown {
+  display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  width: 108px;
+  height: 100%;
+  padding: 50px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  transition: background-color .3s ease-in-out;
+  text-align: center;
+  z-index: 99;
+}
+
+#updown:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#updown.up, #updown.down {
+  display: block;
+
+
+  @media (max-width: 1399px) {
+    display: none;
+  }
+
+  @media (max-width: 1999px) {
+    display: block;
+  }
+
+  @media (max-width: 1160px) {
+    display: none;
+  }
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+#updown.up > .button::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid var(--water_blue);
+  border-top: 1px solid var(--water_blue);
+  background: transparent;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 8px;
+}
+
+#updown.up > .button::after {
+  content: 'Наверх';
+  color: var(--water_blue);
+  font-size: 11px;
+  line-height: 20px;
+}
+
+#updown.down > .button::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid var(--water_blue);
+  border-bottom: 1px solid var(--water_blue);
+  background: transparent;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 2px;
+}
+
+#updown.down > .button::after {
+  content: 'Вниз';
+  color: var(--water_blue);
+  font-size: 11px;
+  line-height: 20px;
+}

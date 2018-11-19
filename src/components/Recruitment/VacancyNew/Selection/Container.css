@@ -1,0 +1,124 @@
+.new-recruiter-request-selection-tab{
+  &__wrap{
+    background: var(--white);
+    min-height: 500px;
+    padding: 20px 20px 40px 20px;
+    position: relative;
+  }
+
+  &__select {
+    width: 500px;
+    & .Select-menu-outer {
+      z-index: 3;
+    }
+  }
+
+  &__milestones{
+    &-list{
+      display: flex;
+    }
+  }
+
+  &__sortable{
+    padding-top: 25px;
+  }
+
+  &__info-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  &__info{
+    flex-grow: 1;
+    background-color: var(--grey);
+    padding: 20px;
+    position: relative;
+  }
+
+  &__delete{
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    width: 15px;
+    color: var(--reddish_pink);
+  }
+
+  &__margin {
+    margin-bottom: 20px;
+  }
+
+  &__add-before{
+    width: 230px;
+
+    &-button{
+      display: table;
+      margin: 0 auto;
+
+      &:hover{
+        .new-recruiter-request-selection-tab__add-before-icon{
+          color: var(--reddish_pink);
+        }
+      }
+    }
+
+    &-text{
+      color: var(--silver);
+    }
+
+    &-icon{
+      width: 36px;
+      display: table;
+      margin: 0 auto 15px;
+      color: var(--silver);
+    }
+  }
+
+  &__add-after{
+    width: 230px;
+
+    &-button{
+      display: table;
+      margin: 0 auto;
+
+      &:hover{
+        .new-recruiter-request-selection-tab__add-after-icon{
+          color: var(--reddish_pink);
+        }
+      }
+    }
+
+    &-text{
+      color: var(--silver);
+    }
+
+    &-icon{
+      width: 36px;
+      display: table;
+      margin: 0 auto 15px;
+      color: var(--silver);
+    }
+  }
+
+  .react-ios-switch-Switch-offState {
+    border-radius: 8px;
+    height: 20px;
+    width: 36px;
+    right: 0;
+    top: 0;
+  }
+
+  .react-ios-switch-Switch-switch {
+    background-color: var(--twilight) !important;
+    border-radius: 10px;
+    height: 20px;
+    width: 36px;
+  }
+
+  .react-ios-switch-Switch-handle {
+    height: 16px;
+    left: -1px;
+    width: 16px;
+  }
+}

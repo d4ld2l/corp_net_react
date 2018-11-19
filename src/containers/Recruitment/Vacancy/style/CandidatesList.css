@@ -1,0 +1,89 @@
+.candidates-list {
+  /*padding-top: 10px;*/
+  border-top: 10px solid var(--silver2);
+  display: flex;
+}
+
+.candidates-list__candidates-container {
+  padding-bottom: 13px;
+  padding-top: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  /*border-bottom: 2px solid var(--silver2);*/
+  position: relative;
+}
+
+.candidates-list__candidates-select-all {
+  display: flex;
+  align-items: center;
+  margin-left: -15px;
+}
+
+.candidates-list__wrap {
+  background: var(--white);
+  padding: 0px 20px 20px 20px;
+  min-width: 470px;
+  border-right: 1px solid var(--white);
+}
+.candidates-list__sidebar {
+  width: 100%;
+  border: 1px solid var(--white);
+  border-left: 10px solid var(--silver2);
+  background-color: var(--white);
+}
+.candidates-list__candidates-panel {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.candidates-list__button-find {
+  &.btn {
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    width: 141px;
+    padding: 8px 20px 4px;
+    margin-right: 23px;
+  }
+}
+
+.candidates-list__button-new {
+  &.btn {
+     height: 30px;
+     font-size: 11px;
+     line-height: 20px;
+     padding: 5px 15px;
+     margin-left: 30px;
+  }
+}
+
+.candidates-list__settings {
+
+}
+.candidates-list__settings-icon {
+  width: 50px;
+  color: var(--cool_grey);
+&.is-active {
+   transform: rotateX(180deg);
+ }
+}
+
+.candidates-list__icon-magnify {
+  width: 24px;
+  height: 25px;
+  color: var(--white);
+  position: relative;
+  left: -3px;
+  margin-right: 13px;
+}
+
+.candidates-list__icon-plus {
+  width: 20px;
+  height: 20px;
+  color: var(--white);
+  position: relative;
+  left: -5px;
+  margin-right: 6px;
+}

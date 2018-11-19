@@ -1,0 +1,29 @@
+{
+  "restartable": "r",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    ".idea",
+    "storybook_build"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "./node_modules/.bin/babel-node"
+  },
+  "watch": [
+    "server/**",
+    "webpack.config.babel.js",
+    "webpack.config.dev.babel.js",
+    "webpack.config.prod.babel.js",
+    "webpack.default.config.babel.js",
+    "postcss.config.js",
+    "./src/store/*.js",
+    "nodemon.json",
+    "package.json",
+    ".env"
+  ],
+  "env": {
+    "NODE_ENV": "local"
+  },
+  "ext": "js json"
+}

@@ -1,0 +1,10 @@
+.intranet-survey {
+  padding: 0 0 38px 29px;
+
+  &__background {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+  }
+}

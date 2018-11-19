@@ -1,0 +1,19 @@
+@import '../../style/variables.css';
+
+.breadcrumbs {
+
+  &__list {
+    @mixin flex flex, flex-start, center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {}
+
+  &__arrow {
+    @mixin range 3px, 3px, 4px, 4px;
+    margin: 0 10px 0 9px;
+    color: var(--cool_grey);
+  }
+}

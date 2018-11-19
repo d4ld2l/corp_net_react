@@ -1,0 +1,98 @@
+.survey-question-sidebar{
+  background: var(--grey);
+  border-top: none;
+  padding: 19px 7px 50px 22px;
+  margin-left: 40px;
+
+  @media (max-width: 991px) {
+    margin-left: 0;
+  }
+
+  &__article{
+    padding-right: 50px;
+
+    @media (max-width: 991px) {
+      padding-right: 10px;
+    }
+  }
+
+  &__figure{
+    display: block;
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    margin-bottom: 26px;
+    margin-top: 23px;
+
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+
+    img{
+      width: 250px;
+      height: 190px;
+
+      @media (max-width: 991px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__format-weight {
+    color: var(--cool_grey);
+  }
+
+  &__file-rules{
+
+    &_link{
+      text-decoration: underline;
+      text-decoration-skip: ink;
+    }
+
+    &_text{
+      font-size: 11px;
+      line-height: 20px;
+      text-align: left;
+      color: var(--cool_grey);
+    }
+  }
+
+  &__text{
+    font-size: 13px;
+    line-height: 1.43;
+    text-align: left;
+    color: var(--charcoal_grey);
+    font-weight: 400px;
+    margin-bottom: 0px;
+  }
+
+   &__block-icon{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__checkbox-icon{
+    width: 19px;
+    height: 19px;
+    color: var(--silver);
+    margin-right: 6px;
+  }
+
+  &__calendar-icon{
+    width: 19px;
+    height: 19px;
+    color: var(--silver);
+    margin-right: 6px;
+  }
+
+  &__text-icon{
+    font-size: 11px;
+    line-height: 1.67;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+  &__block-icon-text:first-child{
+    margin-right: 32px;
+  }
+}

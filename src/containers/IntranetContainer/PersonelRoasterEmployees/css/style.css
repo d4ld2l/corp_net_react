@@ -1,0 +1,15 @@
+@import './search/search.css';
+@import './filter/filter.css';
+@import './groups/groups.css';
+@import './personelMovementCollapse/personelMovementCollapse.css';
+
+.personel-roaster-employees{
+  &__head{
+    margin-bottom: 24px;
+  }
+  &__top-container{
+    padding: 20px;
+    background: var(--white);
+  }
+
+}

@@ -1,0 +1,144 @@
+.new-survey-collapse {
+
+  &_padding_null {
+    padding: 0;
+
+    .new-survey-collapse {
+
+      &__head {
+        padding: 22px 20px;
+
+        h2 {
+          margin-bottom: 0;
+        }
+      }
+
+      &__body {
+        margin: 0 20px;
+      }
+    }
+  }
+
+  &__desription {
+    margin-bottom: 19px;
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--charcoal_grey);
+    margin-bottom: 0;
+  }
+
+  &__file-rules {
+    &_link {
+      font-size: 11px;
+      line-height: 20px;
+    }
+  }
+
+  &__format-weight {
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--cool_grey);
+  }
+
+  &__sidebar {
+    background-color: var(--grey);
+    padding: 20px;
+    flex: 1;
+    max-width: 370px;
+
+    @media (max-width: 1199px) {
+      max-width: unset;
+      margin-top: 33px;
+    }
+  }
+
+  &__number-participants {
+    font-size: 9px;
+    line-height: 10px;
+    color: var(--reddish_pink);
+    top: -10px;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0 24px;
+
+    @media (max-width: 1199px) {
+      flex-direction: column;
+    }
+  }
+
+  &__article {
+    flex: 2;
+    max-width: 630px;
+    position: relative;
+
+    @media (max-width: 1199px) {
+      max-width: unset;
+    }
+  }
+
+  /*&__attention {*/
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*background: var(--twilight);*/
+    /*height: 20px;*/
+    /*font-size: 9px;*/
+    /*line-height: 10px;*/
+    /*z-index: 1;*/
+    /*left: -20px;*/
+    /*color: var(--white);*/
+    /*text-transform: uppercase;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*padding: 0 10px;*/
+  /*}*/
+
+  /*&__after-attention {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: -9px;*/
+    /*width: 10px;*/
+    /*height: 20px;*/
+    /*color: var(--twilight);*/
+  /*}*/
+
+  &__employee-photo {
+    width: 30px;
+    height: 30px;
+    margin: 3px 10px 0 0;
+    border-radius: 50%;
+  }
+  &__wrapper-employee {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+  }
+  &__name-text {
+    font-size: 13px;
+    line-height: 1.43;
+    text-align: left;
+    color: var(--charcoal_grey);
+    text-decoration: underline;
+    margin-bottom: 0;
+    &:hover {
+      color: var(--reddish_pink);
+    }
+  }
+  &__post-text {
+    font-size: 11px;
+    line-height: 1.67;
+    text-align: left;
+    color: var(--cool_grey);
+    margin-bottom: 0;
+  }
+  &__wrapper-name-post {
+    margin-right: 22px;
+    width: 254px;
+    display: block;
+  }
+}

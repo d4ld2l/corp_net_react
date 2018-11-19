@@ -1,0 +1,45 @@
+.discussion-tabs{
+  &__list {
+    margin: 0;
+    padding: 24px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    background-color: transparent;
+  }
+  &__item {
+    border: 1px solid transparent;
+    padding: 4px 7px 0;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    box-sizing: border-box;
+    margin-right: 12px;
+    cursor: pointer;
+    color: var(--water_blue);
+    font-size: 11px;
+    line-height: 1;
+
+    &.is-current {
+      border: 1px solid var(--reddish_pink);
+      color: var(--reddish_pink);
+    }
+
+    &.is-disabled {
+      border: 1px solid var(--cool_grey_05);
+      color: var(--charcoal_grey);
+      cursor: not-allowed;
+      .discussion-tabs__count {
+        color: var(--cool_grey_05);
+      }
+    }
+
+  }
+
+  &__count{
+    color: var(--reddish_pink);
+    margin-left: 5px;
+    font-size: 9px;
+  }
+}

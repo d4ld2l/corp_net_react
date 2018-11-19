@@ -1,0 +1,57 @@
+.multi-file {
+  &__add {
+    &-wrap {
+      display: flex;
+      margin-top: 10px;
+    }
+    &-icon {
+      width: 30px;
+      min-width: 30px;
+      max-width: 30px;
+      height: 30px;
+      min-height: 30px;
+      max-height: 30px;
+      margin-right: 20px;
+      margin-left: -5px;
+      color: var(--reddish_pink);
+      cursor: pointer;
+    }
+  }
+  &__list {
+    padding: 0 0 0 13px;
+  }
+
+  &__wrap-file {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__file {
+    list-style-type: decimal;
+    margin-top: 10px;
+    &:first-child {
+      margin-top: 7px;
+    }
+    &-name {
+      margin: 0;
+      padding-right: 20px;
+    }
+    &-type {
+     text-transform: none;
+    }
+    &-delete {
+      width: 10px;
+      min-width: 10px;
+      max-width: 10px;
+      height: 10px;
+      min-height: 10px;
+      max-height: 10px;
+      color: var(--reddish_pink);
+      cursor: pointer;
+      transition: .2s;
+    }
+    &.is-hidden {
+      display: none;
+    }
+  }
+}

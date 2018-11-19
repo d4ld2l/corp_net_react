@@ -1,0 +1,96 @@
+@import './variables.css';
+$error: '../../public/error.svg';
+$success: '../../public/success.svg';
+
+.redux-toastr .toastr {
+  width: 289px;
+  min-height: 60px;
+  max-height: 60px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.redux-toastr .top-right {
+    top: 60px;
+}
+
+.redux-toastr .toastr:hover:not(.rrt-message) {
+  box-shadow:none;
+}
+
+.redux-toastr .toastr .close-toastr {
+  height: 20px;
+  width: 20px;
+  font-size: 10px;
+  opacity: 1;
+  top: 2px;
+  right: 1px;
+}
+
+.redux-toastr .toastr .rrt-middle-container .rrt-title {
+  min-width: 203px;
+  max-width: 203px;
+  max-height: 40px;
+  min-height: 40px;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.redux-toastr .toastr .rrt-left-container .rrt-holder {
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redux-toastr .toastr .rrt-left-container {
+  width: 50px;
+  height: 60px;
+  position: static;
+}
+
+.redux-toastr .toastr .rrt-middle-container {
+  width: unset;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.redux-toastr .top-right {
+  max-width: 310px;
+}
+
+.redux-toastr .toastr.rrt-error {
+  background: var(--reddish_pink);
+}
+
+.redux-toastr .toastr.rrt-error .toastr-icon,
+.redux-toastr .toastr.rrt-success .toastr-icon {
+  display: none;
+}
+
+.redux-toastr .toastr.rrt-error .rrt-holder {
+  background: url($error) center center / contain no-repeat;
+  background-size: 22px 20px;
+  margin-left: -5px;
+}
+
+.redux-toastr .toastr.rrt-success {
+  background: var(--turtle_green);
+}
+
+.redux-toastr .toastr.rrt-success .rrt-holder {
+  background: url($success) center center / contain no-repeat;
+  background-size: 20px 20px;
+  margin-left: -5px;
+}

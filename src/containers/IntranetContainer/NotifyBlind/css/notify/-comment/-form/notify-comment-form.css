@@ -1,0 +1,94 @@
+.notify-comment-form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 5%;
+  &.discussion-card__write-a-comment {
+    display: inherit;
+    padding: inherit;
+    border-top: inherit;
+  }
+  .input__wrap {
+    min-width: inherit;
+    max-width: inherit;
+  }
+  &__cancel-edit {
+    text-align: right;
+    a {
+      cursor: pointer;
+    }
+  }
+
+  &__write-a-comment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 18px 0 9px 21px;
+  }
+
+  &__avatar {
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  &__form-comment {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  &__btn-comment {
+    border: 1px solid $grey;
+    border-left: 1px solid transparent;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 14px 12px;
+
+    &:hover {
+      color: $carnation2;
+      border: 1px solid $carnation2;
+    }
+
+    &:active {
+      color: $reddish_pink;
+      border: 1px solid $reddish_pink;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__plane-icon {
+    width: 15px;
+    height: 15px;
+    color: $grey;
+  }
+
+  &__btn-comment:hover &__plane-icon {
+    color: $carnation2
+  }
+
+  &__btn-comment:active &__plane-icon {
+    color: $lipstick;
+  }
+
+  .input {
+    &.notify-comment-form__input {
+      border-color: $silver;
+      background-color: transparent;
+      color: $white;
+
+      &:hover + .notify-comment-form__btn-comment {
+        background-color: $reddish_pink;
+      }
+    }
+  }
+}

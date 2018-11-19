@@ -1,0 +1,262 @@
+.employee-card {
+
+  &__link{
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    color: var(--water_blue);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+
+    &:hover{
+      background-color: transparent;
+      color: var(--reddish_pink);
+      text-decoration: underline;
+      text-decoration-style: dashed;
+    }
+
+    &:active, &:focus, &:active:focus{
+      background-color: transparent;
+      color: var(--perrywinkle2);
+      text-decoration: underline;
+      text-decoration-style: dashed;
+    }
+  }
+
+  &__city-text{
+    margin-bottom: 0;
+  }
+
+  &__head{
+    margin-bottom: 8px;
+  }
+
+  .breadcrumb{
+    margin-bottom: 22px;
+    padding-left: 0;
+    display: flex;
+    li{
+
+      a{
+        font-size: 13px;
+        line-height: 20px;
+        text-decoration: underline;
+        text-decoration-skip: ink;
+        color: var(--cool_grey);
+      }
+    }
+  }
+
+  &__post{
+    letter-spacing: 0.3px;
+    margin-bottom: 2px;
+  }
+
+  &__wrapper-mark{
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 21px;
+
+    mark{
+      font-size: 9px;
+      color: var(--white);
+      text-transform: uppercase;
+      line-height: 10px;
+      background-color: var(--twilight);
+      padding: 5px 17px 4px 8px;
+      position: relative;
+
+      &:after{
+        content: '';
+        position: absolute;
+        border: 10px solid transparent;
+        border-right: 7px solid var(--grey);
+        color: var(--grey);
+        right: 0px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+      }
+    }
+  }
+
+  &__date-number{
+    font-size: 11px;
+    color: var(--twilight);
+    text-transform: uppercase;
+    line-height: 18px;
+    margin-left: 4px;
+  }
+
+  &__wrapper-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    background:  var(--reddish_pink);
+    border-radius: 50%;
+    margin-right: 13px;
+  }
+
+  &__wrapper-icon-monet {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 16px;
+     height: 16px;
+     min-width: 16px;
+     min-height: 16px;
+     background:  var(--reddish_pink);
+     border-radius: 50%;
+     margin-right: 4px;
+ }
+  &__x {
+    margin-right: 4px;
+    padding-bottom: 1px;
+  }
+
+  &__icon-cake,
+  &__icon-map,
+  &__icon-phone,
+  &__icon-email{
+    color: var(--white);
+  }
+
+  &__icon-monet{
+     width: 28px;
+     height: 31px;
+     color: #f15a24;
+     margin-left: 7px;
+  }
+
+  &__icon-cake {
+    width: 16px;
+  }
+  &__icon-map {
+    width: 14px;
+  }
+  &__icon-phone {
+    width: 14px;
+  }
+  &__icon-email {
+    width: 13px;
+  }
+
+  &__pencil-icon,
+  &__arrow-icon{
+    color: var(--reddish_pink);
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px 8px 8px;
+  }
+
+  &__info-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+
+    label {
+      display: block;
+    }
+
+    time, p, a{
+
+    }
+
+    a{
+      width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &:hover{
+        background-color: transparent;
+        color: var(--reddish_pink);
+      }
+
+      &:active, &:focus, &:active:focus{
+        background-color: transparent;
+        color: var(--perrywinkle2);
+      }
+    }
+  }
+
+  &__label{
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+
+  &__select-mark{
+
+    label{
+      position: relative;
+      top: -5px;
+      margin-bottom: 2px;
+    }
+  }
+
+  &__tag{
+    display: inline-block;
+    background-color: var(--white);
+    font-size: 9px;
+    line-height: 1.83;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 2px 10px 2px;
+    outline: none;
+    cursor: default;
+
+    &:hover{
+      color: var(--cool_grey);
+      text-decoration: none;
+    }
+    &:focus{
+      text-decoration: none;
+    }
+  }
+
+  &__read-more{
+    background-color: var(--white);
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+
+    &:hover, &:focus{
+      background-color: var(--reddish_pink);
+      cursor: pointer;
+      .employee-card__circle {
+          background-color: var(--white);
+          cursor: pointer;
+      }
+    }
+  }
+
+  &__circle{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: var(--cool_grey);
+    border-radius: 50%;
+    margin: 0 3px 2px;
+  }
+
+  &__chat-icon{
+    width: 40px;
+    height: 40px;
+    color: var(--reddish_pink);
+  }
+  &__wrapper-elemets-control {
+    float: right;
+    position: relative;
+    top: -55px;
+  }
+
+  &__address {
+    margin-bottom: 10px;
+  }
+}

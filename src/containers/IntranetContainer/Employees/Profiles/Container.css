@@ -1,0 +1,85 @@
+@import '../../../../style/variables.css';
+
+.intranet-news{
+  background-color: var(--white);
+
+  &__cover{
+    margin-bottom: 35px;
+    padding: 10px;
+
+    &-image{
+
+    }
+  }
+
+  &__title{
+    margin-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &__list{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+    &-item{
+      display: flex;
+
+      & + & {
+        margin-top: 30px;
+      }
+    }
+
+    &-image{
+      margin-right: 30px;
+    }
+
+    &-body{
+      flex-grow: 1;
+    }
+
+    &-type{
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      color: var(--reddish_pink);
+      text-transform: uppercase;
+      padding-left: 14px;
+      position: relative;
+      margin-bottom: 19px;
+
+      &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -4px;
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background-color: var(--pig_pink);
+      }
+    }
+
+    &-title{
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--charcoal_grey);
+      margin-bottom: 25px;
+    }
+
+    &-time{
+      letter-spacing: 0.3px;
+      color: var(--cool_grey);
+    }
+  }
+
+  &__all{
+    border-top: 1px solid var(--grey);
+    padding: 20px;
+    color: var(--water_blue);
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+}

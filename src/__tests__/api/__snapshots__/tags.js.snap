@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Tags should fetch all tags 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "name": "анализ",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 2,
+    "name": "shr",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 3,
+    "name": "#тест#тест1#тест2#тест3",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 4,
+    "name": "как",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 5,
+    "name": "дела",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 6,
+    "name": "ты",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 7,
+    "name": "чо",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 24,
+    "name": "#новость",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 11,
+    "name": "#тоже",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 16,
+    "name": "#и",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 25,
+    "name": "#тебе",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 26,
+    "name": "#вот;",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 8,
+    "name": "#123",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 40,
+    "name": "#1234",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 29,
+    "name": "siebel",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 30,
+    "name": "кодить",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 31,
+    "name": "dev",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 38,
+    "name": "###shr",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 36,
+    "name": "#shr",
+    "taggings_count": 2,
+  },
+  Object {
+    "id": 41,
+    "name": "#admin",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 42,
+    "name": "спиннеры",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 43,
+    "name": "рокет-рубли",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 45,
+    "name": "открытие",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 46,
+    "name": "банк",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 52,
+    "name": "новыйтег",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 53,
+    "name": "\\"'><script>alert('владик_хацкер!')</script>",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 54,
+    "name": "доешь!",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 55,
+    "name": "даешь!",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 59,
+    "name": "тестить",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 60,
+    "name": "uni2019",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 61,
+    "name": "навыки",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 62,
+    "name": "#feedback#обратнаясзвяь",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 64,
+    "name": "innovation",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 65,
+    "name": "khomich",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 66,
+    "name": "бегать",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 67,
+    "name": "прыгать",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 48,
+    "name": "\\"'><script>alert('владик",
+    "taggings_count": 1,
+  },
+  Object {
+    "id": 49,
+    "name": "хацкер!')</script>",
+    "taggings_count": 1,
+  },
+]
+`;

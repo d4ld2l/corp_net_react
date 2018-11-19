@@ -1,0 +1,130 @@
+.question {
+  background: var(--white);
+  margin-top: 11px;
+
+  &__inner {
+    padding: 0 20px;
+  }
+
+  .form-group {
+    margin-bottom: 8px;
+    width: 100%;
+  }
+
+  &__body{
+    padding: 25px 0px 24px;
+    border-top: dashed 1px var(--silver);
+  }
+
+  &__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px 12px 0px;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      .question__drop-icon {
+        color: var(--silver);
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &__open-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(180deg);
+  }
+
+  &__close-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+  }
+
+  &__warning {
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 0;
+    color: var(--reddish_pink);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+
+  &__required {
+
+    .form-group__label {
+      position: relative;
+    }
+
+    .form-group__label:after {
+      content: '*';
+      color: var(--reddish_pink);
+      font-size: 9px;
+      line-height: 10px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      position: absolute;
+      top: 0;
+      right: -8px;
+    }
+  }
+
+  &__icon-trash {
+    width: 40px;
+    height: 40px;
+    color: var(--reddish_pink);
+    float: right;
+    margin-right: 50px;
+   }
+
+  &__clip-icon {
+    width: 17px;
+    height: 17px;
+    color: var(--cool_grey);
+    margin-right: 9px;
+  }
+
+  &__b-upload-file {
+    display: flex;
+    align-items: flex-start;
+    margin: 6px 0 20px;
+    width: 100%;
+
+    .form-group {
+      margin-bottom: 0;
+      width: 100%;
+    }
+  }
+
+  &__h2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  &__drop-icon {
+    color: var(--silver2);
+    width: 5px;
+    height: 25px;
+    padding-right: 32px;
+    padding-left: 20px;
+    cursor: move;
+    transition: color .2s ease-in-out;
+  }
+
+  .checkbox {
+    margin: 0;
+  }
+
+  &__answers {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../style/variables.css';
+
+.main-footer{
+
+  .container{
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+
+  &__time{
+    flex-grow: 1;
+    font-size: 11px;
+    letter-spacing: 0.2px;
+    color: var(--cool_grey);
+  }
+
+  &__version{
+    color: var(--cool_grey);
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+}

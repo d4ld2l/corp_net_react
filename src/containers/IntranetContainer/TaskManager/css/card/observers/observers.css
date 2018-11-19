@@ -1,0 +1,38 @@
+.observers {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 6px;
+
+  &__add-btn {
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+    margin-right: 2px;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+  }
+
+  &__photo {
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    cursor: pointer;
+    margin-right: 1px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  &__select {
+
+  }
+}

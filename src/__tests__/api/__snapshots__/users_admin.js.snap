@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Users Admin should fetch all users admins by params 1`] = `
+Array [
+  Object {
+    "city": "Воронеж",
+    "department": "Церемонии",
+    "email": "vnasonov@phoenixit.ru",
+    "full_name": "Насонов Виктор Владимирович",
+    "id": 40,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Специалист",
+    "profile_id": 35,
+    "sex": null,
+    "user": Object {
+      "email": "vnasonov@phoenixit.ru",
+      "id": 40,
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": "Церемонии",
+    "email": "vsaburova@phoenixit.ru",
+    "full_name": "Сабурова Виктория Игоревна",
+    "id": 46,
+    "phone": "",
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": "Аналитик",
+    "profile_id": 41,
+    "sex": null,
+    "user": Object {
+      "email": "vsaburova@phoenixit.ru",
+      "id": 46,
+    },
+  },
+  Object {
+    "city": "Москва",
+    "department": null,
+    "email": "admin@example.com",
+    "full_name": "Старший Системный Администратор",
+    "id": 1,
+    "phone": null,
+    "photo": Object {
+      "for_community": Object {
+        "url": "/assets/for_community_missing-b4f8a53e68d54f5cbac13188d8bf4b02d19b8f53a3675d3ee3b20dbe774f8155.png",
+      },
+      "for_profile": Object {
+        "url": "/assets/for_profile_missing-3657db474bfb89493ca65924eb79e5524e1d9f39ce157404483d14d94d69db44.png",
+      },
+      "thumb": Object {
+        "url": "/assets/thumb_missing-f015378f0e113aa915f555c42fef4271455cce2836370ddbdb9c4b8c0a6d368e.png",
+      },
+      "url": "/assets/missing-408c62833ba40df558fa15d6dea581b920e7fb644468c06b2d565dc1eaf686f8.png",
+    },
+    "position": null,
+    "profile_id": 1,
+    "sex": "male",
+    "user": Object {
+      "email": "admin@example.com",
+      "id": 1,
+    },
+  },
+]
+`;

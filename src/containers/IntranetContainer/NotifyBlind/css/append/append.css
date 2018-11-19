@@ -1,0 +1,76 @@
+.append {
+  position: relative;
+  margin-left: 22px;
+
+  &__wrap {
+    position: relative;
+    display: inline-block;
+  }
+
+  &__underlying-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-width: 25px;
+    max-width: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 50%;
+    background-color: $white;
+  }
+
+  &__icon {
+    position: relative;
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    cursor: pointer;
+    color: $reddish_pink;
+    transition: transform .2s ease;
+
+    &_open {
+      transform: rotate(45deg);
+      color: $maize;
+    }
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    max-width: 126px;
+    min-width: 126px;
+    list-style-type: none;
+    padding: 0;
+    margin: 4px 0 0 0;
+    border: 1px solid $silver;
+    background-color: $white;
+    z-index: 30;
+  }
+
+  &__item {
+    padding: 11px 9px 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $grey;
+    }
+  }
+
+  &__text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    color: $charcoal_grey;
+  }
+}

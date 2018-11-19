@@ -1,0 +1,101 @@
+.intranet-new-bid {
+
+  &__description {
+    color: var(--cool_grey);
+    font-size: 11px;
+    position: relative;
+    top: -8px;
+  }
+
+  &__container {
+    min-height: 200px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: var(--white);
+    overflow: hidden;
+  }
+
+  &__h5 {
+  }
+
+  &__participants-from {
+    margin-left: 10px;
+    font-weight: 400;
+    border-bottom: 1px dashed var(--charcoal_grey);
+  }
+
+  &__main {
+    padding-right: 20px;
+
+    &-header {
+      margin: 0;
+      padding-bottom: 20px;
+    }
+  }
+
+  &__rub {
+    float: left;
+    margin-top: 38px;
+  }
+
+  &__calendar-icon {
+    position: absolute;
+    top: 39px;
+    right: 25px;
+    width: 22px;
+    height: 21px;
+    color: var(--cool_grey);
+  }
+
+  &__actions {
+    margin: 20px 20px 33px 0;
+
+    &-send, &-cancel {
+      display: inline-block;
+      vertical-align: top;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      user-select: none;
+      font-size: 11px;
+      border: 1px solid var(--carnation2);
+    }
+
+    &-send {
+      margin-right: 20px;
+      color: var(--white);
+      background-color: var(--carnation2);
+
+      &:hover, &:focus {
+        background-color: var(--carnation2);
+      }
+    }
+
+    &-cancel {
+      color: var(--carnation2);
+    }
+
+    &__group {
+      position: relative;
+      border-top: 1px solid var(--silver2);
+      padding-top: 15px;
+
+      &:first-child {
+        border-top-color: transparent;
+      }
+    }
+
+    &__delete {
+      position: absolute;
+      bottom: 64px;
+      right: -50px;
+      cursor: pointer;
+
+      &-icon {
+        color: var(--carnation2);
+        width: 26px;
+        height: 24px;
+      }
+    }
+  }
+}

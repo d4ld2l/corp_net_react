@@ -1,0 +1,122 @@
+.notify-create-discussion-stage {
+  .discussion-members {
+    &__wrapper {
+      background-color: var(--white);
+      flex: 1;
+      padding: 1px;
+      margin-left: 9px;
+    }
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--silver2);
+      align-items: center;
+      padding-right: 20px;
+      cursor: pointer;
+    }
+    &__arrow-icon {
+      width: 8px;
+      height: 5px;
+      color: var(--white);
+      transform: rotate(90deg);
+
+      &:hover {
+        color: var(--carnation2);
+      }
+
+      &:active {
+        color: var(--lipstick);
+      }
+
+      &_active {
+        color: var(--reddish_pink);
+      }
+
+      &-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--twilight);
+        width: 19px;
+        min-width: 19px;
+        max-width: 19px;
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+
+      }
+    }
+    &__closed-thin-icon {
+      width: 20px;
+      height: 20px;
+
+      &:hover {
+        color: var(--carnation2);
+      }
+
+      &:active {
+        color: var(--lipstick);
+      }
+
+      &-wrapper {
+        display: inline-block;
+      }
+    }
+    &__body {
+      padding: 21px;
+    }
+    &__item {
+      display: flex;
+      margin-bottom: 13px;
+      justify-content: space-between;
+      color: #fff;
+      align-items: center;
+      &.is-hidden {
+        display: none;
+      }
+    }
+    &__avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+    &__info {
+      width: 100%;
+      min-width: inherit;
+      max-width: inherit;
+      padding: 0 30px 0 10px;
+    }
+    &__name {
+
+    }
+    &__position {
+      margin-bottom: 5px;
+
+    }
+    &__unit {
+
+    }
+    &__delete {
+      display: block;
+      position: relative;
+      width: 16px;
+      min-width: 16px;
+      max-width: 16px;
+      height: 16px;
+      min-height: 16px;
+      max-height: 16px;
+      cursor: pointer;
+      color: var(--reddish_pink);
+      label {
+        cursor: pointer;
+        svg {
+          cursor: pointer;
+          margin-top: -9px;
+        }
+      }
+      &-icon {
+        position: absolute;
+      }
+    }
+  }
+}

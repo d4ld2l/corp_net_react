@@ -1,0 +1,163 @@
+.employee-card-tab-personnel-information {
+  background: var(--white);
+  display: block;
+  padding: 31px 18px 0 19px;
+
+  &__info {
+    border-left: solid 2px var(--silver2);
+    border-bottom: solid 2px var(--silver2);
+    border-right: solid 2px var(--silver2);
+  }
+
+  &__company {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .panel {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .panel-title {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-bottom: 1px solid var(--grey);
+    border-top: 1px solid var(--grey);
+
+    &:after {
+      width: 9px;
+      height: 9px;
+      transform: rotate(45deg);
+      content: '';
+      top: 4px;
+      bottom: 0;
+      position: absolute;
+      right: 25px;
+      margin: auto 0;
+      border: 2px solid var(--charcoal_grey);
+      border-top: 2px solid transparent;
+      border-left: 2px solid transparent;
+
+    }
+
+    a {
+      color: unset;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__label {}
+
+  &__inline-block {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  &__info-text {
+    text-align: left;
+    margin-bottom: 1px;
+  }
+
+  &__block {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  &__info-block {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 0px 3px;
+
+    &:last-child {
+      margin-bottom: 35px;
+    }
+
+    label {
+      text-align: left;
+      margin-bottom: 3px;
+    }
+  }
+
+  &__info-text-link {
+    font-size: 13px;
+    line-height: 1.43;
+    text-align: left;
+    color: var(--charcoal_grey);
+    text-decoration: underline;
+    display: block;
+
+    &:hover {
+      background-color: transparent;
+      color: var(--reddish_pink);
+    }
+
+    &:active, &:focus, &:active:focus {
+      background-color: transparent;
+      color: var(--perrywinkle2);
+    }
+  }
+
+  &__margin-bottom {
+    //margin-bottom: 16px;
+  }
+
+  &__place-of-work-block {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    &-list {
+      width: 100%;
+
+      & ul.nav-tabs {
+        margin-top: 0;
+        margin-bottom: 3px;
+        background-color: white;
+        border-bottom: none;
+      }
+
+      & li.employee-card-tab-personnel-information__place-of-work {
+        padding: 0;
+
+        & a {
+          font-size: 13px;
+          font-weight: 400;
+          text-align: left;
+          color: var(--water_blue);
+          text-decoration: underline;
+          text-decoration-style: dashed;
+          margin-right: 25px;
+          display: block;
+          padding: 6px 10px 5px;
+
+          &:hover {
+            color: var(--reddish_pink);
+            text-decoration: underline;
+            text-decoration-style: dashed;
+          }
+        }
+      }
+
+      & li.employee-card-tab-personnel-information__place-of-work.active {
+        padding: 0;
+        border-bottom: none;
+        & a {
+          color: var(--reddish_pink);
+          text-decoration: none;
+          padding: 6px 10px 5px;
+          border: solid 1px var(--reddish_pink);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.form-group {
+  textarea {
+    resize: none;
+    padding: 19px 24px 19px 12px;
+  }
+}

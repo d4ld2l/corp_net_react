@@ -1,0 +1,175 @@
+.new-survey-collapse {
+  padding: 0 20px;
+  background: var(--white);
+  margin-top: 24px;
+
+  .form-group {
+    margin-bottom: 8px;
+  }
+
+  &__participants {
+    height: 100%;
+  }
+
+  &__list {
+    position: relative;
+    z-index: 0;
+  }
+
+  &__sortable-list {
+    box-shadow: 0 1px 5px var(--silver);
+  }
+
+  &__body{
+    padding: 32px 0px 24px;
+    border-top: dashed 1px var(--silver);
+  }
+
+  &__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    cursor: pointer;
+
+    &-h2 {
+      margin-bottom: 0;
+    }
+  }
+
+  &__actions {
+    margin-bottom: 20px;
+  }
+
+  &__open-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(180deg);
+  }
+
+  &__close-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+  }
+
+  &__required {
+
+    .form-group__label {
+      position: relative;
+    }
+
+    .form-group__label:after {
+      content: '*';
+      color: var(--reddish_pink);
+      font-size: 9px;
+      line-height: 10px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      position: absolute;
+      top: 0;
+      right: -8px;
+    }
+  }
+
+  &__calendar-icon {
+    width: 22px;
+    height: 21px;
+    color: var(--cool_grey);
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+
+  &__clip-icon {
+    width: 17px;
+    height: 17px;
+    color: var(--cool_grey);
+    margin-right: 9px;
+  }
+
+  &__b-upload-file {
+    display: flex;
+    align-items: flex-start;
+    margin: 6px 0 0;
+    width: 100%;
+
+    .form-group {
+      margin-bottom: 0;
+      width: 100%;
+    }
+  }
+
+  &__design {
+    margin: 28px 0 15px;
+
+    &-body {
+      display: flex;
+      margin-top: 15px;
+    }
+  }
+
+  &__demo-logo {
+    width: 125px;
+    height: 100px;
+    background-color: var(--grey);
+    margin-right: 26px;
+  }
+
+  &__control {
+    align-self: flex-end;
+    max-width: 255px;
+
+    &-text {
+      margin-top: 10px;
+    }
+  }
+
+  &__swatch {
+    padding: 5px 16px;
+    background: var(--white);
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    cursor:  pointer;
+    border: solid 1px var(--silver);
+    height: 40px;
+  }
+
+  &__popover {
+    position: absolute;
+    z-index: 2;
+  }
+
+  &__cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  &__color-select {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  &__label {
+    font-size: 9px;
+    letter-spacing: .2px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--cool_grey);
+    text-transform: uppercase;
+  }
+
+  &__btn-add-question {
+    margin-top: 21px;
+
+    &.btn {
+      margin-bottom: 21px;
+    }
+  }
+}

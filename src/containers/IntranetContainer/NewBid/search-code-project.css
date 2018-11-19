@@ -1,0 +1,113 @@
+$f_w_input: 500;
+
+.search-code-project{
+
+  &__search-form{
+    padding: 4px 0 26px;
+  }
+
+  &__c-search{
+    position: relative;
+  }
+
+  &__result {
+    &-list {
+      position: absolute;
+      top: 48px;
+      left: 15px;
+      background-color: var(--white);
+      padding-left: 0;
+      z-index: 1;
+      width: calc(100% - 30px);
+      box-sizing: border-box;
+    }
+    &-item {
+      list-style: none;
+      border-bottom: 1px solid var(--cool_grey);
+      height: 40px;
+      width: 100%;
+      & a {
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 40px;
+        color: inherit;
+        width: 100%;
+        display: inline-block;
+        &:hover {
+          background-color: var(--silver2);
+          text-decoration: none;
+          font-weight: bold;
+          color: inherit;
+        }
+      }
+      &:last-child a {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__surveys-search{
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--white);
+    border: solid 1px var(--silver);
+    border-radius: 0;
+    width: 100%;
+    font-size: 13px;
+    font-weight: $f_w_input;
+    color: var(--charcoal_grey);
+    padding: 0 50px;
+
+    &:focus {
+      border: solid 1px var(--silver);
+      box-shadow: unset;
+      outline: 1px solid var(--water_blue);
+      outline-offset: 1px;
+    }
+  }
+
+  &__icon-loup{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    margin: auto 0;
+    color: var(--cool_grey);
+    width: 17px;
+    height: 17px;
+  }
+
+  &__advanced-search-btn{
+    padding: 14px 0px 17px !important;
+    background: var(--reddish_pink);
+    color: var(--white);
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+
+    &:hover{
+      background-color: var(--carnation2);
+      color: var(--white);
+    }
+
+    &:focus, &:active{
+      background-color: var(--lipstick)2;
+      color: var(--white);
+      outline: none;
+    }
+  }
+
+  &__advanced-search{
+    position: relative;
+    padding: 20px 0;
+    z-index: 1;
+    background: var(--white);
+  }
+
+  &__close{
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+}

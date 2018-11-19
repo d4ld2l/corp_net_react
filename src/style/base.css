@@ -1,0 +1,194 @@
+@import './variables.css';
+
+html, body, #root, main, .intranet-container__container, .intranet-container__content {
+  height: 100%;
+}
+
+.intranet-container {
+  height: calc(100% - 40px);
+}
+
+.intranet-container__content {
+  height: calc(100% - 60px);
+  padding-top: 25px;
+}
+
+html {
+  /*position: relative;*/
+}
+
+body {
+  /*overflow: hidden;*/
+  /*background: url(../img/bg.jpg) top center no-repeat;*/
+  /*background-size: cover;*/
+  /*background-attachment: fixed;*/
+  background-color: var(--silver2);
+  /*background-image: radial-gradient(center bottom, ellipse cover, #666, #333);*/
+  /*font-family: $regular-font;*/
+  /*padding-top: $header-height;*/
+  /*height: 100%;*/
+  /*color: var(--dark);*/
+  /*min-width: 1200px;*/
+  overflow-y: scroll;
+  /*overflow-x: hidden;*/
+  /*background: #f7f7f7;*/
+  -webkit-font-smoothing: subpixel-antialiased;
+  /*position: relative;*/
+  /*font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Meiryo UI';
+}
+
+::selection {
+  /*background: var(--dark);*/
+  /*color: var(--white);*/
+}
+
+::-ms-clear {
+  width: 0;
+  height: 0;
+}
+
+svg {
+  display: inline-block;
+  fill: currentColor;
+  /*color: inherit;*/
+  vertical-align: middle;
+  /*vertical-align: text-top;*/
+  height: auto;
+}
+
+.panel {
+  background: var(--white);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  position: relative;
+  &-title {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+}
+
+.indent-reset {
+  margin: 0;
+  padding: 0;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.container {
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  & > [class^="col-"], & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.breadcrumb {
+  list-style: none;
+  padding-top: 0px;
+}
+
+.breadcrumb > li > span {
+  font-size: 11px;
+  letter-spacing: .2px;
+  color: var(--cool_grey);
+}
+
+.breadcrumb > li > a {
+  font-size: 11px;
+  letter-spacing: .2px;
+  color: var(--cool_grey);
+}
+
+.breadcrumb > li.active {
+  & > span {
+    color: var(--cool_grey2);
+  }
+  & > a {
+    color: var(--cool_grey2);
+  }
+
+}
+
+.chevron-icon {
+  width: 25px;
+  height: 12px;
+  color: var(--cool_grey);
+  margin-top: 5px;
+}
+
+.icon-like {
+  background-size: 20px;
+  width: 20px;
+  height: 17px;
+  transform: rotate(180deg);
+}
+
+.icon-dislike {
+  background-size: 20px;
+  width: 20px;
+  height: 17px;
+}
+
+.required {
+
+  & > .form-group > .form-group__label {
+    position: relative;
+
+    &:after {
+      content: '*';
+      color: var(--reddish_pink);
+      font-size: 9px;
+      line-height: 10px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      position: absolute;
+      top: 0;
+      right: -8px;
+    }
+  }
+
+  & > .form-group > .text-input-group__label {
+    position: relative;
+
+    &:after {
+      content: '*';
+      color: var(--reddish_pink);
+      font-size: 9px;
+      line-height: 10px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      position: absolute;
+      top: 0;
+      right: -8px;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.ai_c {
+  align-items: center;
+}
+
+.jc_fs {
+  justify-content: flex-start;
+}

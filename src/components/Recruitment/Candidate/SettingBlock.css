@@ -1,0 +1,65 @@
+@import '../../../style/variables.css';
+
+.setting {
+
+  &.is-open {
+    transform: scale(1,-1);
+  }
+
+  &__menu {
+    display: block;
+    position: absolute;
+    width: 170px;
+    min-width: 170px;
+    right: 15px;
+    margin-top: 2px;
+    background: var(--white);
+    box-shadow: 0 0 1px 1px var(--silver_05);
+    border: solid 1px var(--silver);
+    z-index: 1;
+
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+
+      &-item {
+        border-bottom: solid 1px var(--silver2);
+
+        &:last-child {
+          border-bottom-color: transparent;
+        }
+
+        &-link {
+          display: inline-block;
+          width: 100%;
+          padding: 10px 20px 9px;
+          color: var(--charcoal_grey);
+          text-decoration: none;
+          user-select: none;
+          text-decoration-skip: ink;
+          cursor: pointer;
+
+          &:hover {
+            color: var(--reddish_pink);
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  &__round-icon {
+    width: 54px;
+    height: 40px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+  }
+}

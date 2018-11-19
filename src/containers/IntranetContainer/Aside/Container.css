@@ -1,0 +1,134 @@
+@import '../../../style/variables.css';
+.intranet-nav-menu{
+  &__list{
+    width: 70px;
+
+    &-item {
+
+      &:nth-child(2) {
+        margin-top: 10px;
+      }
+
+      &_color {
+        background: var(--twilight);
+        padding: 11px 0 12px;
+      }
+    }
+
+    &-link{
+      display: block;
+      text-align: center;
+      border-left: 3px solid var(--white);
+      border-right: 3px solid var(--white);
+      padding: 0 0 4px;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:focus {
+        outline: 1px solid var(--water_blue);
+        outline-offset: 1px;
+        text-decoration: none;
+      }
+
+      &.active{
+        background-color: var(--grey);
+        border-left: 3px solid var(--twilight);
+        border-right: 3px solid var(--grey);
+        text-decoration: none;
+
+        &:hover .intranet-nav-menu__list-icon{
+          color: var(--twilight);
+        }
+        &:hover .intranet-nav-menu__text-label {
+          color: var(--cool_grey);
+        }
+      }
+
+      &:hover .intranet-nav-menu__list-icon,
+       &:hover .intranet-nav-menu__text-label {
+         color: var(--reddish_pink);
+       }
+
+      &:active {
+        background-color: var(--grey);
+        border-color: var(--grey);
+      }
+    }
+
+    &-icon {
+      display: block;
+      padding: 8px 0 0;
+      margin: 0 auto;
+      width: 24px;
+      color: var(--twilight);
+
+      &_logo {
+        display: block;
+        width: 27px;
+        height: 27px;
+        margin: 0 auto;
+        color: var(--white);
+        position: relative;
+        left: -2px;
+      }
+
+      &_size {
+
+        &-dashboard {
+          width: 20px;
+        }
+
+        &-about {
+          width: 21px;
+        }
+
+        &-services {
+          width: 22px;
+        }
+
+        &-surveys {
+          width: 15px;
+        }
+
+        &-employees {
+          width: 21px;
+        }
+
+        &-recruitment {
+          width: 21px;
+        }
+
+        &-project {
+          width: 20px;
+        }
+
+        &-calendar {
+          width: 20px;
+        }
+
+        &-groups {
+          width: 20px;
+        }
+
+        &-chats {
+          width: 20px;
+        }
+
+        &-community {
+          width: 20px;
+        }
+      }
+    }
+  }
+
+  &__text-label {
+    margin: 0 0 0 -1px;
+  }
+
+  &__main-link {
+    display: flex;
+    border-left: 3px solid var(--twilight);
+  }
+}

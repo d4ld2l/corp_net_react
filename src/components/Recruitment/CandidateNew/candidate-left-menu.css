@@ -1,0 +1,29 @@
+@import '../../../style/variables.css';
+
+.candidate-left-menu{
+  width: 100px;
+
+  ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    max-width: 100px;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  a{
+    display: block;
+    color: var(--charcoal_grey);
+    padding: 20px 0;
+  }
+}
+
+.sticky-outer-wrapper{
+  position: absolute;
+}
+
+.sticky-inner-wrapper{
+  /* float: left; */
+}

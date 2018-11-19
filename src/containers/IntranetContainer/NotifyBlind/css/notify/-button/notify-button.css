@@ -1,0 +1,79 @@
+.notify-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 36px;
+  right: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: $twilight;
+  box-shadow: 0 2px 1px 0 $charcoal_grey_05;
+  transition: background-color .2s ease-in-out;
+  animation: show_btn .3s ease 0s 1;
+
+  &__note {
+    min-width: 23px;
+    max-width: 23px;
+    min-height: 22px;
+    max-height: 22px;
+    color: $white;
+  }
+
+  &__counter {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+
+  &:hover {
+    background-color: $white;
+  }
+
+  &:hover > &__note {
+    color: $twilight;
+  }
+
+  &:hover &__counter {
+    &.counter {
+      background-color: $reddish_pink;
+    }
+
+    & > .counter__text {
+      color: $white;
+    }
+  }
+
+  &_active {
+    background-color: $reddish_pink;
+
+    &:hover  > .notify-button__note {
+      color: $reddish_pink;
+    }
+  }
+}
+
+@keyframes show_btn {
+  from {
+    max-width: 0;
+    min-width: 0;
+    max-height: 0;
+    min-height: 0;
+    opacity: 0;
+    border-radius: 50%;
+  }
+  to {
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    opacity: 1;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../../../style/variables.css';
+
+.new-candidate {
+> * + * {
+  margin-bottom: 10px;
+}
+}
+
+.new-candidate {
+& .btn.btn-primary.btn-margin-outline {
+    text-decoration: inherit;
+    cursor: inherit;
+    color: inherit;
+    line-height: inherit;
+  }
+}

@@ -1,0 +1,128 @@
+@import '../../../style/variables.css';
+
+.candidates-list__candidate {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid var(--silver2);
+  border-left: 3px solid transparent;
+  &.active, &:hover {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left-color: var(--twilight);
+    background-color: var(--grey);
+    border-bottom-color: transparent;
+    & .candidates-list__candidate-chevron {
+      color: var(--reddish_pink);
+    }
+    & .candidates-list__user-status {
+      &:after {
+        border-color: transparent var(--silver2) transparent
+      }
+    }
+  }
+  &.new {
+    background-color: var(--maize_015);
+  }
+
+}
+
+.candidates-list__candidate-container {
+  display: flex;
+  align-items: center;
+}
+
+.candidates-list__candidate-block {
+  display: flex;
+  align-items: center;
+}
+
+.candidates-list__candidate-info {
+  width: 290px;
+}
+
+.candidates-list__candidate-name {
+  width: auto;
+  display: inline-block;
+}
+
+.candidates-list__candidate-role {
+  display: block;
+}
+
+.candidates-list__candidate-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  margin-left: 8px;
+  margin-right: 14px;
+  background-size: cover;
+  background-position: center;
+}
+
+.candidates-list__candidate-address {
+  width: 300px;
+}
+
+.candidates-list__candidate-city {
+  width: 170px;
+}
+
+.candidates-list__candidate-status-block {
+  width: 170px;
+  padding-right: 10px;
+}
+
+.candidates-list__candidate-status-action {
+  & p {
+
+  }
+}
+
+.candidates-list__user-status {
+  margin-bottom: 5px;
+  padding-right: 13px;
+  padding-left: 10px;
+  text-align: center;
+  height: 20px;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 0.2px;
+  //padding: 4px 10px 5px;
+  color: var(--white);
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  min-width: 90px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 7px 10px 0;
+    border-color: transparent var(--white) transparent
+  }
+}
+
+.candidates-list__candidate-address-icon {
+  margin-right: 14px;
+  color: var(--cool_grey2);
+  width: 15px;
+}
+
+.candidates-list__candidate-chevron {
+  width: 10px;
+  color: var(--cool_grey);
+  transform: rotate(270deg);
+}

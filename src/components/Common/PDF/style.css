@@ -1,0 +1,33 @@
+@import '../../../style/variables.css';
+
+.pdf-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.pdf-container__arrow-left {
+  width: 10px;
+  height: auto;
+  transform: rotate(90deg);
+}
+
+.pdf-container__arrow-right {
+  width: 10px;
+  height: auto;
+  transform: rotate(-90deg);
+}
+
+.pdf-container__button {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  &:hover {
+    color: var(--water_blue);
+  }
+  &.disabled {
+    color: var(--silver);
+  }
+}

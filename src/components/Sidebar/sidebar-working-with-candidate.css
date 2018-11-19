@@ -1,0 +1,88 @@
+@import '../../style/variables.css';
+
+.sidebar-working-with-candidate{
+  &__button-find{
+    height: 41px;
+
+    &.btn{
+      padding: 0px 17px 0px;
+      border-radius: unset;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      line-height: 41px;
+      display: flex;
+      align-items: center;
+      justify-items: flex-start;
+      width: 141px;
+
+      @media (max-width: 1200px){
+        margin-bottom: 20px;
+      }
+    }
+
+    &.btn-primary{
+      background-color: var(--reddish_pink);
+      border: unset;
+
+      &:hover{
+        background-color: var(--carnation2);
+      }
+
+      &:active, &:focus, &:active:focus{
+        background-color: var(--lipstick)2;
+        box-shadow: unset;
+      }
+    }
+  }
+
+  &__button-new{
+    height: 41px;
+
+    &.btn{
+      padding: 0px 17px 0px;
+      border-radius: unset;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+      line-height: 41px;
+      display: flex;
+      align-items: center;
+      justify-items: flex-start;
+      width: 141px;
+    }
+
+    &.btn-primary{
+      background-color: var(--reddish_pink);
+      border: unset;
+
+      &:hover{
+        background-color: var(--carnation2);
+      }
+
+      &:active, &:focus, &:active:focus{
+        background-color: var(--lipstick)2;
+        box-shadow: unset;
+      }
+    }
+  }
+
+  &__icon-magnify{
+    width: 24px;
+    height: 25px;
+    color: var(--white);
+    position: relative;
+    left: -3px;
+    margin-right: 13px;
+  }
+
+  &__icon-plus{
+    width: 20px;
+    height: 20px;
+    color: var(--white);
+    position: relative;
+    left: -5px;
+    margin-right: 6px;
+  }
+}
+

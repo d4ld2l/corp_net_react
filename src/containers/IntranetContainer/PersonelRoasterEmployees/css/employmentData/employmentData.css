@@ -1,0 +1,35 @@
+.employment-data {
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: dashed 1px var(--silver);
+    padding: 21px 6px 23px 0;
+    cursor: pointer;
+  }
+  &__custom {
+    border-top: none;
+    border-bottom: dashed 1px var(--silver);
+  }
+  &__title {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+  &__open-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(180deg);
+  }
+
+  &__close-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+  }
+}

@@ -1,0 +1,144 @@
+@import '../../style/variables.css';
+
+.text-input-group{
+  padding-right: 50px;
+  position: relative;
+
+  &__input-wrap{
+
+    > * + * {
+      margin-top: 23px;
+    }
+  }
+
+  &__wrapper-field {
+    min-width: 500px;
+    width: 500px;
+
+    @media (max-width: 991px) {
+      min-width: 430px;
+      width: 430px;
+    }
+  }
+
+  &__wrapper-elements {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__add-button{
+    position: absolute;
+    bottom: 3px;
+    right: -40px;
+    display: block;
+    border: none;
+    background: transparent;
+
+    &_position {
+      right: -6px;
+    }
+
+    &.mb-15 {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__plus-icon {
+    width: 31px;
+    height: 31px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+    &:active {
+      color: var(--lipstick)2;
+    }
+  }
+
+  &__select-container{
+    display: flex;
+    &-item {
+      width: 50%;
+      &:first-child {
+        max-width: 270px;
+      }
+      &:nth-child(2) {
+        max-width: 200px;
+        margin-left: 30px;
+      }
+    }
+  }
+
+  &__remove {
+    margin-left: 5px;
+    margin-top: 8px;
+    position: relative;
+    left: 10px;
+  }
+
+  &__icon-closed {
+    width: 12px;
+    height: 12px;
+
+    color: var(--reddish_pink);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+    &:active {
+      color: var(--lipstick)2;
+    }
+  }
+  &__select-container {
+    display: flex;
+    & > div:first-child {
+      flex-grow: 1;
+    }
+  }
+
+  &__wrapper-remove {
+    position: absolute;
+    right: -32px;
+    top: 8px;
+  }
+
+  .radio-button {
+    position: absolute;
+    right: -249px;
+    top: 10px;
+  }
+
+  .radio-button__label {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.languages-position-add {
+  bottom: 17px;
+  right: -11px;
+}
+
+.languages-position-remove {
+  top: 28px;
+  right: -46px;
+}
+
+.languages {
+  position: relative;
+  .form-group{
+    &__error{
+      position: absolute;
+    }
+  }
+}
+
+.lang-button {
+  bottom: 30px;
+  right: 100px;
+}

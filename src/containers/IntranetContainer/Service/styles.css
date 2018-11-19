@@ -1,0 +1,241 @@
+.intranet-service {
+
+  &__rectangle-icon {
+     width: 25px;
+   }
+
+  &__exclamation {
+    color: white;
+    display: inline-flex;
+    position: absolute;
+    margin-left: -16px;
+    font-size: 11px;
+    margin-top: 2px;
+   }
+
+  &__text-notification {
+    display: inline-flex;
+    position: absolute;
+    margin-left:8px;
+    margin-top:2px;
+    font-size: 11px;
+    color: var(--reddish_pink);
+   }
+
+  &__notification {
+  color: var(--reddish_pink);
+   }
+
+  &__block-document{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+  &__container {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 200px;
+    margin-top: 30px;
+    background-color: var(--white);
+    overflow: hidden;
+  }
+
+  &__title {
+    padding-right: 180px;
+    position: relative;
+  }
+
+  &__new-bid-button {
+    position: absolute;
+    right: 0;
+    top: -7px;
+  }
+
+  &__inner {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 30px;
+  }
+
+  &__sidebar {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px 20px;
+    width: 34%;
+    background-color: var(--grey);
+
+    &-items {
+      padding: 10px 0;
+    }
+
+    &-item {
+      display: table;
+      table-layout: fixed;
+      vertical-align: top;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--silver2);
+
+      &:last-child {
+        border-bottom-color: transparent;
+      }
+
+      &-l {
+        display: table-cell;
+        vertical-align: top;
+        width: 45px;
+      }
+
+      &-r {
+        display: table-cell;
+        vertical-align: top;
+        padding-left: 13px;
+      }
+
+      &-avatar {
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+      }
+
+      &-name {}
+
+      &-position {}
+
+      &-contacts {
+        padding: 7px 0 20px;
+      }
+
+      &-contact {
+        height: 30px;
+        display: table;
+        table-layout: fixed;
+
+        &-icon {
+          display: table-cell;
+          vertical-align: middle;
+        }
+
+        &-text {
+          display: table-cell;
+          vertical-align: middle;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+
+  &__h2 {
+    position: relative;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--charcoal_grey);
+    font-size: 18px;
+    letter-spacing: 0;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px dashed var(--silver);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  &__h3 {
+    color: var(--charcoal_grey);
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+  }
+
+  &__block {
+    padding: 15px 0 0;
+    border-bottom: 1px dashed var(--silver);
+  }
+
+  &__arrow {
+    width: 11px;
+    margin-right: 3px;
+  }
+
+  &__paragraph {
+    padding: 5px 0 10px;
+  }
+
+  &__post-icon {
+    width: 14px;
+    height: 14px;
+    color: var(--cool_grey);
+  }
+  &__skype-icon {
+    width: 14px;
+    height: 14px;
+    color: var(--cool_grey);
+  }
+  &__phone-icon {
+    width: 13px;
+    height: 14px;
+    color: var(--cool_grey);
+  }
+
+  &__wrapper-text {
+    display: inline-block;
+  }
+
+  &__star-icon {
+    width: 15px;
+    height: 15px;
+    color: var(--twilight);
+    cursor: pointer;
+    margin-right: 10px;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+  }
+
+  &__message-warning {
+    display: flex;
+    align-items: center;
+
+    &-text {
+      color: var(--reddish_pink);
+      text-transform: uppercase;
+      font-size: 11px;
+      margin-bottom: 0;
+      font-weight: 400;
+    }
+  }
+
+  &__wrapper-attention {
+    width: 15px;
+    height: 20px;
+    background-color: var(--reddish_pink);
+    position: relative;
+    margin-right: 18px;
+    text-align: center;
+    padding-left: 4px;
+  }
+
+  &__attention-icon {
+    color: var(--reddish_pink);
+    height: inherit;
+    position: absolute;
+    right: -9px;
+  }
+
+  &__attention-text {
+    font-size: 11px;
+    color: var(--white);
+  }
+}

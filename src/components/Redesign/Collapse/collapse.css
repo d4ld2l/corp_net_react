@@ -1,0 +1,46 @@
+@import '../../../style/variables.css';
+
+.collapse {
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    cursor: pointer;
+    position: relative;
+    border-bottom: dashed 1px var(--silver);
+  }
+
+  &__label {
+    margin: 0;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &__count {
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: 400;
+    color: var(--reddish_pink);
+    position: relative;
+    top: -4px;
+    margin-left: 5px;
+  }
+
+  &__body {
+    padding: 25px 0px 24px;
+    border-bottom: dashed 1px var(--silver);
+  }
+
+  &__arrow {
+    width: 12px;
+    height: 7px;
+    color: var(--cool_grey);
+
+    &_open {
+      transform: rotate(180deg);
+    }
+  }
+}

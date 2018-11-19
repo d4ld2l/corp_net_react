@@ -1,0 +1,104 @@
+.intranet-surveys {
+  padding: 0 0 38px 29px;
+
+  .breadcrumb {
+
+    li {
+      a {
+        font-size: 11px;
+        letter-spacing: 0.2px;
+        color: var(--charcoal_grey);
+      }
+      span {
+        font-size: 11px;
+        letter-spacing: 0.2px;
+        color: var(--cool_grey);
+      }
+    }
+  }
+
+  &__count {
+    color: var(--reddish_pink);
+    line-height: 10px;
+    margin-left: 2px;
+  }
+
+  &__tabs {
+    margin-bottom: 0px;
+    &-list {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--white);
+      border-bottom: 1px solid var(--silver2);
+      background: var(--grey);
+    }
+    &-list-item {
+      float: left;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      background: var(--grey);
+      color: var(--charcoal_grey);
+      border-right: solid 1px transparent;
+      border-left: solid 1px transparent;
+      text-align: left;
+      padding: 9px 18px;
+      white-space: nowrap;
+      user-select: none;
+
+      &:first-child{
+        margin-left: 0;
+      }
+
+      &.is-current {
+        border-right: solid 1px var(--silver2);
+        border-left: solid 1px var(--silver2);
+        background: var(--white);
+        font-weight: 400;
+        position: relative;
+
+        &:after {
+          background: var(--white);
+          bottom: -1px;
+          content: "";
+          display: block;
+          height: 1px;
+          left: 0;
+          position: absolute;
+          right: 0;
+          width: 100%;
+        }
+
+        &:first-child{
+          border-left: solid 1px var(--white);
+        }
+      }
+    }
+
+    &-content {
+      padding: 0;
+      background: white;
+      &.global-scroll{
+        max-height: 80vh;
+        min-height: 80vh;
+      }
+    }
+  }
+
+  &__wrapper-header-and-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  &__add-icon {
+    width: 40px;
+    height: 40px;
+    color: var(--reddish_pink);
+
+    &:hover {
+      color: var(--twilight);
+    }
+  }
+}

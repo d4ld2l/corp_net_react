@@ -1,0 +1,144 @@
+.employee-card-accordion{
+  background: var(--white);
+  margin-top: 10px;
+
+  &__wrapper-candidate {
+    background: var(--grey);
+    padding-bottom: 10px;
+  }
+
+  &__candidate-info{
+    padding: 23px 18px;
+  }
+
+  &__candidate-figure{
+    text-align: center;
+    position: relative;
+  }
+
+  &__candidate-name{
+    font-weight: 600;
+    text-align: center;
+  }
+
+  &__candidate-post{
+    letter-spacing: -0px;
+    text-align: center;
+  }
+
+  &__read-more-candidate{
+    text-transform: capitalize;
+    padding: 20px;
+    display: block;
+  }
+
+  .panel{
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .panel-group{
+    border-left: 2px solid var(--silver2);
+    border-right: 2px solid var(--silver2);
+  }
+
+  h2{
+    padding: 18px 20px 11px;
+    margin-bottom: 12px;
+  }
+
+  .panel-title{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 19px 18px 16px;
+    position: relative;
+
+
+    &:after{
+      width: 9px;
+      height: 9px;
+      transform: rotate(45deg);
+      content: '';
+      top: 4px;
+      bottom: 0;
+      position: absolute;
+      right: 25px;
+      margin: auto 0;
+      border: 2px solid var(--charcoal_grey);
+      border-top: 2px solid transparent;
+      border-left: 2px solid transparent;
+
+    }
+
+    a{
+      color: unset;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__chevron-icon{
+    position: absolute;
+    right: 19px;
+  }
+
+  .panel-body{
+    background: var(--grey);
+     border-top: solid 2px var(--silver2);
+  }
+
+  &__card-block{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    position: relative;
+  }
+
+  &__card{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    position: relative;
+  }
+
+  &__image{
+    margin-right: 8px;
+
+    img{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  }
+
+  &__name-value{
+    position: relative;
+  }
+
+  &__value{
+    position: absolute;
+    top: 0;
+    margin-left: 5px;
+  }
+
+  &__post{
+    font-size: 9px;
+    line-height: 1.11;
+    text-align: left;
+    color: var(--cool_grey);
+    margin-top: 3px;
+    width: 150px;
+    margin-right: 50px;
+    text-transform: uppercase;
+  }
+
+  &__triangle{
+    position: absolute;
+    left: 0;
+    margin: auto 0;
+    border: 20px solid transparent;
+    border-left: 13px solid var(--reddish_pink);
+  }
+}

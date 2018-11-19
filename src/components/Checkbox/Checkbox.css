@@ -1,0 +1,109 @@
+@import '../../style/variables.css';
+
+.checkbox {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  min-width: 16px;
+  min-height: 16px;
+
+  &:focus {
+    outline: unset;
+  }
+
+  &:focus > &__control {
+    outline: 1px solid var(--water_blue);
+    outline-offset: 1px;
+  }
+
+  &_checked &__control{
+    background: var(--twilight);
+    border-color: var(--twilight);
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: 0px;
+      right: 0;
+      bottom: 0;
+      width: 5px;
+      height: 8px;
+      border: 0 solid var(--white);
+      border-width: 0 1px 1px 0;
+      transform: rotateZ(45deg);
+      margin: auto;
+      pointer-events: none;
+    }
+  }
+
+  &__control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-color: var(--silver);
+    border-style: solid;
+    border-width: 1px;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    margin-top: 1px;
+
+    &:focus {
+      outline: 1px solid var(--water_blue);
+      outline-offset: 1px;
+    }
+  }
+
+  &__text {
+    position: relative;
+    display: inline-block;
+    padding-left: 24px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--charcoal_grey);
+    font-size: 13px;
+    text-transform: none;
+    user-select: none;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+
+    &:focus {
+      outline: unset;
+
+      & ~ .checkbox__control {
+        outline: 1px solid var(--water_blue);
+        outline-offset: 1px;
+      }
+    }
+
+    &_error {
+      position: absolute;
+      top: 18px;
+      left: 0;
+      font-size: 11px;
+      color: var(--reddish_pink);
+      white-space: nowrap;
+      display: inline-block;
+    }
+  }
+
+  &_disabled {
+    cursor: default;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  &_disabled &__control {
+    border-color: var(--silver2);
+    background-color: var(--white);
+    box-shadow: none;
+  }
+
+  &_error &__control{
+    border-color: var(--reddish_pink);
+  }
+}

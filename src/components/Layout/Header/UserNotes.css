@@ -1,0 +1,124 @@
+@import '../../../style/variables.css';
+
+.user-notes{
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 15px;
+
+    &.is-open{
+
+      &:before,
+      &:after {
+        content: '';
+        width: 20px;
+        height: 1px;
+        background: var(--white);
+        position: absolute;
+      }
+      &:before {
+        transform: rotate(45deg);
+      }
+      &:after {
+        transform: rotate(-45deg);
+      }
+
+      .user-notes__notes-icon {
+        display: none
+      }
+    }
+  }
+
+  &__icon-wrap{
+    position: relative;
+  }
+
+  &__icon{
+    color: var(--white);
+    width: 20px;
+
+    &-search {
+      color: var(--cool_grey);
+      position: absolute;
+      width: 20px;
+      top: 15px;
+      left: 11px;
+
+    }
+  }
+
+  &__count-block{
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 17px;
+    height: 17px;
+    background-color: var(--reddish_pink);
+    border-radius: 100%;
+  }
+
+  &__count{
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: var(--white);
+    text-align: center;
+    line-height: 17px;
+    display: block;
+  }
+
+  &__menu{
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 2;
+    background: var(--white);
+    min-width: 500px;
+    min-height: calc(100% - 50px);
+    padding: 10px 15px;
+    box-shadow: 0 2px 3px 0 var(--silver2);
+
+    &-list{
+
+    }
+
+    &-list-item{
+      list-style: none;
+      padding: 15px 20px;
+
+      & + & {
+        border-top: 1px var(--silver) solid;
+      }
+    }
+
+    &-list-title{
+      display: block;
+      margin-bottom: 10px;
+      color: var(--charcoal_grey);
+      line-height: 1.43;
+    }
+
+    &-list-link{
+      line-height: 1.43;
+      color: var(--water_blue);
+    }
+  }
+
+  &__wrapper-notes-icon {
+    height: 50px;
+    width: 50px;
+
+    &.btn {
+      padding: 0;
+    }
+  }
+
+  &__notes-icon {
+    color: var(--white);
+    width: 20px;
+  }
+}

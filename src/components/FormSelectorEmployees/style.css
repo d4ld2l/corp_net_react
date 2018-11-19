@@ -1,0 +1,79 @@
+@import '../../style/variables.css';
+
+.form-selector-employees{
+  margin-bottom: 20px;
+
+  &__row{
+
+  }
+
+  &__col{
+
+  }
+
+  &__item{
+    margin-bottom: 20px;
+  }
+
+  &__card{
+    background: var(--cool_grey);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+    min-height: 170px;
+  }
+
+  &__avatar{
+    width: 70px;
+    height: 70px;
+    background: var(--white);
+    border: 1px var(--charcoal_grey) solid;
+    border-radius: 100%;
+    display: table;
+    margin: 0px auto 20px;
+  }
+
+  &__user-name{
+    text-align: center;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+  }
+
+  &__user-comment{
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+  }
+
+  /* --- action style --- */
+
+  &__add-card{
+    background: var(--silver2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+    min-height: 170px;
+  }
+
+  &__action-title{
+    text-align: center;
+    color: var(--water_blue);
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
+  }
+}

@@ -1,0 +1,225 @@
+.icon {
+  display: inline-block;
+  color: var(--reddish_pink);
+
+  &_white {
+    color: var(--white);
+  }
+
+  &:hover {
+    color: var(--carnation2);
+  }
+
+  &:active {
+    color: var(--lipstick);
+  }
+
+  &:focus {
+    @mixin outline;
+  }
+
+  &_disabled {
+    color: var(--cool_grey2);
+    pointer-events: none;
+  }
+}
+
+.btn-icon {
+  position: relative;
+  @mixin flex flex, center, center;
+  border: 1px solid var(--reddish_pink);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  overflow: hidden;
+
+  &_filled {
+    background-color: var(--reddish_pink);
+  }
+
+  &_br {
+    border-radius: 40px;
+  }
+
+  &_user_by-parts {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      width: 40px;
+      height: 1px;
+      background-color: var(--reddish_pink);
+      transform: rotate(45deg);
+    }
+
+    &:hover:after {
+      background-color: var(--white);
+    }
+    &:active:after {
+      background-color: var(--white);
+    }
+  }
+
+  &:hover {
+    border-color: var(--carnation2);
+    background-color: var(--carnation2);
+
+    & > .icon {
+      color: var(--white);
+    }
+  }
+
+  &:active {
+    border-color: var(--lipstick);
+    background-color: var(--lipstick);
+
+    & > .icon {
+      color: var(--white);
+    }
+  }
+
+  &:focus {
+    @mixin outline;
+  }
+
+  &_disabled {
+    border-color: var(--cool_grey2);
+    background-color: transparent;
+    pointer-events: none;
+
+    & > .icon {
+      color: var(--cool_grey2);
+    }
+
+    &.btn-icon_user_by-parts {
+      &:after {
+        background-color: var(--cool_grey2);
+      }
+    }
+  }
+
+  &_40 {
+    @mixin range 40px, 40px, 40px, 40px;
+  }
+  &_53_40 {
+    @mixin range 53px, 53px, 40px, 40px;
+  }
+  &_53_36 {
+    @mixin range 53px, 53px, 36px, 36px;
+  }
+  &_36 {
+    @mixin range 36px, 36px, 36px, 36px;
+
+    &.btn-icon_user_by-parts {
+      &:after {
+        width: 34px;
+      }
+    }
+  }
+  &_30 {
+    @mixin range 30px, 30px, 30px, 30px;
+  }
+
+  &_16 {
+    @mixin range 16px, 16px, 16px, 16px;
+  }
+}
+
+.is {
+  &-plus {
+    @mixin range 17px, 17px, 17px, 17px;
+
+    &_11 {
+      @mixin range 11px, 11px, 11px, 11px;
+    }
+  }
+
+  &-check {
+    @mixin range 17px, 17px, 14px, 14px;
+  }
+
+  &-user {
+    @mixin range 6px, 6px, 10px, 10px;
+
+    &_by-parts {
+      @mixin range 8px, 8px, 16px, 16px;
+    }
+  }
+
+  &-calendar {
+    @mixin range 20px, 20px, 20px, 20px;
+  }
+
+  &-comment {
+    @mixin range 14px, 14px, 14px, 14px;
+  }
+
+  &-like {
+    @mixin range 18px, 18px, 16px, 16px;
+  }
+
+  &-flag {
+    @mixin range 12px, 12px, 13px, 13px;
+  }
+
+  &-arrow {
+    @mixin range 12px, 12px, 7px, 7px;
+  }
+
+  &-post {
+    @mixin range 14px, 14px, 14px, 14px;
+  }
+
+  &-phone {
+    @mixin range 16px, 16px, 16px, 16px;
+  }
+
+  &-pencil {
+    @mixin range 16px, 16px, 16px, 16px;
+  }
+
+  &-check {
+    @mixin range 21px, 21px, 18px, 18px;
+  }
+
+  &-trash {
+    @mixin range 22px, 22px, 23px, 23px;
+  }
+
+  &-settings {
+    @mixin range 48px, 48px, 36px, 36px;
+  }
+
+  &-ok {
+    @mixin range 14px, 14px, 11px, 11px;
+  }
+
+  &-copy {
+    @mixin range 16px, 16px, 16px, 16px;
+  }
+
+  &-interview {
+    @mixin range 20px, 20px, 20px, 20px;
+  }
+
+  &-download {
+    @mixin range 15px, 15px, 20px, 20px;
+  }
+
+  &-rewind{
+    @mixin range 9px, 9px, 12px, 12px;
+
+    &_double {
+      @mixin range 17px, 17px, 12px, 12px;
+    }
+  }
+
+  &-eye {
+    @mixin range 15px, 15px, 14px, 14px;
+  }
+}
+

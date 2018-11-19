@@ -1,0 +1,32 @@
+.link {
+  @mixin font 400, 13, 20;
+
+  &_theme {
+    &_light {
+      &_first {
+        @mixin link var(--charcoal_grey), var(--cool_grey), var(--cool_grey), var(--cool_grey), var(--water_blue);
+      }
+      &_second {
+        @mixin link var(--cool_grey), var(--cool_grey2), var(--cool_grey2), var(--cool_grey2), var(--water_blue);
+      }
+      &_third {
+        @mixin link var(--water_blue), var(--dodger_blue), var(--dodger_blue), var(--dodger_blue), var(--water_blue);
+      }
+    }
+    &_dark {
+      &_first {
+        @mixin link var(--white), var(--dodger_blue), var(--dodger_blue), var(--dodger_blue), var(--water_blue);
+      }
+      &_second {
+        @mixin link var(--cool_grey2), var(--dodger_blue), var(--dodger_blue), var(--dodger_blue), var(--water_blue);
+      }
+      &_third {
+        @mixin link var(--dodger_blue), var(--white), var(--white), var(--white), var(--water_blue);
+      }
+    }
+  }
+
+  &_pseudo {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,162 @@
+.aggregator {
+  min-width: 271px;
+  max-width: 271px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  @media (max-width: 1199px) {
+    margin-left: 0;
+    margin-top: 0;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  &__link {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(7),
+    &:nth-child(14) {
+      margin-right: 0;
+
+      @media (max-width: 1199px) {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__social-network {
+    width: 20px;
+    height: 20px;
+    color: var(--cool_grey);
+
+    &:hover {
+      color: var(--charcoal_grey);
+    }
+
+    &_icon {
+
+      &_vk {
+        height: 12px;
+
+        &:hover {
+          color: var(--water_blue);
+        }
+      }
+
+      &_fb {
+
+        &:hover {
+          color: var(--twilight);
+        }
+      }
+
+      &_ok {
+        width: 12px;
+
+        &:hover {
+          color: var(--dusty_orange);
+        }
+      }
+
+      &_twitter {
+        height: 16px;
+
+        &:hover {
+          color: var(--dodger_blue);
+        }
+      }
+
+      &_whatsapp {
+        height: 16px;
+
+        &:hover {
+          color: var(--greenblue);
+        }
+      }
+
+      &_telegram {
+        height: 17px;
+
+        &:hover {
+          color: var(--water_blue);
+        }
+      }
+
+      &_tumblr {
+        width: 11px;
+
+        &:hover {
+          color: var(--carnation2);
+        }
+      }
+
+      &_flickr {
+        height: 9px;
+
+        &:hover {
+          color: var(--carnation2);
+        }
+      }
+
+      &_reddit {
+        height: 16px;
+      }
+
+      &_habrahabr {
+
+        &:hover {
+          color: var(--dodger_blue);
+        }
+      }
+
+      &_linkedin {
+
+        &:hover {
+          color: var(--water_blue);
+        }
+      }
+
+      &_gitlab {
+        height: 18px;
+
+        &:hover {
+          color: var(--dusty_orange);
+        }
+      }
+
+      &_sketch {
+
+        &:hover {
+          color: var(--water_blue);
+        }
+      }
+
+      &_dribble {
+
+        &:hover {
+          color: var(--carnation2);
+        }
+      }
+
+      &_behance {
+        height: 12px;
+      }
+
+      &_pinterest {
+
+        &:hover {
+          color: var(--scarlet);
+        }
+      }
+    }
+  }
+}

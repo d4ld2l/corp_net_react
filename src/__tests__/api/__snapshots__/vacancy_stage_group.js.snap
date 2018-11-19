@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Vacancy Stage Group should fetch vacancy stage group 1`] = `
+Array [
+  Object {
+    "color": "#f00",
+    "created_at": "2017-08-10T15:03:55.039Z",
+    "id": 6,
+    "label": "Скрининг",
+    "updated_at": "2017-08-10T15:03:55.039Z",
+    "value": "screening",
+  },
+  Object {
+    "color": "#f0f",
+    "created_at": "2017-08-10T15:03:55.041Z",
+    "id": 7,
+    "label": "Интервью",
+    "updated_at": "2017-08-10T15:03:55.041Z",
+    "value": "interview",
+  },
+  Object {
+    "color": "#0f0",
+    "created_at": "2017-08-10T15:03:55.042Z",
+    "id": 8,
+    "label": "Согласование",
+    "updated_at": "2017-08-10T15:03:55.042Z",
+    "value": "harmonization",
+  },
+  Object {
+    "color": "#00f",
+    "created_at": "2017-08-10T15:03:55.043Z",
+    "id": 9,
+    "label": "Оффер",
+    "updated_at": "2017-08-10T15:03:55.043Z",
+    "value": "offer",
+  },
+  Object {
+    "color": "#ff0",
+    "created_at": "2017-08-10T15:03:55.045Z",
+    "id": 10,
+    "label": "Принят",
+    "updated_at": "2017-08-10T15:03:55.045Z",
+    "value": "accepted",
+  },
+  Object {
+    "color": "#0aa",
+    "created_at": "2017-08-10T15:03:55.046Z",
+    "id": 11,
+    "label": "Отказ",
+    "updated_at": "2017-08-10T15:03:55.046Z",
+    "value": "rejected",
+  },
+  Object {
+    "color": "#aaa",
+    "created_at": "2017-08-10T15:03:55.047Z",
+    "id": 12,
+    "label": "Архив",
+    "updated_at": "2017-08-10T15:03:55.047Z",
+    "value": "archived",
+  },
+  Object {
+    "color": "#ffe9bb",
+    "created_at": "2017-08-10T15:03:55.026Z",
+    "id": 5,
+    "label": "Новые",
+    "updated_at": "2017-08-10T15:03:55.026Z",
+    "value": "new",
+  },
+]
+`;

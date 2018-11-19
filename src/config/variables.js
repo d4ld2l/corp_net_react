@@ -1,0 +1,99 @@
+module.exports = {
+  project: '#369a1e',
+  base: '#000',
+  clean: '#fff',
+  alert: '#e54d4d',
+  form: '#ff9908',
+  active: '#ffc020',
+
+  // borders
+  border: '#b3b3b3',
+  borderActive: '#74b65f',
+  borderError: '#cf1e1e',
+  borderErrorActive: '#ff0000',
+
+  // text
+  value: '#4c4c4c',
+  valueDisabled: '#cecece',
+
+  // backgrounds
+  background: '#fff',
+  backgroundHover: '#efefef',
+  backgroundDisabled: '#efefef',
+
+  //color-variables
+
+  /*white*/
+  white: '#ffffff',
+  /*white*/
+
+  /*pink*/
+  reddish_pink: '#ff2f51',
+  reddish_pink_01: '#ff2f511a', /*rgba(255, 47, 81, 0.1)*/
+  carnation2: '#ff7b91',
+  pig_pink: '#e583b9',
+  purplish_pink: '#d16ca8',
+  /*pink*/
+
+  /*burgundy*/
+  pale_red: '#e14a3b',
+  lipstick: '#ce223d',
+  lipstick2: '#cc2641',
+  scarlet: '#d0021b',
+  /*burgundy*/
+
+  /*grey*/
+  charcoal_grey: '#34363c',
+  charcoal_grey_05: '#34363c80', /*rgba(52, 54, 60, 0.5)*/
+  charcoal_grey_08: '#34363ccc', /*rgba(52, 54, 60, 0.8)*/
+  cool_grey: '#93959a',
+  cool_grey_04: '#93959a66', /*rgba(147, 149, 154, 0.4)*/
+  cool_grey_05: '#93959a80', /*rgba(147, 149, 154, 0.5)*/
+  cool_grey_08: '#93959acc', /*rgba(147, 149, 154, 0.8)*/
+  cool_grey2: '#b6bcc3',
+  silver: '#d2d8d9',
+  silver_05: '#d2d8d980', /*rgba(210, 216, 217, 0.5)*/
+  silver2: '#e9ebec',
+  grey: '#f7f7f7',
+  elephant: '#818388',
+  /*grey*/
+
+  /*maize*/
+  sepia: '#8b572a',
+  clay_brown: '#b77942',
+  dusty_orange: '#f58223',
+  squash: '#f4990a',
+  golden_rod: '#f9bb0e',
+  golden_rod_01: '#f9bb0e1a', /*rgba(249, 187, 14, 0.1)*/
+  maize: '#f7c853',
+  maize_015: '#f7c85326', /*rgba(247, 200, 83, 0.15)*/
+  /*maize*/
+
+  /*purple*/
+  dark: '#2b2d4b',
+  twilight: '#575b97',
+  faded_blue: '#7d82cd',
+  perrywinkle: '#a78de5',
+  perrywinkle2: '#9176d8',
+  /*purple*/
+
+  /*blue*/
+  water_blue: '#158cdf',
+  water_blue_05: '#158cdf80',
+  dodger_blue: '#43acf5',
+  azure: '#16b8f5',
+  robins_egg: '#52cef9',
+  /*blue*/
+
+  /*green*/
+  greenish_teal: '#4bd4b3',
+  greenblue: '#20c58f',
+  greeny_blue: '#3aafa9',
+  teal_green: '#278f86',
+  light_moss_green: '#9bcd65',
+  turtle_green: '#88ba4f',
+  lawn_green: '#5b9f0d',
+  dark_grass_green: '#417505',
+  /*green*/
+
+}

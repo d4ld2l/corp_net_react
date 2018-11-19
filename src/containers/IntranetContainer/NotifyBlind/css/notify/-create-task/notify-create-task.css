@@ -1,0 +1,67 @@
+.notify-create-task {
+  padding: 0 0 0 13px;
+
+  &__wrap {
+    @mixin flex flex, space-between, center;
+  }
+
+  & .form-group {
+    margin-bottom: 7px;
+  }
+
+  & .ntask-card__subtask-wrapper.subtask__wrapper {
+    margin: 27px -68px 0 -33px;
+  }
+
+  & .ntask-card__add-subtask.add-subtask {
+    padding: 4px 76px 4px 33px;
+  }
+
+  & .ntask-card__subtask-wrapper .subtask {
+    padding: 5px 75px 4px 36px;
+  }
+
+  & .subtask__arrow {
+    right: 35px;
+    transition: right .2s ease;
+  }
+
+  & .ntask-card__subtask_new .subtask:hover {
+    margin: 0 0 0 0;
+    padding: 5px 19px 4px 36px;
+  }
+
+  & .ntask-card__observers {
+    padding: 0 !important;
+    margin: 22px 0 28px 0px;
+  }
+
+  & .ntask-card__calendar-icon_new {
+    top: 15px;
+  }
+
+  & .checkbox_checked .checkbox__control {
+    background: $perrywinkle;
+    border-color: $perrywinkle;
+  }
+
+  & .attention_twilight_dark {
+    background: $perrywinkle;
+  }
+
+  & .form-group__label_error {
+    color: $carnation2 !important;
+  }
+
+  & .form-group__error {
+    color: $carnation2;
+  }
+
+  & .form-group .form-control_error, .form-group .form-control_error:focus {
+    border-color: $carnation2;
+  }
+
+  & .form-group .Select--error>.Select-control {
+    border-color: $carnation2;
+  }
+}

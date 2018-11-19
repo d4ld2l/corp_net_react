@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  serve:
+    image: node:6
+    container_name: shr
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+    working_dir: /app
+    command: ["/bin/sh", "-c", "npm i && make run"]

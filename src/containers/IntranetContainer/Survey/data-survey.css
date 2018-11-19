@@ -1,0 +1,16 @@
+.survey-inner {
+  &__user-icon {
+    width: 14px;
+    height: 18px;
+  }
+  &__flag-icon {
+    width: 12px;
+    height: 13px;
+  }
+
+  &__block-icon-text {
+    @media (max-width: 1199px) {
+      margin-bottom: 20px;
+    }
+  }
+}

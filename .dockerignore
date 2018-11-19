@@ -1,0 +1,15 @@
+.git
+.vscode
+.idea
+.eslintrc.js
+.results
+.next
+.build
+.out
+storybook_build
+.env
+*Dockerfile*
+*docker-compose*
+node_modules
+package-lock.json
+yarn*

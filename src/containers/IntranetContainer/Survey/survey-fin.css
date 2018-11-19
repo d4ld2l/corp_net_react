@@ -1,0 +1,144 @@
+.survey-fin{
+  margin-top: 26px;
+
+  &__wrapper {
+    background: var(--white);
+    margin-top: 22px;
+    padding: 20px !important;
+  }
+
+  &__article{
+    padding: 3px 0 0 1px;
+  }
+
+  &__header{
+    padding: 5px 19px 6px 19px;
+
+    &_text{
+      margin-bottom: 18px;
+    }
+  }
+
+  &__text{
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+  &__main{
+    padding: 5px 0 0;
+  }
+
+  &__link{
+    text-decoration: underline;
+    text-decoration-skip: ink;
+  }
+
+
+  &__figure{
+    height: 290px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 6px;
+    padding: 10px;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  .survey-inner-sidebar{
+    margin-top: 0;
+  }
+
+  .survey-inner-sidebar h2{
+    padding-left: 0;
+  }
+
+  &__statistics {
+    margin: 22px;
+
+    &-item {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    &-fill {
+      display: inline-block;
+      height: 10px;
+    }
+
+    &-answer {
+      position: absolute;
+      top: 0;
+      right: 22px;
+    }
+  }
+  &__wrapper-info {
+    align-self: stretch;
+  }
+
+  &__label {
+    font-size: 9px;
+    line-height: 10px;
+    color: var(--cool_grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+    &_color {
+      opacity: .7;
+      color: var(--white);
+    }
+  }
+
+  &__block-icon-text{
+    display: flex;
+  }
+
+  &__wrapper-icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 13px;
+  }
+
+  &__checkbox-icon{
+    width: 16px;
+    position: relative;
+    top: 0;
+    left: 1px;
+  }
+
+  &__clock-icon {
+    width: 14px;
+  }
+
+  &__calendar-icon{
+    width: 12px;
+  }
+
+  &__text-icon{
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--charcoal_grey);
+    margin-bottom: 0;
+
+    &_color {
+      color: var(--white);
+    }
+  }
+  .minus-padding-right {
+    padding-right: 0;
+  }
+  .minus-padding-left {
+    padding-left: 0;
+  }
+}

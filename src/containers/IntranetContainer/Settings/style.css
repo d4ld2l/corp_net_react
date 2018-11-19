@@ -1,0 +1,97 @@
+.settings{
+  &__head{
+    margin-bottom: 24px;
+  }
+  &__body{
+    background: var(--white);
+    padding: 20px;
+  }
+  &__box{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--silver2);
+    padding: 19px 6px;
+    &:first-child{
+      padding-top: 0px;
+    }
+    &:last-child{
+      border-bottom: none;
+      padding-bottom: 0px;
+    }
+    .no-margin{
+      margin: 0;
+      line-height: 1;
+    }
+  }
+  &__name{
+    width: 173px;
+    padding-right: 30px;
+  }
+
+  .form {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    padding: 0;
+    text-align: left;
+
+    &_header{
+      margin-bottom: 11px;
+    }
+    .form-group{
+      margin-bottom: 19px;
+    }
+
+    &__fieldset {
+      border: 0;
+      padding: 0;
+      margin: 0 0 16px 0;
+    }
+
+    &__legend {
+      margin-bottom: 17px;
+    }
+
+    &__logo {
+      height: 41px;
+    }
+    .form-group input{
+      height: 40px;
+      line-height: 40px;
+      padding: 12px 0 13px 16px;
+      width: 100%;
+    }
+
+    &__input {
+      margin-bottom: 16px !important;
+    }
+
+    &__remember-restore {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 12px;
+
+      &__link {
+        text-decoration: underline;
+        text-decoration-skip: ink;
+      }
+    }
+    &__send{
+      margin-right: 20px;
+    }
+  }
+  &__error {
+    &-border.form-control {
+      border-color: var(--reddish_pink);
+    }
+
+    &-msg {
+      color: var(--reddish_pink);
+      margin-bottom: 0;
+      font-size: 11px;
+      line-height: 20px;
+      text-align: left;
+    }
+  }
+}

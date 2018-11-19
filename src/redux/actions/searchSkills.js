@@ -1,0 +1,6 @@
+export const add = (it) => ({ type: 'SEARCH_SKILLS_ADD', payload: it })
+export const release = () => ({ type: 'SEARCH_SKILLS_RELEASE' })
+export const remove = (it) => ({ type: 'SEARCH_SKILLS_REMOVE', payload: it })
+export const removeWithoutDestroy = (it) => ({ type: 'SEARCH_SKILLS_REMOVE_WITHOUT_DESTROY', payload: it })
+export const fillSkills = (it) => ({ type: 'FILL_SKILLS', payload: it })
+export const addNewSkill = (it) => ({ type: 'ADD_NEW_SKILL', payload: it })

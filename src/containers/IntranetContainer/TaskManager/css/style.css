@@ -1,0 +1,45 @@
+@import "./tabs/tabs.css";
+@import "./filtering/filtering.css";
+@import "./roster/roster.css";
+@import "./filter/filter.css";
+@import "./task/task.css";
+@import "./card/card.css";
+
+.tasks {
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    &-title {
+      margin-bottom: 0;
+    }
+  }
+
+  &__count {
+    color: var(--reddish_pink);
+    line-height: 10px;
+    margin-left: 2px;
+  }
+
+  &__tabs {}
+
+  &__filtering {
+    background-color: var(--white);
+    padding: 11px 10px 9px 20px;
+  }
+
+  &__l-grid {
+    margin: 11px 0 33px 0;
+
+    &_flex {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+  }
+
+  &__card {}
+}

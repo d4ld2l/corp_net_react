@@ -1,0 +1,127 @@
+.personnel-movement-collapse{
+
+  &__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: dashed 1px var(--silver);
+    padding: 21px 2px 23px 0;
+    cursor: pointer;
+  }
+  &__custom{
+    border-top: none;
+    border-bottom: dashed 1px var(--silver);
+  }
+  &__title{
+  }
+
+  &__table{
+    padding: 15px 0;
+    border-bottom: dashed 1px var(--silver);
+    table {
+      thead {
+        th:first-child {
+          width: 150px;
+        }
+      }
+    }
+  }
+
+  table{
+    width: 100%;
+
+    thead{
+      tr{
+        border-bottom: solid 2px var(--silver2);
+      }
+    }
+
+    tbody{
+      tr{
+        border-bottom: solid 1px var(--silver2);
+
+        &:last-child{
+          border: none;
+        }
+      }
+    }
+
+    tr{
+
+      th {
+        text-align: left;
+
+        label{
+          letter-spacing: 0.2px;
+          text-align: left;
+          margin-bottom: 5px;
+        }
+      }
+
+      td{
+        text-align: left;
+        vertical-align: baseline;
+
+        p{
+          margin-top: 14px;
+          margin-bottom: 15px;
+          max-width: 150px;
+          margin-right: 50px;
+        }
+
+        time{
+          max-width: 81px;
+          margin-right: 90px;
+        }
+
+        &:last-child{
+          p{
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  &__post{
+    margin-top: 0;
+  }
+
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 30px 16px 19px;
+  }
+
+  &__info-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 6px;
+
+    label {
+    }
+  }
+
+  &__info-text {
+    font-size: 13px;
+    line-height: 1.43;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+  &__open-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(180deg);
+  }
+
+  &__close-icon {
+    width: 11px;
+    height: 6px;
+    color: var(--cool_grey);
+  }
+}

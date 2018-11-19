@@ -1,0 +1,18 @@
+.multi-file__fake-link{
+  color: var(--dodger_blue);
+  font-size: 13px;
+  letter-spacing: .2px;
+  font-weight: 400;
+  text-align: left;
+
+  &:hover{
+    color: var(--reddish_pink);
+    text-decoration: underline;
+  }
+}
+.multi-file__clip-icon {
+  width: 17px;
+  height: 17px;
+  color: var(--cool_grey);
+  margin-right: 9px;
+}

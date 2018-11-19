@@ -1,0 +1,104 @@
+@import '../../../../style/variables.css';
+
+.sortable-item {
+  list-style: none;
+  padding: 10px;
+  background-color: var(--white);
+  border: 1px solid var(--silver);
+  margin-left: -1px;
+  position: relative;
+  height: 78px;
+
+  &:first-child {
+    /*margin-left: 0;*/
+  }
+
+  &.is-active {
+    /* border-color: red; */
+    position: relative;
+    z-index: 1;
+    background-color: var(--silver2);
+    & .sortable-item__add-step-right {
+      background-color: var(--silver2);
+    }
+  }
+}
+
+.sortable-item__head {
+  display: flex;
+}
+
+.sortable-item__name {
+  font-size: 9px;
+  font-weight: 300;
+  color: var(--charcoal_grey);
+  border-bottom: 1px dotted var(--charcoal_grey);
+}
+
+.sortable-item__lock-icon {
+  width: 12px;
+  height: 12px;
+  color: var(--silver);
+  margin-right: 5px;
+}
+
+.sortable-item__drag-icon {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.sortable-item__status {
+  padding-top: 15px;
+  display: table;
+  margin: 0 auto;
+}
+
+.sortable-item__status-bell {
+  width: 15px;
+  color: var(--silver);
+  margin-right: 5px;
+}
+
+.sortable-item__status-star {
+  width: 17px;
+  color: var(--silver);
+}
+
+.sortable-item__group-color {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+
+.sortable-item__add-step-right {
+  position: absolute;
+  right: -11px;
+  z-index: 2;
+  top: 25px;
+  border: 1px solid var(--silver);
+  border-left: 0;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
+  width: 11px;
+  height: 22px;
+  background-color: var(--white);
+}
+
+.sortable-item__add-step-left{
+  //position: absolute;
+  //left: -8px;
+  //z-index: 2;
+  //top: 25px;
+}
+.sortable-item__plus-icon {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+
+  & > .is-plus_11 {
+    @mixin range 7px, 7px, 7px, 7px;
+  }
+}

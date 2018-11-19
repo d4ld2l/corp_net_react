@@ -1,0 +1,35 @@
+.intranet-employee-edit{
+  &__actions {
+    margin: 20px 20px 33px 0;
+
+    &-send, &-cancel {
+      display: inline-block;
+      vertical-align: top;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+      user-select: none;
+      font-size: 11px;
+      border: 1px solid var(--reddish_pink);
+    }
+
+    &-send {
+      margin-right: 20px;
+      color: var(--white);
+      background-color: var(--reddish_pink);
+
+      &:hover, &:focus {
+        background-color: var(--carnation2);
+      }
+    }
+
+    &-cancel {
+      color: var(--reddish_pink);
+      &:hover, &:focus {
+        color: var(--carnation2);
+        background: 0 0;
+        border: 1px solid var(--carnation2);
+      }
+    }
+  }
+}

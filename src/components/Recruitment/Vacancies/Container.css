@@ -1,0 +1,238 @@
+@import '../../../style/variables.css';
+$f_w_input: 500;
+
+.vacancies{
+  &__tabs {
+    margin-bottom: 0px;
+    position: relative;
+
+    &-list {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--white);
+      border-bottom: 1px solid var(--silver2);
+      background: var(--grey);
+    }
+    &-list-item {
+      float: left;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      background: var(--grey);
+      color: var(--charcoal_grey);
+      border-right: solid 1px transparent;
+      border-left: solid 1px transparent;
+      text-align: left;
+      padding: 9px 28px;
+      white-space: nowrap;
+      user-select: none;
+      position: relative;
+
+      &:first-child{
+        margin-left: 0;
+      }
+
+      &.is-current {
+        border-right: solid 1px var(--silver2);
+        border-left: solid 1px var(--silver2);
+        background: var(--white);
+        font-weight: 400;
+        position: relative;
+
+        &:after {
+          background: var(--white);
+          bottom: -1px;
+          content: "";
+          display: block;
+          height: 1px;
+          left: 0;
+          position: absolute;
+          right: 0;
+          width: 100%;
+        }
+
+        &:first-child{
+          border-left: solid 1px var(--white);
+        }
+      }
+      &-count {
+        font-size: 9px;
+        line-height: 10px;
+        color: var(--reddish_pink);
+        top: 10px;
+        position: absolute;
+        margin-left: 2px;
+      }
+    }
+    &-content {
+      padding: 0;
+    }
+  }
+
+  &__loupe-icon {
+    width: 17px;
+    height: 17px;
+    color: var(--cool_grey);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+  }
+
+  &__closed-icon {
+    width: 9px;
+    height: 9px;
+    color: var(--silver);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+  }
+
+  &__pseudo-link {
+    position: absolute;
+    right: 20px;
+  }
+
+  &__toggle-btn {
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+.search-form-in-work {
+  &__search-form{
+    padding: 30px 20px 0px;
+    position: relative;
+    border-top: none;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__c-search{
+    position: relative;
+    padding-right: 10px !important;
+    flex: 1;
+  }
+
+  &__btn-padding {
+    padding-left: 10px !important;
+  }
+
+  &__result {
+    &-list {
+      position: absolute;
+      top: 48px;
+      left: 15px;
+      background-color: var(--white);
+      padding-left: 0;
+      z-index: 1;
+      width: calc(100% - 30px);
+      box-sizing: border-box;
+    }
+    &-item {
+      list-style: none;
+      border-bottom: 1px solid var(--cool_grey);
+      height: 40px;
+      width: 100%;
+      & > span {
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 40px;
+        color: inherit;
+        width: 100%;
+        display: inline-block;
+        &:hover {
+          background-color: var(--silver2);
+          text-decoration: none;
+          font-weight: bold;
+          color: inherit;
+        }
+      }
+      &:last-child a {
+        border-bottom: none;
+      }
+    }
+  }
+
+  &__search{
+    height: 40px;
+    line-height: 40px;
+    background-color: var(--white);
+    border: solid 1px var(--silver);
+    border-radius: 0;
+    width: 100%;
+    font-size: 13px;
+    font-weight: $f_w_input;
+    color: var(--charcoal_grey);
+    padding: 0 50px 0 40px;
+    width: 100%;
+
+    &:focus {
+      border: solid 1px var(--cool_grey);
+      box-shadow: unset;
+      outline: 1px solid var(--water_blue);
+      outline-offset: 1px;
+    }
+  }
+
+  &__icon-loup{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 13px;
+    margin: auto 0;
+    color: var(--cool_grey);
+    width: 17px;
+    height: 17px;
+  }
+
+  &__advanced-search-btn{
+    padding: 14px 0px 17px !important;
+    background: var(--reddish_pink);
+    color: var(--white);
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+
+    &:hover{
+      background-color: var(--carnation2);
+      color: var(--white);
+    }
+
+    &:focus, &:active{
+      background-color: var(--lipstick)2;
+      color: var(--white);
+      outline: none;
+    }
+  }
+
+  &__advanced-search{
+    position: relative;
+    padding: 20px 0;
+    z-index: 1;
+    background: var(--white);
+  }
+
+  &__close{
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+}

@@ -1,0 +1,33 @@
+@import '../../../../style/variables.css';
+
+.employees-sorting{
+  background: var(--white);
+  display: flex;
+  padding: 0 18px 13px;
+
+  @media (max-width: 1199px) {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  &__item{
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 1.5px 5px;
+    margin-right: 6px;
+    &.mr_10{
+      margin-right: 10px;
+    }
+    &.is-current{
+      color: var(--reddish_pink);
+      text-decoration: none;
+      border: 1px solid var(--reddish_pink);
+      &:hover{
+        color: var(--reddish_pink);
+        text-decoration: none;
+      }
+    }
+  }
+}

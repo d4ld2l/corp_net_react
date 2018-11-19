@@ -1,0 +1,79 @@
+@import '../../style/variables.css';
+
+.form-selector-employees {
+  margin-bottom: 20px;
+  & .form-group {
+    margin-bottom: 0 !important;
+  }
+}
+
+.form-selector-employees__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.form-selector-employees__icon {
+  margin-left: 24px;
+}
+.form-selector-employees__input {
+  width: 500px;
+  & .form-group {
+    margin-bottom: 0;
+  }
+}
+
+.form-selector-employees__icon-trash {
+  width: 15px;
+}
+
+.form-selector-employees__item {
+  margin-bottom: 20px;
+}
+
+.form-selector-employees__card {
+  background: var(--cool_grey);
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  min-height: 170px;
+}
+
+.form-selector-employees__avatar {
+  width: 70px;
+  height: 70px;
+  background: var(--white);
+  border: 1px var(--charcoal_grey) solid;
+  border-radius: 100%;
+  display: table;
+  margin: 0 auto 20px;
+}
+
+.form-selector-employees__user-name {
+  text-align: center;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.form-selector-employees__user-comment {
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.form-selector-employees__action-title {
+  text-align: center;
+  color: var(--water_blue);
+  margin-top: 45px;
+  margin-bottom: 45px;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.form-selector-employees__plus-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}

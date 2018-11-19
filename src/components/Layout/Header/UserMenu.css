@@ -1,0 +1,144 @@
+@import '../../../style/variables.css';
+
+.user-menu {
+  position: relative;
+  float: right;
+
+  &__avatar {}
+
+  &__icons {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.is-open {
+      background: var(--white);
+
+      .user-menu__arrow-icon {
+        color: var(--dark);
+      }
+    }
+  }
+
+  &__avatar-default {
+    width: 30px;
+    height: 30px;
+    background: var(--white);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  &__avatar-default-icon {
+    color: var(--cool_grey);
+  }
+
+  &__avatar-image {}
+
+  &__avatar-image-icon {
+    @mixin range 30px, 30px, 30px, 30px;
+    border-radius: 50%;
+  }
+
+  &__arrow-icon {
+    color: var(--white);
+  }
+
+  &__menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    z-index: 101;
+    background: var(--white);
+    box-shadow: 0 2px 3px 0 var(--silver2);
+    /*padding: 10px 10px;*/
+    min-width: 335px;
+    padding-top: 20px;
+
+    &-name {
+      color: var(--charcoal_grey);
+      font-weight: 600;
+    }
+
+    &-email {
+      font-size: 11px;
+      line-height: 1.67;
+      color: var(--cool_grey);
+    }
+
+    &-info {}
+
+    &-image {
+      &-icon {
+        @mixin range 60px, 60px, 60px, 60px;
+        border-radius: 50%;
+      }
+
+      &-default {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background-color: var(--silver);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &-default-icon {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    &-media {
+      padding-left: 20px;
+      padding-right: 20px;
+      align-items: center !important;
+    }
+
+    &-media-figure {
+      margin-right: 14px;
+    }
+
+    &-media-body {}
+
+    &-card {
+      font-size: 13px;
+      line-height: 1.43;
+      text-align: left;
+      color: var(--water_blue);
+      padding-top: 16px;
+      padding-bottom: 16px;
+      text-align: center;
+    }
+
+    &-footer {}
+
+    &-settings {
+      background-color: var(--grey);
+      height: 50px;
+      text-align: center;
+      line-height: 1.43;
+      color: var(--water_blue);
+      padding: 15px 0;
+      border-bottom: 1px var(--white) solid;
+    }
+
+    &-exit {
+      background-color: var(--grey);
+      height: 50px;
+      text-align: center;
+      line-height: 1.43;
+      color: var(--water_blue);
+      padding: 15px 0;
+
+      &:hover {
+        background: var(--silver2);
+      }
+    }
+  }
+}

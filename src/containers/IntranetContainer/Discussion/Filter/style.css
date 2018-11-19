@@ -1,0 +1,86 @@
+.discussion-filter {
+  &__wrapper {
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    border-bottom: 2px solid var(--silver2);
+    background: var(--white);
+    padding: 0 19px 3px;
+    &-link {
+      font-size: 11px;
+      float: right;
+      text-align: right;
+    }
+    .custom-checkbox {
+      margin: 0 17px 0 0;
+    }
+  }
+  &__func-elem {
+    display: flex;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    margin-right: 32px;
+    &-item {
+      position: relative;
+      margin-right: 17px;
+      &_last {
+        margin-right: 0;
+      }
+    }
+    &-icon {
+      width: 17px;
+      min-width: 17px;
+      max-width: 17px;
+      height: 17px;
+      min-height: 17px;
+      max-height: 17px;
+      color: var(--charcoal_grey);
+      cursor: pointer;
+      transition: .2s;
+      &:hover {
+        color: var(--carnation2);
+      }
+
+      &:active, &_active {
+        color: var(--lipstick);
+      }
+    }
+  }
+  &__icon {
+    width: 25px;
+    min-width: 25px;
+    max-width: 25px;
+    height: 25px;
+    min-height: 25px;
+    max-height: 25px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+  }
+  &__body {
+    padding: 30px 0 20px;
+    background: var(--grey);
+  }
+  &__search-result {
+    color: var(--charcoal_grey);
+    &-text {
+      display: flex;
+      font-size: 9px;
+      padding: 6px 8px;
+      background: var(--grey);
+      color: var(--charcoal_grey);
+      &:after {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+}

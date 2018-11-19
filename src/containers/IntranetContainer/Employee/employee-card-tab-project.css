@@ -1,0 +1,142 @@
+.employee-card-tab-project {
+  background: var(--white);
+  position: relative;
+
+  &__body-project {
+    border-bottom: 1px #ffffff dashed;
+    padding-top: 25px;
+  }
+
+  &__head {
+  }
+
+  &__label {
+  }
+
+  &__body-label {
+  }
+
+  &__body-label-date {
+  }
+
+  &__block-head-project {
+    padding: 33px 0 0;
+    margin: 0 19px;
+    border-bottom: solid 2px var(--silver);
+  }
+
+  &__name-project {
+
+  }
+
+  &__code-project {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  &__date {
+  }
+
+  &__post {
+  }
+
+  &__collapse {
+
+    & > .collapse.in {
+      margin-top: -1px;
+    }
+  }
+
+  &__head-collapse {
+    border-bottom: solid 1px var(--silver2);
+    padding: 14px 0;
+    margin: 0 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__body {
+    background-color: var(--grey);
+    margin: 0 1px 1px;
+    padding: 0px 19px 25px 19px;
+  }
+
+  &__body-head-text {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+  &__body-project-block {
+    margin-bottom: 30px;
+
+    &_item {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__body-head-block {
+    margin-bottom: 15px;
+  }
+
+  &__body-text {
+    font-size: 13px;
+    line-height: 1.43;
+    text-align: left;
+    color: var(--charcoal_grey);
+  }
+
+  &__open-icon {
+    width: 10px;
+    height: 6px;
+    color: var(--cool_grey);
+    transform: rotate(180deg);
+  }
+
+  &__close-icon {
+    width: 10px;
+    height: 6px;
+    color: var(--cool_grey);
+  }
+
+  &__item {
+    display: inline-block;
+    box-sizing: border-box;
+
+    &_title {
+      max-width: 334px;
+      min-width: 334px;
+    }
+
+    &_date {
+      max-width: 80px;
+      min-width: 80px;
+    }
+
+    &_post {
+      max-width: 166px;
+      min-width: 166px;
+    }
+
+    &_arrow {
+      margin-right: 5px;
+    }
+  }
+
+  &__pencil-outline {
+    width: 40px;
+    height: 40px;
+    color: var(--reddish_pink);
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 19px;
+
+    &:hover {
+      color: var(--pig_pink);
+    }
+  }
+}

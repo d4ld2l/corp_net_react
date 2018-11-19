@@ -1,0 +1,50 @@
+.personal-roaster-employees-tabs{
+  &__list {
+    margin: 0;
+    padding: 28px 20px 27px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    background-color: var(--white);
+
+    &-item {
+      border: 1px solid transparent;
+      padding: 4px 10px 0;
+      min-height: 29px;
+      max-height: 29px;
+      box-sizing: border-box;
+      margin-right: 12px;
+      cursor: pointer;
+
+      &.is-current {
+        border: 1px solid var(--reddish_pink);
+      }
+
+      &.is-current a {
+        color: var(--reddish_pink);
+        text-decoration: none;
+      }
+
+    }
+    &-text {
+      margin: 0;
+      letter-spacing: 0;
+    }
+  }
+  &__data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3px;
+    border-bottom: dashed 1px var(--silver);
+    &-box{
+      width: 45%;
+      padding-right: 20px;
+    }
+  }
+
+  &__item{
+    margin-bottom: 10px;
+  }
+}

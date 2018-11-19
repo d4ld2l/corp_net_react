@@ -1,0 +1,43 @@
+{
+    "presets": [ "es2015", "stage-0", "react" ],
+    "plugins": [
+        "transform-decorators-legacy",
+        "syntax-async-functions",
+        ["transform-imports", {
+            "react-bootstrap": {
+                "transform": "react-bootstrap/lib/${member}",
+                "preventFullImport": true
+            },
+            "react-material-icon-svg": {
+                "transform": "react-material-icon-svg/dist/${member}",
+                "preventFullImport": true
+            },
+            "lodash": {
+                "transform": "lodash/${member}",
+                "preventFullImport": true
+            },
+            "react-glyphs": {
+                "transform": "react-glyphs/dist/${member}",
+                "preventFullImport": true
+            }
+        }],
+        [
+          "module-resolver",
+          {
+            "root": ["./"],
+            "alias": {
+              "lib-folder": "./src/lib",
+              "api-folder": "./src/api",
+              "style-folder": "./src/style",
+              "redux-folder": "./src/redux",
+              "types-folder": "./src/types",
+              "helpers-folder": "./src/helpers",
+              "components-folder": "./src/components",
+              "containers-folder": "./src/containers",
+              "presenters-folder": "./src/presenters",
+              "src-folder": "./src"
+            }
+          }
+        ]
+    ]
+}

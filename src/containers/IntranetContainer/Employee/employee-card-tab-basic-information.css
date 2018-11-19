@@ -1,0 +1,133 @@
+.employee-card-tab-basic-information{
+  background: var(--white);
+  display: block;
+  padding: 15px 21px 28px 20px;
+
+  &__head{
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  &__label{
+  }
+  &__link{
+     color: var(--water_blue);
+  }
+
+  &__inline-block{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  &__info-block{
+    display: flex;
+    flex-direction: column;
+
+    label{
+      text-align: left;
+      margin-bottom: 3px;
+    }
+  }
+
+  &__info-text-a{
+    text-align: left;
+    display: block;
+
+    &:hover{
+      background-color: transparent;
+    }
+
+    &:active, &:focus, &:active:focus{
+      background-color: transparent;
+    }
+  }
+
+  &__phones-block{
+     display: flex;
+   }
+
+  &__description{
+    display: flex;
+    align-items: center;
+    padding-top: 17px;
+  }
+
+  &__description-messenger-type{
+     display: flex;
+     padding: 17px 0 2.5px 20px;
+     align-items: flex-end;
+   }
+
+  &__info-text{
+  }
+
+  &__info-text-link{
+    display: block;
+    &:hover{
+      background-color: transparent;
+    }
+
+    &:active, &:focus, &:active:focus{
+      background-color: transparent;
+    }
+  }
+
+  &__phone-icon,
+  &__email-icon,
+  &__skype-icon,
+  &__telegram-icon,
+  &__facebook-icon,
+  &__instagram-icon,
+  &__vkontakte-icon,
+  &__linkedin-icon{
+    width: 16px;
+    color: var(--cool_grey);
+    margin-right: 17px;
+  }
+
+  &__phone-icon {
+    width: 15px;
+  }
+
+  &__email-icon {
+    width: 14px;
+  }
+  &__phone-telegram-icon {
+     margin-left: 5px;
+     width: 15px;
+     height: 15px;
+     color: var(--dodger_blue);
+     cursor: pointer;
+  }
+
+  &__phone-whatsapp-icon {
+     margin-left: 5px;
+     width: 15px;
+     height: 15px;
+     color: var(--greeny_blue);
+     cursor: pointer;
+  }
+
+  &__phone-viber-icon {
+     margin-left: 5px;
+     width: 15px;
+     height: 15px;
+     color: var(--perrywinkle2);
+     cursor: pointer;
+  }
+   &__phone-preferable-icon {
+      margin-left: 25px;
+      width: 15px;
+      height: 15px;
+      color: var(--reddish_pink);
+      cursor: pointer;
+    }
+
+  &__margin-bottom{
+    margin-bottom: 27px;
+  }
+}

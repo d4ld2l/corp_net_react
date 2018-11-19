@@ -1,0 +1,187 @@
+.assessment {
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    &-title {
+      margin-bottom: 0;
+    }
+  }
+
+  &__background {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+  }
+
+  &__welcome,
+  &__goodbye {
+    background-color: var(--white);
+    margin-top: 22px;
+    padding: 20px;
+    @mixin range 670px, 670px, inherit, inherit;
+    box-sizing: border-box;
+
+    .welcome,
+    .goodbye {
+
+      &__emblem {
+        object-fit: cover;
+        object-position: center;
+        @mixin range 100%, 100%, 250px, 250px;
+
+        &_fake {
+          @mixin range 100%, 100%, 250px, 250px;
+          background-color: var(--turtle_green);
+          @mixin flex flex, center, center;
+        }
+
+        &-text_fake {
+          color: var(--white);
+          font-size: 72px;
+          font-weight: 500;
+        }
+      }
+
+      &__text {
+        text-align: justify;
+      }
+    }
+  }
+
+  &__competence {
+    @mixin flex flex, space-between, flex-start;
+    margin-top: 22px;
+    margin-bottom: 33px;
+
+    & .competence {
+
+      &__radio-form {
+        @mixin flex flex, center, center;
+
+        & > .radio-button {
+          display: inline-block;
+        }
+
+        & .radio-button__label {
+          margin-top: unset;
+          margin-left: 0;
+          margin-bottom: unset;
+          padding: 30px;
+
+          &:before {
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+          }
+        }
+
+        & .radio-button__input[type=radio]:checked+.radio-button__label:after {
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+
+      &__description {
+        & > p:first-letter {
+          text-transform: uppercase;
+        }
+      }
+
+      &__table {
+        margin-bottom: 17px;
+      }
+
+      &__thead {
+        border-bottom: 2px solid var(--silver2);
+
+        & th {
+          width: 8.15%;
+          vertical-align: middle;
+
+          &:first-child {
+            width: 40%;
+          }
+        }
+      }
+
+      &__tbody {
+        /*display: table-header-group;
+
+        &[hidden] {
+          display: none;
+        }*/
+
+        & td {
+          width: 8.15%;
+          vertical-align: middle;
+          border-right: 1px solid var(--silver2);
+
+          &:first-child {
+            width: 40%;
+            padding: 0 10px;
+          }
+
+          &:last-child {
+            border-right: none;
+          }
+        }
+
+        & tr {
+          &:last-child {
+            border-bottom: 2px solid var(--silver2);
+          }
+        }
+      }
+
+      &__left-b {
+        @mixin range 100%, 100%, inherit, inherit;
+        background-color: var(--white);
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      &__right-b {
+        @mixin range 370px, 370px, inherit, inherit;
+        background-color: var(--white);
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: left;
+      }
+
+      /*&__radio-form {
+        & .radio-button__label {
+          margin-top: 0;
+          margin-left: 26px;
+        }
+
+        & .b-radio.radio-button:last-child {
+          & .radio-button__label {
+            margin-bottom: 0;
+          }
+        }
+      }*/
+
+      &__indicator {
+        .form-group {
+          margin-bottom: 0;
+        }
+        margin-bottom: 15px;
+
+        &:nth-child(even) {
+          background-color: var(--grey);
+          margin: 0 -19px 5px;
+          padding: 5px 20px 15px;
+        }
+      }
+    }
+  }
+}

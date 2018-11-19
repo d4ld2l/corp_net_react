@@ -1,0 +1,145 @@
+.notify-roster-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 10px 17px 20px;
+  border-top: 1px solid $cool_grey;
+  cursor: pointer;
+  transition: background-color .2s ease, margin .2s ease;
+
+  &:hover {
+    background-color: $charcoal_grey_08;
+    margin-right: -55px;
+    border-bottom: 1px solid $cool_grey;
+
+    & + .notify-roster-item {
+      border-top: none;
+    }
+  }
+
+  &_task {
+    padding: 9px 10px 6px 19px;
+  }
+
+  &__data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__photo {
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  &__title {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: $white;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__name,
+  &__time {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0;
+    color: $cool_grey2;
+  }
+
+  &__count-msg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 11px;
+    font-weight: 400;
+    color: $twilight;
+    background-color: $white;
+    margin-right: 20px;
+  }
+
+  &__arrow-light-icon {
+    min-width: 11px;
+    max-width: 11px;
+    min-height: 7px;
+    max-height: 7px;
+    color: $cool_grey;
+    transform: rotate(-90deg);
+  }
+
+  /*task*/
+  &__mark {
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  &__icon-checkbox {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__b-title {
+    @mixin range 220px, 220px, inherit, inherit;
+  }
+
+  &__b-date-time {
+    @mixin range 131px, 131px, inherit, inherit;
+  }
+
+  &__b-priority {
+    @mixin flex flex, center, center;
+    @mixin range 20px, 20px, 20px, 20px;
+    border-radius: 2px;
+    margin-left: 16px;
+
+    &_one {
+      background-color: $reddish_pink;
+    }
+
+    &_two {
+      background-color: $perrywinkle;
+    }
+
+    &_three {
+      background-color: $turtle_green;
+    }
+  }
+
+  &.is-done {
+    position: relative;
+    .notify-roster-item__b-title,
+    .notify-roster-item__b-date-time {
+      text-decoration-line: line-through;
+      color: $white;
+    }
+
+    &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $turtle_green;
+      opacity: .5;
+      animation: done .5s;
+    }
+  }
+}

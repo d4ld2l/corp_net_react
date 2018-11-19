@@ -1,0 +1,80 @@
+@import '../../style/variables.css';
+
+.documents-candidate-multi-file-list{
+  &__fake-link{
+    color: $water_blue;
+    font-size: 13px;
+    letter-spacing: .2px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    &_item {
+      text-decoration: underline;
+      max-width: 150px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+  &__header{
+    margin: 20px 0 10px;
+  }
+  &__list-file {
+    margin: 0px 0 0 2px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__file-container {
+    margin-bottom: 10px;
+    color: $cool_grey;
+    display: flex;
+    justify-content: space-between;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 412px;
+    min-width: 412px;
+
+    &-file {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    &-expansion {
+      font-weight: 400;
+      text-align: left;
+      line-height: 20px;
+      color: $cool_grey;
+      margin-left: 2px;
+      &:after{
+        content: ',';
+        display: inline;
+        margin-right: 7px;
+      }
+    }
+  }
+
+  &__delete-icon {
+    width: 10px;
+    height: 10px;
+    color: $reddish_pink;
+    cursor: pointer;
+    margin-top: -2px;
+    margin-left: -20px;
+  }
+}

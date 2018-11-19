@@ -1,0 +1,5 @@
+export const toggleAll = () => ({ type: 'SEARCH_PARTICIPANTS_TOOGLE_ALL' })
+export const release = () => ({ type: 'SEARCH_PARTICIPANTS_RELEASE' })
+export const add = (it: *) => ({ type: 'SEARCH_PARTICIPANTS_ADD', payload: it })
+export const remove = (it: *) => ({ type: 'SEARCH_PARTICIPANTS_REMOVE', payload: it })
+export const extract = (it: *) => ({ type: 'SEARCH_PARTICIPANTS_EXTRACT', payload: it })

@@ -1,0 +1,47 @@
+.intranet-header {
+  //background-color: #2b2d4b;
+  background-color: #101010;
+  z-index: 10;
+  //position: relative;
+  padding-left: 200px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &__container {
+    //height: 42px;
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    letter-spacing: 0.3px;
+    color: #fff;
+    text-transform: uppercase;
+    flex-grow: 1;
+    margin-left: 35px;
+  }
+  &__search {
+    margin-right: 30px;
+    &-icon {
+      width: 18px;
+      height: 18px;
+      color: #fff;
+    }
+  }
+  &__intranet-link{
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px #fff solid;
+
+    &:nth-child(3) {
+      border-right: none;
+      flex-grow: 1;
+    }
+
+    &:hover{
+      color: #fff;
+    }
+  }
+}

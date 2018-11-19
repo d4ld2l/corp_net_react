@@ -1,0 +1,65 @@
+@import '../../style/variables.css';
+
+.textarea {
+  min-height: 81px;
+  min-width: 550px;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 13px;
+  color: $charcoal_grey;
+  padding: 0 11px;
+  border: 1px solid $silver2;
+  box-sizing: border-box;
+  background-color: $white;
+  resize: none;
+
+  &__label {
+    display: block;
+    font-weight: 500;
+    font-size: 9px;
+    text-transform: uppercase;
+    line-height: 10px;
+    padding: 0;
+    margin-bottom: 8px;
+    letter-spacing: 0;
+    color: $cool_grey2;
+    font-style: normal;
+  }
+
+  &__error {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: $reddish_pink;
+    margin: 5px 0 0 0;
+    padding: 0;
+
+    &_border {
+      border-color: $reddish_pink;
+    }
+  }
+
+  &__wink {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: $grey;
+    margin: 5px 0 0 0;
+    padding: 0;
+  }
+
+  &[disabled] {
+    background-color: $grey;
+    color: $cool_grey;
+  }
+
+  &:focus {
+    outline: 2px solid rgb(21, 140, 223, .4);
+    outline-offset: 1px;
+  }
+
+  &__focus {
+    outline: 2px solid rgb(21, 140, 223, .4);
+    outline-offset: 1px;
+  }
+}

@@ -1,0 +1,40 @@
+.aside-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__h1 {
+    display: inline-block;
+    color: $white;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__close {
+    min-width: 14px;
+    max-width: 14px;
+    min-height: 14px;
+    max-height: 14px;
+    padding: 2px;
+    cursor: pointer;
+    color: $white;
+
+    &:hover {
+      color: $carnation2;
+    }
+
+    &:active {
+      color: $lipstick;
+    }
+
+    &:focus {
+      outline: 1px solid $water_blue;
+    }
+  }
+}

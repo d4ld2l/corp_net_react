@@ -1,0 +1,165 @@
+.form-group {
+
+  .Select.is-open > .Select-control {
+    border-color: var(--silver);
+  }
+
+  .is-open {
+
+    .Select-control {
+      border: solid 1px var(--silver);
+      border-bottom: 1px solid transparent;
+    }
+  }
+
+  .Select-placeholder {
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  .Select--error > .Select-control {
+    border-color: var(--reddish_pink);
+  }
+
+  .Select-control {
+    border-radius: unset;
+    background-color: var(--white);
+    border: solid 1px var(--silver);
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    overflow: auto;
+
+    &:focus {
+      outline: 1px solid var(--water_blue);
+      outline-offset: 1px;
+      border: solid 1px var(--silver);
+      box-shadow: unset;
+    }
+
+    .Select-value-label {
+      color: var(--charcoal_grey);
+      line-height: 40px;
+      padding: 0;
+    }
+
+    .Select-input {
+      height: inherit;
+      padding: 0;
+
+      input {
+        line-height: 40px;
+        padding: 0 0 0 10px;
+        font-size: inherit;
+      }
+
+    }
+
+    .Select-clear-zone {
+      display: none;
+    }
+
+    .Select-arrow-zone {
+
+      .Select-arrow {
+
+        border: none;
+        background: url('../../../public/arrow_down.svg') center center/ cover no-repeat;
+        width: 10px;
+        height: 6px;
+      }
+    }
+  }
+
+  .Select-menu-outer {
+    border: solid 1px var(--silver);
+    border-radius: unset;
+    width: 100%;
+
+    .Select-menu {
+
+      .Select-option {
+        font-size: 14px;
+        color: var(--charcoal_grey);
+        padding: 10px 13px 9px;
+        font-weight: 400;
+
+        &.is-selected {
+          background-color: var(--grey);
+          color: var(--charcoal_grey);
+        }
+
+        &.is-focused {
+          background-color: var(--grey);
+          color: var(--reddish_pink);
+        }
+      }
+    }
+  }
+
+  .is-focused:not(.is-open) {
+    > .Select-control {
+      border-color: var(--silver) !important;
+      box-shadow: unset !important;
+      outline: 1px solid var(--water_blue);
+      outline-offset: 1px;
+    }
+  }
+
+  .Select--multi {
+    & .Select-value-label {
+      color: var(--charcoal_grey);
+      line-height: 25px;
+      padding: 0 10px;
+    }
+    & .Select-value {
+      color: var(--charcoal_grey);
+      border: none;
+      background-color: var(--grey);
+    }
+    & .Select-value-icon {
+      border-right: none;
+      &:hover {
+        color: var(--charcoal_grey);
+        background-color: var(--grey);
+      }
+    }
+    &.is-focused:not(.is-open) > .Select-control {
+      border-color:  var(--silver);
+      box-shadow: none;
+    }
+  }
+}
+
+.padding-select {
+  right: -60px !important;
+}
+
+.is-open .Select-arrow {
+  transform: rotate(180deg);
+}
+
+.select__mark {
+  background: var(--grey);
+  padding: 5px;
+  color: var(--cool_grey);
+  margin-right: 2px;
+  font-weight: 400;
+  font-size: 9px;
+  margin-bottom: 5px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.select__mark-delete {
+  padding-left: 5px;
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+  color: var(--charcoal_grey);
+  font-size: 14px;
+
+  &:hover {
+    color: var(--reddish_pink);
+  }
+}

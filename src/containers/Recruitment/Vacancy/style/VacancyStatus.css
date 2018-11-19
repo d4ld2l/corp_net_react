@@ -1,0 +1,184 @@
+.vacancy-status {
+  display: flex;
+  background: var(--white);
+  margin-bottom: 19px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.vacancy-status__stage {
+
+}
+
+.vacancy-status__stage-container {
+  overflow-x: hidden;
+  margin: 0 1px;
+  flex-grow: 1;
+}
+
+.vacancy-status__stage-wrapper {
+  display: flex;
+}
+
+.vacancy-status__stage-item {
+  width: 100px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-right: 1px solid var(--silver2);
+  border-top: 1px solid var(--silver2);
+  min-height: 60px;
+  position: relative;
+  cursor: pointer;
+  flex-grow: 1;
+  &.is-active {
+    background-color: var(--silver2);
+  }
+  &:first-child {
+    border-left: 1px solid var(--silver2);
+  }
+}
+
+.vacancy-status__stage-button {
+  width: 20px;
+  height: 70px;
+  background-color: var(--silver);
+  cursor: pointer;
+  position: relative;
+  &.is-active {
+    background-color: var(--reddish_pink);
+  }
+  &:active {
+    background-color: var(--silver2);
+  }
+}
+
+.vacancy-status__stage-button-icon {
+  display: inline-block;
+  width: 17px;
+  color: var(--white);
+  text-align: center;
+  top: 25px;
+  left: 2px;
+  position: absolute;
+  user-select: none;
+}
+
+.vacancy-status__stage-button-count {
+  position: absolute;
+  top: 12px;
+  left: 8px;
+  color: var(--white);
+  font-size: 9px;
+  line-height: 10px;
+  user-select: none;
+}
+
+.vacancy-status__stage-name {
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 9px;
+  line-height: 10px;
+  color: var(--charcoal_grey);
+  font-weight: 300;
+  width: 100%;
+  display: inline-block;
+}
+
+.vacancy-status__stage-users-count {
+  font-size: 11px;
+  line-height: 20px;
+  color: var(--water_blue);
+
+  &:hover {
+    color: var(--reddish_pink);
+  }
+
+  &:active, &:active:focus {
+    color: var(--perrywinkle2);
+  }
+}
+
+.vacancy-status__stage-group-color {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+}
+
+.vacancy-status__stage-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0 10px 0 0px;
+  list-style: none;
+
+  li {
+    font-size: 9px;
+    color: var(--charcoal_grey);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.vacancy-status__stage-list-inside-first {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0 0px 0 10px;
+  list-style: none;
+
+  li {
+    margin-right: 10px;
+    margin-left: 2px;
+    font-size: 9px;
+    color: var(--charcoal_grey);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.vacancy-status__stage-list-inside-last {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0 10px 0 0px;
+  list-style: none;
+
+  li {
+    font-size: 9px;
+    color: var(--default_charcoal_grey);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.vacancy-status__stage-list-red {
+  background: var(--default_reddish_pink);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 4px;
+}
+
+.vacancy-status__stage-list-gray {
+  background: var(--default_cool_grey);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 4px;
+}
+
+.vacancy-status__stage-list-green {
+  background: var(--default_greenblue);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 4px;
+}

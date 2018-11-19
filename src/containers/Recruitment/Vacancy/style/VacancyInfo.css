@@ -1,0 +1,47 @@
+.vacancy-info {
+  padding: 20px;
+  display: flex;
+}
+.vacancy-info__description{
+  flex: 1;
+}
+.vacancy-info__details{
+  width: 370px;
+  background-color: var(--grey);
+  padding: 20px;
+}
+
+.vacancy-info__title {
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--charcoal_grey);
+}
+
+.vacancy-info__element {
+  margin-bottom: 20px;
+}
+
+.vacancy-info__value {
+  margin-bottom: 0;
+}
+.vacancy-info__document {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.vacancy-info__employee-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.vacancy-info__employee-name {
+  margin: 0;
+}
+.vacancy-info__employee-position {
+  margin: 0;
+}
+
+.vacancy-info__avatar {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

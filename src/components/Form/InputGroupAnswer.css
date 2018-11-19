@@ -1,0 +1,87 @@
+@import '../../style/variables.css';
+
+.input-group-answer {
+  padding-right: 13px;
+  position: relative;
+
+  &__wrapper-input-answer {
+    padding-right: 40px;
+  }
+
+  &__input-wrap{
+    > * + * {
+      margin-top: 23px;
+    }
+  }
+
+  &__clip-icon {
+    width: 17px;
+    height: 17px;
+    color: var(--cool_grey);
+    margin-right: 9px;
+  }
+
+  &__b-upload-file {
+    display: flex;
+    align-items: flex-start;
+    margin: 6px 0 20px;
+
+    .form-group {
+      margin-bottom: 0;
+    }
+  }
+
+  &__field {
+    position: relative;
+  }
+
+  &__add-button {
+    display: block;
+    border: none;
+    background: transparent;
+  }
+
+  &__plus-icon {
+    width: 33px;
+    height: 33px;
+    color: var(--reddish_pink);
+  }
+
+  &__select-container{
+    display: flex;
+    &-item {
+      width: 50%;
+      &:first-child {
+        max-width: 270px;
+      }
+      &:nth-child(2) {
+        max-width: 200px;
+        margin-left: 30px;
+      }
+    }
+  }
+
+  &__icon-trash {
+    width: 16px;
+    height: 16px;
+    color: var(--reddish_pink);
+  }
+
+  &__select-container {
+    display: flex;
+    & > div:first-child {
+      flex-grow: 1;
+    }
+  }
+
+  &__remove-site {
+    position: absolute;
+    right: -27px;
+    top: 32px;
+  }
+}
+
+.lang-button {
+  bottom: 30px;
+  right: 100px;
+}

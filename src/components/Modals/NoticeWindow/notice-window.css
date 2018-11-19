@@ -1,0 +1,123 @@
+@import '../../../style/variables.css';
+
+.notice-window {
+
+  @media (min-width: 768px) {
+    &.modal-dialog {
+      width: 800px;
+      margin: 30px auto;
+    }
+  }
+
+  &__wrapper-modal {
+    padding: 26px 30px 40px;
+
+  }
+
+  &__closed-icon {
+    width: 26.5px;
+    height: 26.5px;
+    color: var(--dark);
+
+    &:hover {
+      color: var(--carnation2);
+    }
+
+    &:active {
+      color: var(--lipstick);
+    }
+  }
+
+  &__modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  &__modal-body {
+    margin-bottom: 22px;
+    max-width: 570px;
+  }
+
+  &__modal-close {
+    cursor: pointer;
+  }
+
+  & .modal-content {
+    border-radius: 0;
+  }
+  &__header {
+    padding: 15px;
+  }
+  &__title {
+    color: #34363c;
+    font-size: 26px;
+    font-weight: 300;
+  }
+  &__footer {
+    padding: 15px;
+    text-align: left;
+  }
+  &__docs{
+    span{
+      color: #ffffff;
+      border-bottom: none;
+    }
+  }
+  &__icon-close {
+    float: right;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    color: #2b2d4b;
+    background-size: 26px;
+    background-image: url('/public/closed.svg');
+  }
+  &__input {
+    border: 1px solid #d2d8d9 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding: 5px 10px !important;
+  }
+  &__textarea {
+    min-height: 80px;
+    border: 1px solid #d2d8d9 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding: 5px 10px !important;
+  }
+  & .form-group label {
+    font-size: 9px;
+    line-height: 1.11;
+    font-weight: normal;
+    letter-spacing: 0;
+  }
+  & .react-tagsinput--focused {
+    border-color: #d2d8d9;
+  }
+  & .list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0;
+  }
+
+  &__select-avatar {
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .form-group .Select--multi .Select-value-label {
+    line-height: 30px;
+  }
+
+  .form-group .Select--multi .Select-value-icon {
+    float: right;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 0;
+  }
+}
+

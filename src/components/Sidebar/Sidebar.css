@@ -1,0 +1,17 @@
+@import '../../style/variables.css';
+
+.sidebar{
+
+  .panel{
+    padding: 23px 31px 28px 29px;
+
+    &-title{
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+      color: var(--charcoal_grey);
+      margin-bottom: 26px;
+    }
+  }
+}

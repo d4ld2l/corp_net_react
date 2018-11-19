@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API Surveys should fetch all surveys 1`] = `
+Array [
+  Object {
+    "background": "#38606e",
+    "created_or_updated_at": "2017-09-27T20:42:43.324Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2018-04-13",
+    "id": 9,
+    "name": "Опрос рабочий (важный!)",
+    "note": "Тут явно не хватает описания!
+Хочется заранее поблагодарить всех, кто поучаствует в опросе!
+Особенно - себя.",
+    "participant": 5,
+    "passed": true,
+    "published_at": "2017-09-27T20:38:20.166Z",
+    "publisher": Object {
+      "email": "admin@example.com",
+      "full_name": "Старший Системный Администратор",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+        Object {
+          "created_at": "2017-07-19T12:13:10.685Z",
+          "id": 2,
+          "name": "recruitment_recruiter",
+          "updated_at": "2017-10-10T12:32:56.949Z",
+        },
+      ],
+    },
+    "questions_count": 3,
+    "state": "Опубликован",
+    "survey_type": "Простой",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/9/medium_92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/9/small_medium_92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/9/thumb_92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+      },
+      "url": "/uploads/survey/symbol/9/92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+    },
+  },
+  Object {
+    "background": "#ffffff",
+    "created_or_updated_at": "2017-09-22T16:31:57.972Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-10-07",
+    "id": 8,
+    "name": "Очень сложный опрос",
+    "note": "Очень сложный опрос",
+    "participant": 4,
+    "passed": true,
+    "published_at": "2017-09-22T16:31:57.970Z",
+    "publisher": Object {
+      "email": "dmishukov@fil-it.ru",
+      "full_name": "Мишуков Дмитрий Михайлович",
+      "id": 6,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+      ],
+    },
+    "questions_count": 1,
+    "state": "Опубликован",
+    "survey_type": "Сложный",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/8/medium_daoffice.png",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/8/small_medium_daoffice.png",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/8/thumb_daoffice.png",
+      },
+      "url": "/uploads/survey/symbol/8/daoffice.png",
+    },
+  },
+  Object {
+    "background": "#ffffff",
+    "created_or_updated_at": "2017-10-11T12:36:28.343Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-10-12",
+    "id": 7,
+    "name": "Любимый фильм",
+    "note": "<p>Любимый фильм</p>
+",
+    "participant": 0,
+    "passed": false,
+    "published_at": "2017-09-27T18:00:04.067Z",
+    "publisher": Object {
+      "email": "admin@example.com",
+      "full_name": "Старший Системный Администратор",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+        Object {
+          "created_at": "2017-07-19T12:13:10.685Z",
+          "id": 2,
+          "name": "recruitment_recruiter",
+          "updated_at": "2017-10-10T12:32:56.949Z",
+        },
+      ],
+    },
+    "questions_count": 1,
+    "state": "Опубликован",
+    "survey_type": "Простой",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/7/medium_Jellyfish.jpg",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/7/small_medium_Jellyfish.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/7/thumb_Jellyfish.jpg",
+      },
+      "url": "/uploads/survey/symbol/7/Jellyfish.jpg",
+    },
+  },
+  Object {
+    "background": "#9cba97",
+    "created_or_updated_at": "2017-10-02T10:05:26.313Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-10-07",
+    "id": 6,
+    "name": "Определяем ваши вкусовые предпочтения",
+    "note": "Древний опрос, определяющий ваши вкусовые предпочтения",
+    "participant": 1,
+    "passed": true,
+    "published_at": "2017-09-27T18:38:17.251Z",
+    "publisher": Object {
+      "email": "admin@example.com",
+      "full_name": "Старший Системный Администратор",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+        Object {
+          "created_at": "2017-07-19T12:13:10.685Z",
+          "id": 2,
+          "name": "recruitment_recruiter",
+          "updated_at": "2017-10-10T12:32:56.949Z",
+        },
+      ],
+    },
+    "questions_count": 1,
+    "state": "Опубликован",
+    "survey_type": "Простой",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/6/medium_Tulips.jpg",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/6/small_medium_Tulips.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/6/thumb_Tulips.jpg",
+      },
+      "url": "/uploads/survey/symbol/6/Tulips.jpg",
+    },
+  },
+  Object {
+    "background": "#ffffff",
+    "created_or_updated_at": "2017-09-21T10:20:00.907Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-09-21",
+    "id": 4,
+    "name": "Простой анонимный опрос без фона",
+    "note": "2 вопроса с 1м вариантом ответа из списка и своим вариантом",
+    "participant": 4,
+    "passed": true,
+    "published_at": "2017-09-21T10:20:00.906Z",
+    "publisher": Object {
+      "email": "admin@example.com",
+      "full_name": "Старший Системный Администратор",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+        Object {
+          "created_at": "2017-07-19T12:13:10.685Z",
+          "id": 2,
+          "name": "recruitment_recruiter",
+          "updated_at": "2017-10-10T12:32:56.949Z",
+        },
+      ],
+    },
+    "questions_count": 2,
+    "state": "Опубликован",
+    "survey_type": "Простой",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/4/medium_%D0%B2%D1%8B%D0%BB%D0%B8%D1%82%D0%B0%D1%8F_%D1%8F_.gif",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/4/small_medium_%D0%B2%D1%8B%D0%BB%D0%B8%D1%82%D0%B0%D1%8F_%D1%8F_.gif",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/4/thumb_%D0%B2%D1%8B%D0%BB%D0%B8%D1%82%D0%B0%D1%8F_%D1%8F_.gif",
+      },
+      "url": "/uploads/survey/symbol/4/%D0%B2%D1%8B%D0%BB%D0%B8%D1%82%D0%B0%D1%8F_%D1%8F_.gif",
+    },
+  },
+  Object {
+    "background": "#ffffff",
+    "created_or_updated_at": "2017-09-11T14:19:22.257Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-09-27",
+    "id": 3,
+    "name": "Сложный анонимный опрос",
+    "note": "какое-то ",
+    "participant": 5,
+    "passed": true,
+    "published_at": "2017-09-11T14:19:22.255Z",
+    "publisher": Object {
+      "email": "admin@example.com",
+      "full_name": "Старший Системный Администратор",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+        Object {
+          "created_at": "2017-07-19T12:13:10.685Z",
+          "id": 2,
+          "name": "recruitment_recruiter",
+          "updated_at": "2017-10-10T12:32:56.949Z",
+        },
+      ],
+    },
+    "questions_count": 1,
+    "state": "Опубликован",
+    "survey_type": "Сложный",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/3/medium_dobro-B6MZ37.jpg",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/3/small_medium_dobro-B6MZ37.jpg",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/3/thumb_dobro-B6MZ37.jpg",
+      },
+      "url": "/uploads/survey/symbol/3/dobro-B6MZ37.jpg",
+    },
+  },
+  Object {
+    "background": "#bcd1c5",
+    "created_or_updated_at": "2017-09-18T14:49:56.103Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-09-30",
+    "id": 2,
+    "name": "Простой опрос с 2 вопросами, фоном и эмблемой",
+    "note": "2 вопроса внутри, 1 с картинкой и один - без. Свой вариант в случае без картинки",
+    "participant": 3,
+    "passed": true,
+    "published_at": "2017-09-11T13:42:07.375Z",
+    "publisher": Object {
+      "email": "admin@example.com",
+      "full_name": "Старший Системный Администратор",
+      "id": 1,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+        Object {
+          "created_at": "2017-07-19T12:13:10.685Z",
+          "id": 2,
+          "name": "recruitment_recruiter",
+          "updated_at": "2017-10-10T12:32:56.949Z",
+        },
+      ],
+    },
+    "questions_count": 2,
+    "state": "Опубликован",
+    "survey_type": "Простой",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/2/medium_2013-12-29_16-25-00.JPG",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/2/small_medium_2013-12-29_16-25-00.JPG",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/2/thumb_2013-12-29_16-25-00.JPG",
+      },
+      "url": "/uploads/survey/symbol/2/2013-12-29_16-25-00.JPG",
+    },
+  },
+  Object {
+    "background": "#ffffff",
+    "created_or_updated_at": "2017-09-07T16:39:34.379Z",
+    "document": Object {
+      "url": null,
+    },
+    "ends_at": "2017-09-30",
+    "id": 1,
+    "name": "Удовлетворённость SHR",
+    "note": "Опрос для проверки удовлетворённости SHR",
+    "participant": 2,
+    "passed": true,
+    "published_at": "2017-09-07T16:39:34.377Z",
+    "publisher": Object {
+      "email": "dmishukov@fil-it.ru",
+      "full_name": "Мишуков Дмитрий Михайлович",
+      "id": 6,
+      "roles": Array [
+        Object {
+          "created_at": "2017-07-19T12:13:10.681Z",
+          "id": 1,
+          "name": "admin",
+          "updated_at": "2017-07-19T12:13:10.681Z",
+        },
+        Object {
+          "created_at": "2017-07-25T19:11:25.045Z",
+          "id": 6,
+          "name": "user",
+          "updated_at": "2017-07-25T19:11:25.045Z",
+        },
+      ],
+    },
+    "questions_count": 1,
+    "state": "Опубликован",
+    "survey_type": "Простой",
+    "symbol": Object {
+      "medium": Object {
+        "url": "/uploads/survey/symbol/1/medium_abe_simpson.png",
+      },
+      "small_medium": Object {
+        "url": "/uploads/survey/symbol/1/small_medium_abe_simpson.png",
+      },
+      "thumb": Object {
+        "url": "/uploads/survey/symbol/1/thumb_abe_simpson.png",
+      },
+      "url": "/uploads/survey/symbol/1/abe_simpson.png",
+    },
+  },
+]
+`;
+
+exports[`API Surveys should find survey by id 1`] = `
+Object {
+  "anonymous": false,
+  "background": "#38606e",
+  "document": Object {
+    "url": null,
+  },
+  "ends_at": "2018-04-13",
+  "id": 9,
+  "name": "Опрос рабочий (важный!)",
+  "note": "Тут явно не хватает описания!
+Хочется заранее поблагодарить всех, кто поучаствует в опросе!
+Особенно - себя.",
+  "passed": true,
+  "questions": Array [
+    Object {
+      "ban_own_answer": true,
+      "id": 12,
+      "image_small_medium_url": null,
+      "offered_variants": Array [
+        Object {
+          "id": 23,
+          "wording": "Темное",
+        },
+        Object {
+          "id": 24,
+          "wording": "Светлое",
+        },
+      ],
+      "wording": "Темное или светлое?",
+    },
+    Object {
+      "ban_own_answer": false,
+      "id": 13,
+      "image_small_medium_url": null,
+      "offered_variants": Array [
+        Object {
+          "id": 25,
+          "wording": "рыба",
+        },
+        Object {
+          "id": 26,
+          "wording": "сухари",
+        },
+      ],
+      "wording": "Сухарики или рыба?",
+    },
+    Object {
+      "ban_own_answer": false,
+      "id": 14,
+      "image_small_medium_url": null,
+      "offered_variants": Array [
+        Object {
+          "id": 27,
+          "wording": "Да, почему бы и нет?",
+        },
+        Object {
+          "id": 28,
+          "wording": "Я не из \\"этих\\"! Уберите это!",
+        },
+      ],
+      "wording": "Может сидру?",
+    },
+  ],
+  "questions_count": 3,
+  "survey_type": "Простой",
+  "symbol": Object {
+    "medium": Object {
+      "url": "/uploads/survey/symbol/9/medium_92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+    },
+    "small_medium": Object {
+      "url": "/uploads/survey/symbol/9/small_medium_92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+    },
+    "thumb": Object {
+      "url": "/uploads/survey/symbol/9/thumb_92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+    },
+    "url": "/uploads/survey/symbol/9/92d56434-f095-4b7e-9651-ab2b5878eece.jpg",
+  },
+}
+`;

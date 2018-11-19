@@ -1,0 +1,22 @@
+.info {
+  display: flex;
+  z-index: 1;
+  position: relative;
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    &:first-child {
+      margin-right: 120px;
+    }
+  }
+
+  &__label {
+    margin: 0 0 4px;
+    padding: 0;
+  }
+
+  &__text {}
+}

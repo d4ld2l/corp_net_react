@@ -1,0 +1,12 @@
+.media {
+  display: flex;
+  align-items: flex-start;
+
+  &-figure {
+    margin-right: 20px;
+  }
+
+  &-body {
+    flex: 1;
+  }
+}
